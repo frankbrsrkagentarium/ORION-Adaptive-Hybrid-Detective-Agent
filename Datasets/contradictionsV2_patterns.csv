@@ -1,0 +1,257 @@
+pattern_type,surface_form,deep_structure,example_trigger,severity,recommended_response_style
+timeline,Simultaneous Impossibility,Claim places person in two locations within overlapping timestamps.,'I left at 18:00' vs 'I arrived there at 18:05' (distance incompatible).,high,"Flag contradiction, request precise timestamps."
+timeline,Reverse Chronology,Effect described before its stated cause.,'He reacted before I told him the news.',medium,Note temporal inversion; ask to restate event order.
+timeline,Time Compression,Actions impossible to complete within claimed duration.,"'I cooked, cleaned, showered in 10 minutes.'",medium,Request expanded breakdown of steps.
+self_reference,Certainty Reversal,Shift from absolute certainty to claimed lack of memory.,'I’m 100% sure' → 'I don’t remember.',high,Highlight inconsistency; ask which statement is accurate.
+identity,Identity Drift,Changes relational label for same person.,'My friend Mark' later becomes 'some guy.',medium,Ask to clarify relationship definitively.
+role,Role Flip,Contradiction between bystander vs participant positions.,'I watched from afar' vs 'When I grabbed the door…',high,Request clarification of involvement.
+knowledge,Premature Knowledge,Knows information not yet disclosed.,Mentions detail before anyone has introduced it.,high,Ask source of knowledge; maintain neutral tone.
+knowledge,Impossible Expertise,Displays expertise after denying familiarity.,'I don't know electronics' but explains circuitry.,medium,Ask how they acquired the explanation.
+knowledge,Blindspot Conflict,Claims not seeing something obvious but later describes it.,Describes object they previously claimed not to notice.,medium,Point out inconsistency; request recounting.
+sensory,Line-of-Sight Break,Visual claim made from impossible angle.,Describes face of someone standing behind them.,high,Flag geometric inconsistency; ask for perspective.
+environment,Environmental Disagreement,Scene conditions shift inconsistently with earlier details.,Earlier 'total silence' becomes 'it was noisy.',medium,Ask which environmental state is accurate.
+object,Object State Misalignment,Object changes condition without narrative explanation.,Broken vase later described as intact.,high,Ask for sequence around object state change.
+motivation,Intent Reversal,Motivation contradicts described actions.,Claims wanting to avoid conflict but initiates one.,medium,Request motive clarification.
+behavior,Risk-Logic Conflict,Takes unnecessary risk despite claiming risk-aversion.,'I avoid danger' but climbs unstable structure.,medium,Point out behavioral mismatch.
+emotion,Emotional Inconsistency,Emotional response mismatches event significance.,"Calm about threat, panics over trivial cue.",low,Request emotional context and reasoning.
+### --- NEW SYNTHETIC ROWS BEGIN ---,,,,,
+### TIMELINE — Simultaneous Impossibility (15 rows),,,,,
+timeline,Simultaneous Impossibility,Claim places person in two places at once.,Says they were on a call at 09:00 while also driving for 30 minutes starting at 08:45.,high,Flag timestamp overlap; request detailed sequence.
+timeline,Simultaneous Impossibility,Denies timeline feasibility.,Claims being in a meeting at 14:00 but also arriving home at 14:05 despite 40-minute commute.,high,Ask for travel timeline clarification.
+timeline,Simultaneous Impossibility,Mutually exclusive movement windows.,States leaving the store at 11:00 but arriving at work at 11:05 located 20 km away.,high,Request corrected time data.
+timeline,Simultaneous Impossibility,Contradictory presence claims.,Says they were asleep at midnight but also texting someone continuously.,high,Ask which activity happened.
+timeline,Simultaneous Impossibility,Temporal dual presence.,Attended two overlapping appointments in distant locations.,high,Highlight impossibility; request correction.
+timeline,Simultaneous Impossibility,Overlap in task and travel.,Claims driving for an hour while participating in a 45-minute uninterrupted video call.,high,Ask for reconciliation of events.
+timeline,Simultaneous Impossibility,Conflicting deadlines.,Finished a two-hour task in a one-hour window.,high,Flag contradiction; ask duration breakdown.
+timeline,Simultaneous Impossibility,Describes simultaneous commitments.,Attended an event from 16:00–17:00 but claims arriving at a friend’s house at 16:30.,high,Request timestamp review.
+timeline,Simultaneous Impossibility,Impossible overlap in activities.,Claims meeting someone at 10:00 across town but also being logged into work at 10:02.,high,Ask for actual timeline.
+timeline,Simultaneous Impossibility,Two separate travel states.,Says they were already home when they also mention being caught in traffic.,high,Request clarification.
+timeline,Simultaneous Impossibility,Location contradiction.,Claims being indoors all evening but also mentions walking outside at 18:30.,high,Ask for exact sequence.
+timeline,Simultaneous Impossibility,Parallel actions conflict.,States typing continuously while simultaneously cooking dinner.,high,Flag motor-task conflict.
+timeline,Simultaneous Impossibility,Impossible completion window.,Says they finished a one-hour workout between 07:00 and 07:20.,high,Ask for detailed breakdown.
+timeline,Simultaneous Impossibility,Dual attendance claim.,Reports joining an online meeting yet also being in transit at that time.,high,Request timeline correction.
+timeline,Simultaneous Impossibility,Conflicting check-in times.,Claims checking into hotel at 15:00 and boarding a bus at 15:05 in another city.,high,Ask for precise times.
+### TIMELINE — Reverse Chronology (15 rows),,,,,
+timeline,Reverse Chronology,Cause comes after effect.,Mentions apologizing before they say what triggered it.,medium,Ask for chronological order.
+timeline,Reverse Chronology,Backward reasoning.,Says they celebrated before getting the good news.,medium,Flag inversion; ask to reorder.
+timeline,Reverse Chronology,Effect precedes cause.,Describes reaction before the event they reacted to.,medium,Request timeline clarification.
+timeline,Reverse Chronology,Sequence inconsistency.,Claims fixing a problem before discovering it.,medium,Ask for corrected sequence.
+timeline,Reverse Chronology,Backwards causal chain.,Says they packed their bag before deciding to leave.,medium,Note reversal; ask for details.
+timeline,Reverse Chronology,Pre-emptive knowledge claim.,Responded emotionally before learning the information.,medium,Ask for proper order.
+timeline,Reverse Chronology,Contradiction in steps.,Ate dinner before cooking it.,medium,Request corrected narrative.
+timeline,Reverse Chronology,Premature response.,Expressed relief before verifying situation improved.,medium,Ask to restate order.
+timeline,Reverse Chronology,Impossible reaction timing.,Claims laughing before hearing the joke.,medium,Request event order.
+timeline,Reverse Chronology,Illogical temporal chain.,Says they finished a call before the phone even rang.,medium,Flag mismatch.
+timeline,Reverse Chronology,Event appears out of order.,Mentions resolving argument before it begins.,medium,Ask for sequence.
+timeline,Reverse Chronology,Cause comes later.,Notes being tired before performing exhausting activity.,medium,Ask for chronological clarification.
+timeline,Reverse Chronology,Order reversal.,Says they cleaned up before making the mess.,medium,Request ordering.
+timeline,Reverse Chronology,Cause after effect.,Mentions being thanked before helping.,medium,Ask for event flow.
+timeline,Reverse Chronology,Temporal paradox.,Says they woke up refreshed before going to sleep early.,medium,Ask to reorganize events.
+### TIMELINE — Time Compression (15 rows),,,,,
+timeline,Time Compression,Activity duration impossible.,Says they read an entire book in five minutes.,medium,Ask for realistic estimate.
+timeline,Time Compression,Underreported duration.,Claims running a marathon in 20 minutes.,medium,Flag impossibility.
+timeline,Time Compression,More tasks than time allows.,Prepared a full meal in two minutes.,medium,Ask for breakdown.
+timeline,Time Compression,Multiple long tasks squeezed together.,"Says they studied, exercised, and showered in 15 minutes.",medium,Request clarification.
+timeline,Time Compression,Travel unrealistic.,Claims driving 40 km in 10 minutes.,medium,Ask for corrected duration.
+timeline,Time Compression,Crowded timeline.,States packing an entire house in one hour.,medium,Flag compression.
+timeline,Time Compression,Excessive productivity in short period.,Finished week's work in 30 minutes.,medium,Request explanation.
+timeline,Time Compression,Implausible sequence speed.,Cleaned entire apartment in 5 minutes.,medium,Ask for time details.
+timeline,Time Compression,Contradiction in pacing.,Says they walked slowly but covered 3 km in 8 minutes.,medium,Request clarification.
+timeline,Time Compression,High-density event claim.,Completed three long phone calls in 10 minutes.,medium,Ask to verify durations.
+timeline,Time Compression,Task mismatch with duration.,Wrote a long essay in three minutes.,medium,Flag unrealistic timing.
+timeline,Time Compression,Sequential tasks too fast.,"Says they dressed, ate, and left in two minutes.",medium,Request timeline breakdown.
+timeline,Time Compression,Unrealistic production rate.,Claimed painting entire room in 10 minutes.,medium,Ask for realistic duration.
+timeline,Time Compression,Inaccurate time reporting.,Completed hourlong procedure in 10 minutes.,medium,Ask for corrected input.
+timeline,Time Compression,Impossible activity speed.,Jogged 10 km in nine minutes.,medium,Request recalculation.
+### SELF-REFERENCE — Certainty Reversal (15 rows),,,,,
+self_reference,Certainty Reversal,Absolute certainty contradicted by amnesia.,'I remember every detail' → 'I don’t recall anything.',high,Ask which version reflects truth.
+self_reference,Certainty Reversal,Switch from confident claim to denial.,'I know exactly what happened' later becomes 'I might be wrong.',high,Flag and request clarity.
+self_reference,Certainty Reversal,Confidence collapse.,Assures total certainty but moments later expresses confusion.,high,Ask for reconciled statement.
+self_reference,Certainty Reversal,Memory inconsistency.,Says they never forget such things but cannot recall event.,high,Request accurate memory state.
+self_reference,Certainty Reversal,Absolute → uncertain shift.,Guarantees accuracy then doubts themselves.,high,Ask which stands.
+self_reference,Certainty Reversal,Contradicting internal claim.,Asserts perfect memory then denies remembering conversation.,high,Flag discrepancy.
+self_reference,Certainty Reversal,Inversion of recall.,Says 'I know for sure' but later says 'I’m unsure.',high,Ask for corrected stance.
+self_reference,Certainty Reversal,Certainty evaporates.,Strong claim becomes hesitation.,high,Highlight inconsistency.
+self_reference,Certainty Reversal,Memory flip.,"Says they are certain, then says they 'might be mistaken.'",high,Request clarification.
+self_reference,Certainty Reversal,Shifting confidence.,"Initially firm, then claims uncertainty about facts.",high,Ask for re-evaluation.
+self_reference,Certainty Reversal,Cognitive contradiction.,Denies memory loss but later admits forgetting key detail.,high,Ask to restate memory.
+self_reference,Certainty Reversal,Reversal in self-report.,Claims always remembering names but fails to recall one.,high,Request clarification.
+self_reference,Certainty Reversal,Confidence vs doubt conflict.,Expresses absolute surety but retracts moments later.,high,Highlight reversal.
+self_reference,Certainty Reversal,Total certainty undone.,Starts with 'I’m positive' but then 'I’m not sure.',high,Ask which is true.
+self_reference,Certainty Reversal,Memory contradiction.,Says memory is sharp but cannot recall major event.,high,Ask to resolve discrepancy.
+### IDENTITY — Identity Drift (15 rows),,,,,
+identity,Identity Drift,Inconsistent labeling of same person.,Calls someone 'a stranger' then later 'my coworker.',medium,Ask for relationship clarity.
+identity,Identity Drift,Relationship inconsistency.,Refers to partner as 'a friend' then 'my girlfriend.',medium,Flag inconsistency.
+identity,Identity Drift,Role ambiguity.,Someone is 'my cousin' then 'just an acquaintance.',medium,Request clarification.
+identity,Identity Drift,Social label shift.,Person introduced as boss becomes 'a neighbor.',medium,Ask for accurate relation.
+identity,Identity Drift,Identity reduction.,Described as 'close friend' becomes 'someone I barely knew.',medium,Request clarification.
+identity,Identity Drift,Inconsistent familiarity.,Calls someone 'a random guy' then 'my best friend.',medium,Flag mismatch.
+identity,Identity Drift,Relation downgrade.,Described as mentor then dismissed as 'just a dude.',medium,Ask for firm definition.
+identity,Identity Drift,Reclassification of ties.,Sibling later referred to as 'a roommate.',medium,Ask for truth.
+identity,Identity Drift,Identity confusion.,Person labeled 'uncle' becomes 'a colleague.',medium,Request clarity.
+identity,Identity Drift,Label inconsistency.,Person is 'my driver' then 'my friend.',medium,Flag mismatch.
+identity,Identity Drift,Role swapping.,Mentions someone as student then 'a guy I met once.',medium,Ask which is correct.
+identity,Identity Drift,Ambiguous bond.,Refers to 'my partner' then 'a friend from work.',medium,Request clarification.
+identity,Identity Drift,Shift in significance.,Someone described as 'important friend' becomes 'just someone there.',medium,Flag identity drift.
+identity,Identity Drift,Social identity mismatch.,Calls someone neighbor then 'my cousin.',medium,Ask for consistent label.
+identity,Identity Drift,Label reversal.,Describes roommate then calls them 'a stranger.',medium,Request clarification.
+### ROLE — Role Flip (15 rows),,,,,
+role,Role Flip,Bystander vs actor conflict.,Claims not entering building but describes pushing door.,high,Ask for involvement clarification.
+role,Role Flip,Participation inconsistency.,Says they only observed argument but later says 'when I intervened.',high,Flag contradiction.
+role,Role Flip,Role mismatch.,States not touching object but later describes using it.,high,Ask for truth.
+role,Role Flip,Contradicted detachment claim.,Says they stayed outside but narrates what they did inside.,high,Ask for correction.
+role,Role Flip,Observer → participant reversal.,Claims watching from afar but later says 'I stepped in.',high,Request clarity.
+role,Role Flip,Direct involvement appears later.,Denies driving but says they turned the wheel.,high,Highlight role conflict.
+role,Role Flip,Conflicting agency.,Says they didn’t help but describes actions assisting.,high,Ask for involvement detail.
+role,Role Flip,Passive vs active contradiction.,Claims not touching scene but describes moving items.,high,Clarify participation.
+role,Role Flip,Contradiction in self-placement.,Says they stayed neutral but admits initiating action.,high,Ask for corrected account.
+role,Role Flip,Event role misalignment.,Claims they were not there but explains what they did there.,high,Flag discrepancy.
+role,Role Flip,Engagement mismatch.,States they were uninvolved but describes shouting.,high,Request explanation.
+role,Role Flip,Presence denial vs detail recall.,Claims absence yet narrates actions firsthand.,high,Ask for clarification.
+role,Role Flip,Participation appears retroactively.,Denies partaking but says 'when I picked it up.',high,Highlight inconsistency.
+role,Role Flip,Actor vs spectator tension.,Says they observed but describes initiating contact.,high,Request clarity.
+role,Role Flip,Flip in agency.,Denies involvement but recounts their own intervention.,high,Ask for consistency.
+### KNOWLEDGE — Premature Knowledge (15 rows),,,,,
+knowledge,Premature Knowledge,Knows detail before disclosure.,Mentions message content never shared yet.,high,Ask source of info.
+knowledge,Premature Knowledge,Describes event before being told.,States outcome before story is told.,high,Flag premature claim.
+knowledge,Premature Knowledge,Possesses unreleased info.,Mentions location before anyone says where it happened.,high,Request explanation.
+knowledge,Premature Knowledge,Knows unseen detail.,Describes object in a room they've not entered.,high,Ask for basis.
+knowledge,Premature Knowledge,Predicts without input.,Gives answer before question is asked.,high,Flag contradiction.
+knowledge,Premature Knowledge,Unintroduced character knowledge.,Knows person who hasn't appeared in narrative.,high,Ask how they know them.
+knowledge,Premature Knowledge,Information jump.,Completes sentence before topic is introduced.,high,Request justification.
+knowledge,Premature Knowledge,Awareness without exposure.,Describes contents of envelope not opened yet.,high,Ask for clarification.
+knowledge,Premature Knowledge,Premature inference.,States motive before any motive is discussed.,high,Flag inconsistency.
+knowledge,Premature Knowledge,Claims knowledge without access.,Knows code before being told.,high,Ask origin.
+knowledge,Premature Knowledge,Describes sound before hearing it.,Mentions noise before event occurs.,high,Flag mismatch.
+knowledge,Premature Knowledge,Detail appears too early.,Explains backstory before it's introduced.,high,Request reasoning.
+knowledge,Premature Knowledge,Awareness paradox.,Knows time of event before being informed.,high,Ask for source.
+knowledge,Premature Knowledge,Spoiled outcome without info.,Predicts ending before scenario is shared.,high,Flag issue.
+knowledge,Premature Knowledge,States unseen facts.,Describes contents of bag they never checked.,high,Ask for explanation.
+### KNOWLEDGE — Impossible Expertise (15 rows),,,,,
+knowledge,Impossible Expertise,Expertise contradicts denial.,Says they know nothing about cooking but describes complex recipe.,medium,Ask about acquired knowledge.
+knowledge,Impossible Expertise,Skill mismatch.,Claims unfamiliarity with cars but diagnoses mechanical fault.,medium,Request clarification.
+knowledge,Impossible Expertise,Unsupported expertise.,Denies knowing chess but explains strategies.,medium,Ask how they know.
+knowledge,Impossible Expertise,Contradiction in competence.,Says unfamiliar with programming but writes code snippet.,medium,Request explanation.
+knowledge,Impossible Expertise,Knowledge appears without basis.,Claims no medical background but explains symptoms deeply.,medium,Ask source.
+knowledge,Impossible Expertise,Expert-level detail after denial.,Says they can't sew but explains stitching technique.,medium,Flag inconsistency.
+knowledge,Impossible Expertise,Domain contradiction.,Denies knowing photography but explains shutter settings.,medium,Ask for clarification.
+knowledge,Impossible Expertise,Knows technical term after denying field knowledge.,Says they don't understand finance but defines investment terms.,medium,Request explanation.
+knowledge,Impossible Expertise,High precision despite denial.,Claims ignorance about gardening but gives precise watering schedule.,medium,Ask for basis.
+knowledge,Impossible Expertise,Skill paradox.,Says they can’t cook but describes achieving perfect texture.,medium,Flag mismatch.
+knowledge,Impossible Expertise,Version conflict.,Denies language knowledge but translates sentence.,medium,Ask for truth.
+knowledge,Impossible Expertise,Denial vs proficiency.,Says they can’t fix electronics but describes fixing method.,medium,Request detail.
+knowledge,Impossible Expertise,Contradicting ability claim.,States unfamiliar with baking but explains gluten formation.,medium,Ask about learning source.
+knowledge,Impossible Expertise,Sudden fluency.,Denies knowing topic but teaches it clearly.,medium,Flag inconsistency.
+knowledge,Impossible Expertise,Expertise with no exposure.,Claims unfamiliarity but uses field terminology correctly.,medium,Ask for explanation.
+### KNOWLEDGE — Blindspot Conflict (15 rows),,,,,
+knowledge,Blindspot Conflict,Describes unseen detail.,Claims not seeing person but later describes their clothing.,medium,Ask for recounting.
+knowledge,Blindspot Conflict,Contradicts visual denial.,Says too dark to see but describes room layout.,medium,Request clarification.
+knowledge,Blindspot Conflict,Impossible observation.,Claims not looking at object but describes defect.,medium,Ask for consistency.
+knowledge,Blindspot Conflict,Visual mismatch.,Says they never saw the package but describe its color.,medium,Ask about contradiction.
+knowledge,Blindspot Conflict,Sensory denial vs detail recall.,Claims ignoring someone but describes their expression.,medium,Request explanation.
+knowledge,Blindspot Conflict,Denies noticing object then details it.,Claims not paying attention but explains shape.,medium,Flag inconsistency.
+knowledge,Blindspot Conflict,Observation paradox.,Says they missed event but later recounts scene.,medium,Ask for corrected narrative.
+knowledge,Blindspot Conflict,Denied awareness.,Claims blind spot but narrates exact positioning.,medium,Request consistency.
+knowledge,Blindspot Conflict,Inconsistent perception.,Claims not seeing noise source but describes machine clearly.,medium,Ask for clarification.
+knowledge,Blindspot Conflict,Detail recall despite denial.,Says they didn't look up but describes ceiling cracks.,medium,Flag issue.
+knowledge,Blindspot Conflict,Observation appears retroactively.,Denies seeing someone but recalls haircut.,medium,Ask for explanation.
+knowledge,Blindspot Conflict,Visual contradiction.,Says couldn't see window but describes view.,medium,Request clarity.
+knowledge,Blindspot Conflict,Detail after denial.,Denies examining object but describes markings.,medium,Flag mismatch.
+knowledge,Blindspot Conflict,Awareness conflict.,Claims not noticing person but knows their height.,medium,Ask for recount.
+knowledge,Blindspot Conflict,Perceptual inconsistency.,Says they never saw the bag but knows it was torn.,medium,Ask for clarification.
+### SENSORY — Line-of-Sight Break (15 rows),,,,,
+sensory,Line-of-Sight Break,Impossible viewing angle.,Claims to see expression of person behind them.,high,Flag geometric impossibility.
+sensory,Line-of-Sight Break,Visual paradox.,Says they saw inside closed drawer without opening it.,high,Request explanation.
+sensory,Line-of-Sight Break,Blocked view contradiction.,Claims seeing someone behind a wall.,high,Ask for perspective.
+sensory,Line-of-Sight Break,Angle inconsistency.,Describes rooftop while standing directly under it.,high,Flag mismatch.
+sensory,Line-of-Sight Break,View obstruction conflict.,Says they saw object through opaque bag.,high,Ask about method.
+sensory,Line-of-Sight Break,Distance contradiction.,Claims reading small text from far away.,high,Request perspective details.
+sensory,Line-of-Sight Break,Paradoxical sightline.,Saw behind themselves without turning.,high,Flag contradiction.
+sensory,Line-of-Sight Break,Barrier contradiction.,Describes scene behind locked opaque door.,high,Ask for clarification.
+sensory,Line-of-Sight Break,Uninterrupted visibility claim.,Saw someone's eyes while they faced away.,high,Ask perspective.
+sensory,Line-of-Sight Break,Inverted perspective.,Describes top of object while lying flat below it.,high,Flag mismatch.
+sensory,Line-of-Sight Break,Visual impossibility.,Claims to see room from outside without windows.,high,Ask for explanation.
+sensory,Line-of-Sight Break,Sight through solid object.,Says they saw inside box without opening it.,high,Request logical clarification.
+sensory,Line-of-Sight Break,Angle contradiction.,Describes full face of person standing behind.,high,Ask perspective check.
+sensory,Line-of-Sight Break,Viewpoint inconsistency.,Saw something on roof while indoors.,high,Flag contradiction.
+sensory,Line-of-Sight Break,Obstructed geometry.,Describes distant person's expression with objects blocking view.,high,Ask for detail correction.
+### ENVIRONMENT — Environmental Disagreement (15 rows),,,,,
+environment,Environmental Disagreement,Scene inconsistency.,Claims silence but later mentions loud music.,medium,Request which is accurate.
+environment,Environmental Disagreement,Weather contradiction.,Says it was raining heavily then says sky was clear.,medium,Ask for proper condition.
+environment,Environmental Disagreement,Lighting mismatch.,Describes room as dark then mentions bright colors.,medium,Flag inconsistency.
+environment,Environmental Disagreement,Temperature inconsistency.,Says freezing cold then mentions sweating.,medium,Request clarification.
+environment,Environmental Disagreement,Ambience conflict.,Says place was empty but later describes crowd.,medium,Ask for correct state.
+environment,Environmental Disagreement,Sound environment mismatch.,Claims it was quiet but mentions loud TV.,medium,Flag contradiction.
+environment,Environmental Disagreement,Space condition shift.,Room described as messy then later spotless.,medium,Ask for timeline context.
+environment,Environmental Disagreement,Air quality mismatch.,Mentions clean air but also strong smell.,medium,Request reconciliation.
+environment,Environmental Disagreement,Lighting conflict.,Claims pitch black but reads small text.,medium,Ask for environmental detail.
+environment,Environmental Disagreement,Noise contradiction.,"Says birds were loud, later says total silence.",medium,Request consistency.
+environment,Environmental Disagreement,Crowd level mismatch.,Describes packed area then 'nobody was there.',medium,Ask for clarification.
+environment,Environmental Disagreement,Atmosphere conflict.,Mentions windy conditions then says air was still.,medium,Flag mismatch.
+environment,Environmental Disagreement,Environmental shift without cause.,Says dusty then later 'perfectly clean.',medium,Request explanation.
+environment,Environmental Disagreement,Temperature flip.,Claims cold breeze but later mentions heat wave.,medium,Ask for correct context.
+environment,Environmental Disagreement,Noise level flip.,Claims couldn't hear anything then describes loud traffic.,medium,Request explanation.
+### OBJECT — Object State Misalignment (15 rows),,,,,
+object,Object State Misalignment,State contradiction.,Says phone cracked then later describes it intact.,high,Request object sequence.
+object,Object State Misalignment,Condition mismatch.,Mentions torn bag then later says it was sealed.,high,Flag contradiction.
+object,Object State Misalignment,Integrity paradox.,Says chair was broken but later used it normally.,high,Ask for timeline.
+object,Object State Misalignment,State reversal.,Claims cup shattered yet describes drinking from it.,high,Request explanation.
+object,Object State Misalignment,Unexplained repair.,Mentions ripped shirt then shows no damage.,high,Ask for clarification.
+object,Object State Misalignment,Material inconsistency.,Says page ripped out but later reads from it.,high,Flag mismatch.
+object,Object State Misalignment,Object continuity conflict.,Describes smashed lamp then later calls it functional.,high,Ask for object timeline.
+object,Object State Misalignment,Condition shift.,Mentions empty bottle then later says still full.,high,Request clarity.
+object,Object State Misalignment,Integrity contradiction.,Says drawer jammed then later opened easily with no fix described.,high,Ask for steps.
+object,Object State Misalignment,Object state paradox.,Says pen broke then describes writing with it.,high,Request explanation.
+object,Object State Misalignment,Damage reversal.,Claims screen shattered but describes watching video.,high,Flag inconsistency.
+object,Object State Misalignment,State ambiguity.,Says lock was stuck then later says they locked door normally.,high,Request sequence.
+object,Object State Misalignment,Broken vs intact conflict.,Mentions cracked mirror then describes perfect reflection.,high,Ask for details.
+object,Object State Misalignment,Object regression.,Says book was missing pages then later describes reading all chapters.,high,Flag mismatch.
+object,Object State Misalignment,Unchanged vs changed mismatch.,Says bottle was open but later sealed.,high,Ask for clarification.
+### MOTIVATION — Intent Reversal (15 rows),,,,,
+motivation,Intent Reversal,Goal contradicts behavior.,Says they wanted to relax but started argument.,medium,Ask for motive.
+motivation,Intent Reversal,Action vs intention mismatch.,Claims avoiding conflict but confronts others.,medium,Flag contradiction.
+motivation,Intent Reversal,Stated motive undermined.,Says they aimed to save money but made expensive purchase.,medium,Request explanation.
+motivation,Intent Reversal,Declared avoidance vs action.,Claims wanting to stay quiet but interrupts repeatedly.,medium,Ask for reason.
+motivation,Intent Reversal,Intent flip.,Says they wanted peace yet provokes tension.,medium,Flag mismatch.
+motivation,Intent Reversal,Contradictory aim.,States desire to be careful yet takes reckless shortcut.,medium,Ask for motive clarity.
+motivation,Intent Reversal,Behavior contradicts intent.,Claims wanting to stay home but goes out spontaneously.,medium,Request explanation.
+motivation,Intent Reversal,Goal reversal.,Says trying to help but obstructs task.,medium,Ask for accurate motive.
+motivation,Intent Reversal,Purpose inconsistency.,Claims wanting to rest but starts strenuous task.,medium,Request clarification.
+motivation,Intent Reversal,Target contradiction.,Says avoiding stress but puts self into stressful situation.,medium,Flag inconsistency.
+motivation,Intent Reversal,Intention conflict.,Says trying to be polite but interrupts rudely.,medium,Ask for motive detail.
+motivation,Intent Reversal,Behavioral contradiction.,Claims wanting to avoid noise but attends loud event.,medium,Request explanation.
+motivation,Intent Reversal,Emotional intent mismatch.,Says wanting to comfort but blames person harshly.,medium,Flag inconsistency.
+motivation,Intent Reversal,Motivation shift.,Says wanting to avoid spending time but initiates long visit.,medium,Ask to clarify intent.
+motivation,Intent Reversal,Incongruent motivation.,States wanting to avoid drama but creates dramatic moment.,medium,Request clarification.
+### BEHAVIOR — Risk-Logic Conflict (15 rows),,,,,
+behavior,Risk-Logic Conflict,Contradicting self-description.,Claims avoiding danger but stands near cliff edge.,medium,Ask for reasoning.
+behavior,Risk-Logic Conflict,Inconsistency in risk attitude.,Says they’re cautious but runs across busy street.,medium,Flag contradiction.
+behavior,Risk-Logic Conflict,Behavior vs risk claim mismatch.,Avoids danger but handles hazardous materials.,medium,Ask for motive.
+behavior,Risk-Logic Conflict,Risk-avoidant identity conflict.,Claims to avoid risks but climbs unstable ladder.,medium,Request explanation.
+behavior,Risk-Logic Conflict,Action contradicts caution.,Says they never take risks but jumps into deep water.,medium,Ask for detail.
+behavior,Risk-Logic Conflict,Mismatch between stated caution and behavior.,Avoids injury but performs dangerous stunt.,medium,Flag inconsistency.
+behavior,Risk-Logic Conflict,Contradiction in cautious persona.,Claims carefulness but speeds recklessly.,medium,Ask for reasoning.
+behavior,Risk-Logic Conflict,Risk paradox.,Claims avoiding harm but touches hot surface.,medium,Request explanation.
+behavior,Risk-Logic Conflict,Contrary action.,Avoids climbing but stands on tall unstable box.,medium,Ask for clarity.
+behavior,Risk-Logic Conflict,Behavioral inconsistency.,Says they are careful but rides bike without brakes.,medium,Flag mismatch.
+behavior,Risk-Logic Conflict,Contradictory exposure.,Claims to avoid heights but climbs tower.,medium,Ask for explanation.
+behavior,Risk-Logic Conflict,Mismatch in risk logic.,Claims avoiding trouble but enters restricted area.,medium,Request clarification.
+behavior,Risk-Logic Conflict,Risk claim inversion.,Says afraid of fire but lights large bonfire.,medium,Ask for motive.
+behavior,Risk-Logic Conflict,Unsafe behavior despite claimed caution.,Describes self as prudent but handles sharp tools carelessly.,medium,Flag contradiction.
+behavior,Risk-Logic Conflict,Illogical risk-taking.,Says they avoid danger but approaches aggressive animal.,medium,Request explanation.
+### EMOTION — Emotional Inconsistency (15 rows),,,,,
+emotion,Emotional Inconsistency,Emotional mismatch.,Calm after major accident but distressed by small delay.,low,Ask for emotional context.
+emotion,Emotional Inconsistency,Reaction disproportion.,Laughs at tragedy but upset by spilled drink.,low,Request reasoning.
+emotion,Emotional Inconsistency,Emotion vs situation mismatch.,Scared of small noise but not during major threat.,low,Ask for explanation.
+emotion,Emotional Inconsistency,Disproportionate fear.,Panics over minor issue but stays composed in crisis.,low,Flag emotional contrast.
+emotion,Emotional Inconsistency,Incongruent calmness.,Calm during confrontation but anxious about simple question.,low,Ask for emotional state.
+emotion,Emotional Inconsistency,Unexpected emotional swap.,Angry over tiny mistake but shrug at major setback.,low,Request reasoning.
+emotion,Emotional Inconsistency,Contradiction in emotional priority.,Deeply upset about trivial remark but indifferent to insult.,low,Ask for context.
+emotion,Emotional Inconsistency,Disproportion.,Laughs at danger but cries over lost pen.,low,Request explanation.
+emotion,Emotional Inconsistency,Emotional displacement.,Sad about mundane thing but neutral about serious loss.,low,Ask for clarification.
+emotion,Emotional Inconsistency,Misaligned emotional weight.,Deep worry about simple task but none about large one.,low,Request reasoning.
+emotion,Emotional Inconsistency,Emotional paradox.,Feels joy in tense moment but sadness in pleasant one.,low,Ask for context.
+emotion,Emotional Inconsistency,Reaction inversion.,Terrified of harmless object but calm facing threat.,low,Request clarification.
+emotion,Emotional Inconsistency,Emotional contradiction.,Shows irritation at kindness but relaxed at rudeness.,low,Ask for emotional interpretation.
+emotion,Emotional Inconsistency,Intensity reversal.,Strong sadness over minor issue but none over major event.,low,Request clarification.
+emotion,Emotional Inconsistency,Misplaced worry.,Very anxious about small task but unconcerned by big change.,low,Ask for reasoning.

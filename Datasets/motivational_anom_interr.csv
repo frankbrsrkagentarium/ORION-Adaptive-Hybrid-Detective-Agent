@@ -1,0 +1,89 @@
+anomaly_type,context,subcontext,tag,description,check,notes
+goal_mismatch,action,stated_goal,MOT,action contradicts previously stated goal,align motive chain,fictional logic
+risk_reward_gap,behavior,risk_level,MOT,takes high risk for no clear reward,compare reward logic,abstract motivational reasoning
+overexplained_motive,story,motive_note,MOT,overjustifies motive unnaturally,check motive inflation,synthetic
+flat_affect,intense_event,emotion,MOT,no emotional response where expected,compare emotional logic,fictional
+disproportionate_reaction,minor_event,emotional_surge,MOT,overreacts to trivial detail,map reaction scale,safe
+underreaction,major_event,calmness,MOT,remains calm during severe claim,align affect markers,fictional
+intent_drift,action,intended_outcome,MOT,claims outcome but behavior contradicts intention,compare outcome vs action,synthetic
+self_negation_motive,claim,motive,MOT,states motive then denies it minutes later,map reversals,safe
+forced_logic_chain,motive,explanation,MOT,explains motive with too perfect logic chain,check over-smoothness,fictional
+emotional_displacement,story,emotion_label,MOT,misapplies emotion to irrelevant moment,align emotional placement,synthetic
+late_motive_intro,action,motive,MOT,motive appears only after questioning,check motive timing,fictional
+incoherent_motive_scale,goal,effort,MOT,effort invested mismatches goal importance,map scaling,synthetic
+double_motive,event,competing_goals,MOT,claims two motives that can't coexist,check goal contradiction,fictional
+intentional_confusion,statement,goal,MOT,describes intended action vaguely on purpose,track intentional vagueness,synthetic
+motive_tension_drop,event,emotion,MOT,described tension drops abruptly without cause,map affect curve,fictional
+motive_swap,motive,new_claim,MOT,swaps motive while describing same event,align motive consistency,synthetic
+unnecessary_secrecy,action,context,MOT,adds secrecy where none is needed,check secrecy logic,fictional
+goalless_action,action,context,MOT,describes action with no purpose whatsoever,compare goal logic,synthetic
+hyperrationalization,claim,explanation,MOT,explains motive in overly rational terms,check emotional mismatch,fictional
+emotional_overjustification,emotion,context,MOT,overexplains why they felt a specific emotion,align emotional logic,synthetic
+oversimplified_motive,story,intent,MOT,states motive in overly simplistic terms for complex scenario,check motive depth,synthetic
+motive_contradiction,claim,intention,MOT,expressed motive contradicts earlier established intent,align motive anchors,fictional
+fabricated_goal_shift,story,goal,MOT,goal shifts suddenly without narrative cause,track goal drift,synthetic
+reverse_justification,action,outcome,MOT,outcome presented first to justify motive retroactively,check causal order,fictional
+emotionless_goal_pursuit,behavior,emotion,MOT,pursues emotional goal with no feeling displayed,compare affect vs objective,synthetic
+impulsive_goal_change,story,goal,MOT,abruptly changes goal mid-scene,track goal continuity,fictional
+gratuitous_risk,behavior,context,MOT,takes risk unrelated to any stated objective,check necessity logic,synthetic
+reward_blind_action,action,reward,MOT,ignores obvious reward while pursuing trivial one,map incentive logic,fictional
+detached_motive,story,emotion,MOT,described motive feels unrelated to emotional tone,check tone-motive alignment,synthetic
+misaligned_intent_label,statement,intent,MOT,labels intent incorrectly compared to described behavior,compare label vs action,fictional
+unanchored_goal,story,goal,MOT,goal appears without any prior anchor,map goal introduction,synthetic
+redundant_motive,claim,explanation,MOT,repeats motive excessively without adding clarity,check repetition logic,synthetic
+emotional_inverse,motive,emotion,MOT,expresses opposite emotion to motive described,align emotion inversion,fictional
+goal_inflation,story,goal,MOT,inflates importance of a trivial goal unnaturally,map importance scale,synthetic
+irrational_loyalty,story,character,MOT,shows extreme commitment with no grounding motive,check loyalty logic,fictional
+contradictory_empathy,emotion,context,MOT,shows empathy toward threat but anger toward help,compare emotional reasoning,synthetic
+motive_gap,event,context,MOT,missing motive for key action entirely,check explanation completeness,fictional
+retroactive_motive_patch,story,motive,MOT,adds motive later to justify earlier confusion,track motive revisions,synthetic
+emotion_goal_offset,emotion,goal,MOT,emotion expressed doesn't match the goal pursued,compare affect-goal logic,fictional
+stress_irrelevant_action,behavior,stress_level,MOT,acts stressed about irrelevant issue,align stress anchors,synthetic
+ambiguous_motive_phrase,motive,phrase,MOT,uses vague phrasing to imply motive indirectly,trace ambiguity pattern,fictional
+overly_noble_goal,story,goal,MOT,goal idealized unrealistically for scenario,check plausibility,synthetic
+motive_concealment,claim,context,MOT,hides motive without contextual need,check concealment logic,fictional
+goal_reversal,goal,action,MOT,acts directly against their own stated priority,align priority logic,synthetic
+emotion_lag,emotion,timing,MOT,emotion appears long after triggering event,check temporal alignment,fictional
+effort_deficit,behavior,effort,MOT,claims goal is crucial but applies minimal effort,compare goal-effort alignment,synthetic
+grandiose_motive,story,context,MOT,"describes motive in exaggerated, unrealistic scale",check realism,fictional
+unearned_confidence,claim,goal,MOT,claims absolute certainty in unclear motive,align certainty logic,synthetic
+misplaced_guilt,emotion,context,MOT,feels guilt for event where they had no involvement,compare guilt logic,fictional
+fabricated_urgency,action,urgency,MOT,creates sense of urgency with no underlying reason,check urgency authenticity,synthetic
+emotion_goal_conflict,emotion,goal,MOT,emotion contradicts the goal they claim to pursue,align emotional logic,fictional
+intentional_goal_blur,statement,goal,MOT,keeps goal undefined to avoid accountability,track vagueness,synthetic
+irrational_obedience,behavior,command,MOT,follows unreasonable order without motive,check obedience reasoning,fictional
+motive_evaporation,story,motive,MOT,earlier strong motive disappears without closure,align trajectory,synthetic
+unmotivated_resistance,behavior,context,MOT,resists harmless request with no motive,compare resistance logic,fictional
+effort_overload,behavior,effort,MOT,invests extreme effort for trivial goal,map effort-gain ratio,synthetic
+priority_swap,goal,priority,MOT,swaps priorities mid-sentence without reason,track priority logic,fictional
+excessive_self_blame,emotion,context,MOT,overblames self for minor mistake,check emotional scaling,synthetic
+emotion_self_denial,emotion,claim,MOT,denies obvious emotion despite clear cues,map denial pattern,fictional
+detached_goal_pursuit,action,goal,MOT,acts toward goal with robotic detachment,align affective tone,synthetic
+fabricated_goal_precision,goal,detail,MOT,adds overly precise details to justify weak motive,check motive inflation,fictional
+motive_conceal_failure,story,goal,MOT,conceals motive collapse after failed plan,track motive integrity,synthetic
+irrational_comfort,emotion,context,MOT,finds comfort in situation that should induce fear,compare emotion vs environment,fictional
+reactive_goal_shift,goal,event,MOT,changes goal as immediate reaction without thought,track impulsivity,synthetic
+contrived_humility,motive,emotion,MOT,downplays motive unnaturally to appear humble,check humility cue,fictional
+misaligned_shock,emotion,context,MOT,shows shock for mundane detail,map shock threshold,synthetic
+premature_goal_abandonment,goal,effort,MOT,abandons goal before encountering obstacles,align persistence logic,fictional
+fabricated_personal_reason,claim,context,MOT,invents vague personal reason for action,check reason grounding,synthetic
+inconsistent_drive,behavior,drive,MOT,drive to act fluctuates unpredictably,track drive trajectory,fictional
+emotion_goal_detach,emotion,goal,MOT,emotion narrative doesn't follow stated motive,compare consistency,synthetic
+motive_freeze,event,emotion,MOT,motive stalls without narrative cause,map stalling cue,fictional
+symbolic_overjustification,motive,symbol,MOT,uses symbolic explanation excessively for motive,check symbolic inflation,synthetic
+gratuitous_defiance,behavior,context,MOT,defies suggestion with no motivating factor,compare defiance logic,fictional
+motive_inversion,claim,motive,MOT,states motive opposite of earlier claim,align motive evolution,synthetic
+concealed_desire,emotion,desire,MOT,denies desire but behavior indicates otherwise,compare desire markers,fictional
+delayed_regret,emotion,timing,MOT,regret appears long after event significance fades,track emotional timing,synthetic
+irrational_fear_alignment,emotion,fear,MOT,fear expressed does not match context,align fear logic,fictional
+misplaced_priority,goal,priority,MOT,places high priority on irrelevant detail,compare priority weighting,synthetic
+goal_overattachment,goal,emotion,MOT,treats minor goal with intense emotional weight,check emotional amplification,fictional
+fabricated_conflict,story,motive,MOT,creates artificial contradiction to justify motive,check tension authenticity,synthetic
+hidden_goal_escalation,goal,scale,MOT,goal escalates secretly without narrative mention,track escalation,fictional
+emotional_shortcut,emotion,logic,MOT,emotion jumps to conclusion with no motive path,map emotional reasoning,synthetic
+irrational_reassurance,emotion,context,MOT,feels reassured by threat element,align reassurance logic,fictional
+excessive_doubt,emotion,context,MOT,expresses deep doubt without motive trigger,check doubt scaling,synthetic
+motive_detour,story,goal,MOT,takes unrelated detour claiming it's part of goal,compare path coherence,fictional
+irrational_generosity,behavior,context,MOT,gives excessively with no motive context,check generosity logic,synthetic
+emotion_flip,event,emotion,MOT,rapidly flips emotion with no cause,track emotional stability,fictional
+goal_hiding,action,goal,MOT,acts on goal but refuses to reveal it without reason,check concealment logic,synthetic

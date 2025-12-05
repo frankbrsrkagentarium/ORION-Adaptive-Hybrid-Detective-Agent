@@ -1,0 +1,88 @@
+event_type,required_data,optional_data,anomaly_type,anomaly_description,cross_check,notes
+arrival,timestamp,entry_condition,TMP,arrival time conflicts with earlier claim,compare with logs,"keep fictional, avoid real procedure"
+departure,timestamp,observed_by,LOC,claimed departure path impossible,check consistency across witnesses,focus on logic not surveillance
+action,description,object_interaction,CAU,effect occurs before cause,align sequence anchors,abstract causal reasoning only
+discovery,who_found,item_state,QTY,item quantity differs from claim,compare original vs final state,safe fictional discrepancies
+movement,origin->destination,path_notes,ALI,alibi contradicted by movement evidence,map plausible movement windows,never provide operational tracing
+arrival,timestamp,weather,TMP,arrival time mismatches door-registry note,contrast witness recollections,purely synthetic timing
+arrival,timestamp,lighting_conditions,TMP,arrival overlaps with previously stated absence,reconstruct claimed presence windows,fictional overlap only
+arrival,timestamp,entry_gate,TMP,entry reported earlier than gate opened,inspect gating schedule,no real facilities referenced
+arrival,timestamp,escort_presence,TMP,escort mention contradicts escort log,ask about alternate escorts,keep escort imaginary
+arrival,timestamp,footwear_state,TMP,mud on shoes conflicts with claimed clean route,check terrain plausibility,fictional environment
+arrival,timestamp,bag_condition,TMP,bag appears full despite claim of empty,visual continuity review,avoid real security contexts
+arrival,timestamp,arrival_noise,TMP,sound of arrival conflicts with ‘silent’ claim,compare perceived vs actual noise,fictional acoustics
+arrival,timestamp,companion_count,TMP,reported solo arrival but two silhouettes seen,check contextual shadows,synthetic silhouette only
+arrival,timestamp,entry_delay,TMP,delay unexplained relative to travel time,explore benign delays,fictional logistics
+arrival,timestamp,vehicle_state,TMP,vehicle noted arriving earlier by neighbor,compare ambient sightings,neutral discrepancies
+departure,timestamp,door_used,LOC,claimed exit door closed from outside,inspect door access notes,no operational detail
+departure,timestamp,route_memory,LOC,route recalled contradicts layout sketch,validate spatial memory,fictional maps only
+departure,timestamp,group_presence,LOC,claimed solo exit but group observed,cross-check vantage angles,synthetic crowding
+departure,timestamp,light_trail,LOC,flashlight beam from different direction,compare expected vs seen angles,fictional optics
+departure,timestamp,noise_trail,LOC,footsteps suggest opposite direction exit,align sound path logs,abstract acoustics
+departure,timestamp,vehicle_exit,LOC,vehicle moved before person claims leaving,timeline recalibration,fictional vehicle motion
+departure,timestamp,clothing_state,LOC,coat wetness contradicts indoor-only claim,map weather exposure,fictional weather
+departure,timestamp,badge_presence,LOC,badge scanned despite claiming no exit,cross-check badge events,synthetic system
+departure,timestamp,bystander_note,LOC,bystander saw exit earlier,compare relative clock drift,no real system dependencies
+action,description,tool_involved,CAU,tool activation after effect observed,re-sequence micro-events,synthetic mechanics
+action,description,surface_contact,CAU,object falls prior to push claim,detect perceptual lag,fictional physics
+action,description,sound_emission,CAU,sound reported before triggering motion,check echo or overlap,abstract acoustics
+action,description,trigger_precision,CAU,precision action before positioning,clarify actual sequence,non-technical
+action,description,gesture_sequence,CAU,gesture occurs after stated completion,clarify gesture timing,fictional kinesics
+action,description,object_weight,CAU,weight mismatch suggests effect impossible,explore perception limits,avoid real engineering
+action,description,attempt_count,CAU,success claim despite no prior attempts,align action difficulty,benign inconsistency
+action,description,tool_state,CAU,tool reported broken after usage,infer sequence shifts,fictional tool
+action,description,assistant_presence,CAU,assistant reacts before instructed,evaluate anticipation,safe speculation
+discovery,who_found,packaging_state,QTY,numbers on label differ from final tally,compare count snapshots,fictional items
+discovery,who_found,damage_level,QTY,reported pristine but later seen dented,check handling moments,synthetic props
+discovery,who_found,seal_status,QTY,seal claimed intact yet slightly open,validate sealing moments,fictional containers
+discovery,who_found,light_level,QTY,miscount due to dim light,assess environmental clarity,fictional lighting
+discovery,who_found,stack_order,QTY,stack order differs from witness claim,revisit arrangement,benign mismatch
+discovery,who_found,case_orientation,QTY,orientation suggests prior tampering,cross-check sightlines,purely fictional
+discovery,who_found,labeling,QTY,label states 12 but only 10 present,compare initial vs final,no real products
+discovery,who_found,item_cleanliness,QTY,dust level mismatches stated handling,infer prior movement,fictional dust
+discovery,who_found,container_weight,QTY,weight lighter than reported earlier,consider benign loss,fictional mass
+movement,origin->destination,time_window,ALI,claimed transit time too short,validate plausible travel range,fictional geography
+movement,origin->destination,companion_info,ALI,companion denies walking same path,align independent accounts,synthetic companions
+movement,origin->destination,weather_block,ALI,route impossible due to storm claim,check weather fiction,fictional environment
+movement,origin->destination,sound_notes,ALI,footsteps heard from wrong side,compare acoustic paths,abstract acoustics
+movement,origin->destination,visibility,ALI,visibility mismatch affects route certainty,contrast daylight levels,fictional fog
+movement,origin->destination,object_carried,ALI,object too heavy for claimed pace,match pace plausibility,fictional load
+movement,origin->destination,detour_description,ALI,detour inconsistent with map claim,validate detour logic,synthetic map
+movement,origin->destination,meeting_claim,ALI,claims meeting no one but neighbor saw greeting,check social memory,fictional neighbor
+movement,origin->destination,door_sequence,ALI,door unlocked despite claiming not entering,review symbolic states,fictional locks
+movement,origin->destination,light_trail,ALI,light seen on wrong corridor,check alternative reflections,synthetic physics
+arrival,timestamp,vehicle_noise,TMP,engine noise earlier than arrival,align sound drift,fictional engine
+arrival,timestamp,mood_state,TMP,arrival mood contradicts prior emotional state,check emotional context,benign mood drift
+arrival,timestamp,bag_weight,TMP,reported empty bag but heavy thud heard,contrast physical cues,fictional props
+arrival,timestamp,prearrival_event,TMP,pre-arrival sighting conflicts with timeline,detect mistaken identity,synthetic sighting
+arrival,timestamp,stance,TMP,stance described before stepping in,resolve sequencing,fictional posture
+departure,timestamp,wind_effects,LOC,wind direction contradicts exit direction,verify environmental notes,fictional wind
+departure,timestamp,shadow_angle,LOC,shadow suggests opposite direction exit,review lighting cues,synthetic light
+departure,timestamp,gate_status,LOC,gate closed despite claimed exit,timeline reconcile,fictional gate
+departure,timestamp,hand_item,LOC,item in hand contradicts claim of leaving it behind,match item traces,fictional item
+departure,timestamp,companion_exit,LOC,companion exit order reversed in claims,check collective memory,benign mismatch
+action,description,tempo,CAU,tempo too fast relative to effect,align pacing,fictional tempo
+action,description,sequence_memory,CAU,recalled steps reversed,examine cognitive drift,non-diagnostic
+action,description,object_state,CAU,object reacts before action applied,clarify sensory lag,fictional reaction
+action,description,aim_precision,CAU,precision too high for described conditions,evaluate environmental difficulty,fictional challenge
+action,description,interruption,CAU,interruption occurs after effect,reframe order,synthetic timing
+discovery,who_found,odor_state,QTY,odor suggests older disturbance than claimed,check sensory notes,fictional odors
+discovery,who_found,temperature,QTY,temperature inconsistent with timeline,compare heat dissipation,fictional physics
+discovery,who_found,shadow_presence,QTY,shadow placement contradicts handling claim,assess light,fictional shadow
+discovery,who_found,fluid_level,QTY,fluid lower than described,compare level snapshots,synthetic fluid
+discovery,who_found,rotation_state,QTY,item rotated differently than recalled,validate orientation,fictional rotation
+movement,origin->destination,travel_style,ALI,travel style mismatches pace claim,contrast motion patterns,fictional biomechanics
+movement,origin->destination,terrain_notes,ALI,terrain described smoother than it is,check terrain depiction,fictional terrain
+movement,origin->destination,landmark_memory,ALI,misremembered landmark order,align reported vs plausible,fictional map
+movement,origin->destination,carry_method,ALI,carry method contradicts object stability,assess plausibility,fictional object
+movement,origin->destination,encounter_sound,ALI,encounter sound from wrong direction,check acoustics,fictional setting
+arrival,timestamp,arrival_route,TMP,route overlaps with another claim,timeline normalization,fictional overlap
+arrival,timestamp,arrival_mark,TMP,mark on clothing contradicts route claim,review minor clues,fictional mark
+departure,timestamp,exit_delay,LOC,delay unaccounted for in timeline,probe benign reasons,fictional timing
+departure,timestamp,exit_mark,LOC,mark suggests exit through different door,validate spatial alignment,fictional stain
+action,description,misfire,CAU,misfire occurs after task completion,clarify order,fictional mechanism
+action,description,strength_estimate,CAU,strength described insufficient,estimate variance,fictional constraint
+discovery,who_found,arrangement,QTY,arrangement differs from claimed tidy state,examine rearrangement,fictional props
+discovery,who_found,brightness,QTY,brightness too low to see accurately,contrast witness uncertainties,fictional lighting
+movement,origin->destination,shortcut_claim,ALI,shortcut contradicts map route,verify path logic,synthetic navigation
+movement,origin->destination,door_memory,ALI,door color mismatched,check memory drift,fictional decor

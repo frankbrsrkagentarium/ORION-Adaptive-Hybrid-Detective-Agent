@@ -1,0 +1,103 @@
+contradiction_code,pattern_description,example_scenario,likely_causes,reliability_impact,clarifying_questions,resolution_paths
+TMP,Time order does not match claims,Witness says event at 20:10 but log shows 19:55,memory drift; misread timestamp,medium,Can you confirm what you used to check the time?,Reconcile with anchor evidence or adjust reliability
+LOC,Location claim impossible,Subject claims to be outside but door log shows entry,confusion; earlier unremembered entry,high,Where were you just before this moment?,Confirm movement path; resolve via timeline
+CAP,Action exceeds plausible ability,Person claims to move a heavy crate alone,overestimation; misunderstanding,medium,How did you attempt this action?,adjust expectation based on physics
+ALI,Alibi contradicts evidence,Claims to be in cafeteria but camera shows corridor,memory error; wrong day recall,high,Who can confirm your location?,cross-check multiple sources
+CAU,Cause-effect mismatch,Object falls before trigger action,misperception; unrelated event,low,What did you see first?,separate unrelated events; isolate true cause
+MIS,Mismatched sequence of actions,Witness claims to lock door after leaving but footage shows door already locked,habit confusion; automatic actions,medium,Do you recall hearing the lock click?,Align timeline and check habitual behavior
+OBJ,Impossible object position,Subject says bag was on chair but photo shows it on floor,misremembering; moved by others,low,Did anyone else handle your bag?,Trace object movement
+INT,Intent stated contradicts observed behavior,Person says they avoided argument yet video shows them approaching loudly,emotional reinterpretation; embarrassment,medium,What were you feeling at that moment?,Reconstruct motive framing
+PER,Perception conflict between witnesses,One witness heard shouting; another claims silence,distance; environmental noise,low,Where were you standing relative to the event?,Map perception zones
+IDM,Identity mismatch,Claims 'I never touched that device' but fingerprints found,accidental contact; shared surfaces,medium,Have you handled similar devices earlier?,Determine incidental transfers
+WTH,Weather inconsistency,Witness says it was raining heavily but forecast shows clear skies,time blending; dramatic emphasis,low,Are you sure it was this day?,Reconnect memory anchor
+TMP2,Duration mismatch,Subject insists conversation lasted 10 minutes but audio is 2 minutes,stress distortion; poor time sense,medium,Did it feel fast or slow to you?,Calibrate subjective duration
+ACT,Action timing impossible,Claims to run across hall in 5 seconds yet footage shows 12 seconds,overestimation; excitement,low,Were you rushing or calm?,adjust perception with physical limits
+PRI,Prior knowledge contradiction,Claims not to know object but earlier message references it,overlooking details; denial,medium,Have you encountered similar items?,Check contextual familiarity
+INT2,Intent-outcome conflict,Person says they 'barely touched it' but object shows strong marks,underreporting; accidental force,low,Can you show how you touched it?,Reenact interaction
+ALI2,Alibi missing supporting evidence,Claims to be on call but device logs show no calls,misremembered day; technical issues,high,Do you recall who you intended to call?,Check alternative communication
+TMP3,Clock source mismatch,Witness followed oven timer though actual timeline used wall clock,multiple time references,low,Which timer were you following?,Normalize reference source
+LOC2,Spatial inconsistency,Says they were near the counter but shadows show them far,lighting misread; distorted memory,medium,What objects were closest to you?,use spatial anchors
+CAP2,Skill-level contradiction,Claims to pick a complex lock quickly despite no experience,overconfidence; false impression,medium,Have you practiced similar tasks?,Reassess capability
+CAU2,Reverse causality claim,Says alarm sounded after window broke but sensors show alarm preceded break,misheard sequence,low,Which sound did you recognize first?,Extract signal ordering
+ALI3,Third-party alibi fails,Friend claims presence but logs show friend absent,coordination error; cover attempt,high,When did you last see each other?,Validate independent logs
+TMP4,Event overlap mismatch,Claims two events were simultaneous but noise logs show gap,attention split,low,Were you focusing on anything else?,Refine temporal segmentation
+OBJ2,Object count contradiction,Says there were three boxes but photo shows four,overlooked item; hidden corner,low,Did you check behind the stack?,Recount inventory
+IDR,Identity role mismatch,Claims to be observer but appears active in footage,role minimization; fear,medium,What role did you think you had?,clarify involvement
+CAU3,Effect precedes cause claim,Light flickered before switch was touched,electrical latency misinterpretation,low,Did any appliance turn on?,test independent cause
+ALI4,Travel speed impossible,Subject claims to arrive in 2 minutes but distance requires 10,miscalculation; faulty memory,high,What route did you take?,Verify path feasibility
+LOC3,Orientation contradiction,Says facing north but shadow suggests south,poor orientation sense,low,What landmark were you looking at?,Align environmental cues
+TMP5,Day-of-week mix-up,Witness insists event was Tuesday but logs show Wednesday,memory drift,low,What did you do earlier that day?,anchor using activities
+ACT2,Physical stamina mismatch,Claims to carry crate upstairs without rest but sensor shows pauses,underreporting effort,low,Did you stop at any point?,Reconcile with physical data
+CAP3,Tool-usage contradiction,Says they used screwdriver but tool marks match pliers,tool confusion,medium,Which tools were nearby?,inspect available tools
+MIS2,Instruction-following contradiction,Claims to follow steps exactly but error logs show deviation,misreading instructions,low,Did any step seem unclear?,Align steps
+TMP6,Event spacing mismatch,Claims events were close but logs show long gap,perception compression,medium,Did anything distract you?,Expand perceived timeline
+PER2,Auditory contradiction,Says room was silent but recorder shows loud fan,noise adaptation,low,Did you notice any background sounds?,Recontextualize environment
+OBJ3,Object condition mismatch,Claims item was intact but photo shows dent,damage happened earlier; unnoticed,medium,When did you last examine it?,Trace damage origin
+IDM2,Identity swap confusion,Witness mixes two people wearing similar jackets,visual similarity,low,Which features stood out?,differentiate features
+CAU4,False effect assumption,Believes spilled drink caused slip but floor was dry,incorrect inference,low,Did you see liquid directly?,Separate assumptions
+ALI5,Self-contradicting timeline,Witness gives timestamps that overlap impossibly,disjoint recall,high,Can you walk me through your steps?,rebuild timeline
+LOC4,Access point contradiction,Claims entering via front door though it was locked,misremembering route,medium,Which door did you approach first?,Verify entry pattern
+ACT3,Task difficulty contradiction,Says assembling item was easy but video shows struggle,post-hoc minimization,low,Was any step challenging?,Clarify difficulty
+INT3,Intent mismatch with context,Claims to avoid attention but wore bright clothing,unconscious choices,low,Why choose that outfit?,Analyze indirect intentions
+TMP7,Backward timeline claim,Says discussion happened after departure but logs show before,mixing narrative order,medium,What happened immediately after you arrived?,Reorder story
+CAP4,Effort contradiction,Claims running at top speed yet performance slower than average,stress; fatigue,low,Were you tired?,adjust ability estimate
+OBJ4,Missing-object claim contradicted by photo,Says key was gone but picture shows it on table,overlooking; distraction,low,Did you search all surfaces?,Reconfirm scene
+CAU5,Assumed cause reversed,Assumes noise caused fear but fear began earlier,emotional anticipation,low,How did you feel beforehand?,Separate internal/external triggers
+ALI6,Improbable alibi chain,Claims continuous presence but sensors show intermittent absence,unnoticed departures,high,Did you step out briefly?,Patch interruptions
+LOC5,Spatial distance contradiction,Claims to reach counter in 1 step but layout shows 4 steps,distance underrating,low,Can you retrace your path?,Re-map movement
+TMP8,Overlapping commitments mismatch,Claims to be in meeting but also running errand same time,memory compression,high,Which event felt longer?,Resolve scheduling conflict
+PER3,Visual contradiction,Says room was dark but camera shows ceiling lights on,inattention; emotional state,low,Did any lights flicker?,clarify light perception
+CAP5,Strength contradiction,Claims to lift box easily but strain visible,underestimation,low,How heavy did it feel?,adjust subjective weight
+OBJ5,Object interaction contradiction,Claims not to open drawer but fingerprints inside,incidental contact; misremembering,medium,Could you have checked earlier?,Track prior interactions
+IDM3,Clothing mismatch,Claims wearing blue shirt but footage shows grey,color perception; lighting,low,Where did you see your reflection last?,Check garment source
+CAU6,Event misattribution,Believes loud bang caused fall but fall began before bang,sequence error,low,Which did you react to first?,Clarify sensory order
+ALI7,Unsupported alibi specifics,Describes café details that don't match décor,confusion; mixing locations,high,When last visited that café?,Disentangle location memories
+LOC6,Boundaries mismatch,Claims to stand inside booth but angle shows outside,perspective confusion,medium,What surface were you leaning on?,Reposition perspective
+TMP9,Time dilation claim,Says moment felt very long despite short duration,stress distortion,low,Were you nervous?,adjust subjective timing
+ACT4,Feasibility contradiction,Claims to complete puzzle in seconds but average needs minutes,boasting; misjudgment,low,Have you done similar puzzles?,set realistic bounds
+PER4,Sensory mismatch,Witness says strong smell but others smelled nothing,subjective sensitivity,low,Have you been sensitive to smells before?,Check personal factors
+OBJ6,Object placement claim reversed,Says lamp was upright but photo shows tilted,missed detail,low,Did you bump into it?,Re-test stability
+IDM4,Face-recognition contradiction,Claims stranger present but matches known colleague,stress misrecognition,medium,What stood out about their appearance?,Cross-check identity
+CAP6,Technical ability contradiction,Claims to hack device quickly but no logs of access,overstatement,medium,What steps did you follow?,Test technical familiarity
+ALI8,Timeline location conflict,Claims to be home at 18:00 but transit card shows travel,forgotten errand,high,Did you make any short stops?,Integrate transit data
+LOC7,Map path contradiction,Claims shortest path taken but GPS shows detour,route confusion,medium,Why choose that route?,clarify purpose
+TMP10,Time rounding mismatch,Says 'around 6' but actual is 5:40,approximation,low,Did you check the time exactly?,Normalize vagueness
+CAU7,Inferred mechanism error,Thinks alarm triggered by wind though sensors show manual push,false assumption,medium,Did you notice anyone near alarm?,Test alternate cause
+OBJ7,Ownership contradiction,Claims object isn't theirs but bag contains matching items,coincidence; misplacement,medium,Have you owned similar items?,check ownership history
+ACT5,Sequence-order contradiction,"Claims to read message then speak, but video shows speaking first",immediate reaction; memory inversion,low,What did you react to?,Rebuild moment sequence
+INT4,Emotional contradiction,Claims calm but trembling visible,underreporting fear,low,How stressed were you?,align internal state
+IDM5,Voice-recognition mismatch,Claims call was with friend but voice sample differs,assumption; poor audio,medium,What topic was discussed?,Confirm identity via content
+LOC8,Vertical position contradiction,Claims on second floor but elevator logs show ground,misremembered location,medium,Did you use stairs or elevator?,Rebuild vertical movement
+TMP11,Mixed-time-source contradiction,Uses phone time but phone unsynced,device error,low,Is your phone clock accurate?,Sync time sources
+ACT6,Reaction speed contradiction,Claims to dodge falling item but video shows slow reaction,memory heroization,low,How close did it seem?,clarify danger perception
+OBJ8,Object shape contradiction,Says box was rectangular but image shows square,perception error,low,Did you view it from an angle?,Inspect geometry
+ALI9,Social alibi contradiction,Claims group presence but two deny being there,miscommunication; cover attempt,high,Who invited you all?,verify social chain
+CAU8,Assumed emotional cause wrong,Believes comment offended person but expression shows confusion instead,misinterpretation,low,How did they react verbally?,Clarify emotional triggers
+IDM6,Accessory mismatch,Claims no hat worn but hat visible in reflection,memory error,low,Did you pick it up automatically?,Reconstruct outfit choices
+LOC9,Movement direction contradiction,Claims walking north but GPS shows south,disorientation,medium,What landmark did you head toward?,Correct direction
+TMP12,Compressed timeline reporting,Claims 'everything happened quickly' but logs show gradual steps,stress compression,low,Which moment felt longest?,Expand timeline edges
+PER5,Sensory overload contradiction,Claims not hearing alarm though it was loud,focus tunnel,medium,Were you focused on something else?,Assess sensory filtering
+OBJ9,Condition-damage mismatch,Says item pristine but scratch visible,previous unnoticed damage,low,When last inspected up close?,Locate earliest evidence
+CAP7,Endurance contradiction,Claims to jog nonstop but tracker shows stops,fatigue; oversight,low,Did you stop for breath?,reconcile stamina profile
+ALI10,Self-overlap contradiction,Claims to be two places close together but impossible distance,memory merging,high,Which event do you recall first?,Separate overlapping memories
+LOC10,Indoor/outdoor conflict,Claims outside but ambient audio shows indoor acoustics,sound misinterpretation,medium,What surfaces were around you?,Check environmental cues
+TMP13,Event-order inversion,Claims noise happened after door opened but mic shows before,auditory mis-sequencing,low,Which startled you more?,Re-extract order
+ACT7,Excess capability claim,Claims to jump high barrier but height disproves,boast; misjudgment,low,Have you jumped similar barriers?,reassess physical limits
+OBJ10,Object weight contradiction,Says object was light but marks show deep impression,misjudged weight,low,How did you lift it?,test force estimate
+CAU9,Assumed external trigger wrong,Believes flicker caused alarm but logs show manual press,incorrect linking,medium,Did you see anyone near the alarm?,Separate unrelated events
+IDM7,Handedness mismatch,Claims used left hand but smudge aligns with right-hand action,memory simplification,low,Which hand do you usually use?,Test habitual patterns
+ALI11,Alibi overly detailed incorrectly,Gives precise details that contradict photos,fabrication attempt or confusion,high,How certain are you about those details?,Cross-validate imagery
+LOC11,Obstacle-path contradiction,Claims clear path but layout shows obstruction,overlooking obstacles,medium,Did anything block your way?,Re-check physical space
+TMP14,Parallel-event confusion,Thinks two noises were same event but timestamps differ,event merging,low,Did they sound similar?,disambiguate noises
+PER6,Temperature perception mismatch,Claims room was cold but thermostat shows warm,sensitivity,low,Were you sitting near vent?,analyze microclimate
+OBJ11,Color mismatch,Says bag was black but photo shows navy,lighting,low,Where were you viewing it from?,Normalize color perception
+CAP8,Speed contradiction,Claims rapid typing but keystroke logs slow,fatigue or nerves,low,Were you distracted?,refine performance data
+CAU10,False chain of causation,Believes spill caused malfunction but malfunction preceded spill,misattribution,low,What failed first?,separate causal layers
+ALI12,Unsupported time claim,Claims event at 18:00 but city bells heard at 19:00,external anchor proves error,high,What made you think it was 18:00?,Re-anchor time belief
+LOC12,Height-level contradiction,Claims on balcony but railing angle shows below,perspective error,medium,What were you leaning on?,clarify height level
+TMP15,Long-lag mismatch,Claims immediate response but logs show long delay,latency forgotten,medium,Were you interrupted?,insert missing gap
+OBJ12,Object quantity mismatch,Counts 6 items but inventory shows 5,miscount,low,Did any items overlap visually?,Recount items
+INT5,Intent-goal mismatch,Says to help clean but seen walking away,avoidance or distraction,medium,Did something interrupt you?,Check alternate motivations
+ACT8,Noise-action mismatch,Claims to act quietly but recorder shows loud noises,unaware of noise,low,What surface were you working on?,Reduce noise sources
+CAU11,Surface friction misjudgment,Believes slide caused fall but friction too high,wrong physical model,low,Was floor slippery?,test assumptions
+ALI13,Sequence-of-stay mismatch,Claims staying whole evening but badge logs show early exit,memory shift,high,Did you step out briefly?,Adjust alibi timeline

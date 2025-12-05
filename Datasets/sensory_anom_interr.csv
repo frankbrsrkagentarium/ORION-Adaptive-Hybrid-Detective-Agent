@@ -1,0 +1,89 @@
+anomaly_tag,domain,subdomain,category,description,check,inference
+visibility_gap,observation,light_condition,SEN,claims perfect visibility in impossible lighting,check environment notes,purely fictional
+sound_mismatch,hearing,ambient_noise,SEN,claims hearing detail in noisy environment,compare noise vs detail,safe
+object_state_conflict,item,state,SEN,describes object in state contradicting earlier report,map object timeline,fictional
+environmental_blindspot,scene,obvious_feature,SEN,fails to notice a significant feature nearby,check awareness range,abstract
+overdetailed_perception,observation,microdetails,SEN,provides too many microdetails under stress,compare stress markers,synthetic
+perception_delay,event,reaction_time,SEN,describes noticing something too late/early,align perception latency,safe
+impossible_distance,observation,distance,SEN,claims noticing fine detail at unrealistic distance,compare spatial plausibility,fictional
+misplaced_sound_origin,sound,location,SEN,describes sound coming from wrong direction,map directional anchors,synthetic
+lighting_inconsistency,scene,light_source,SEN,light source contradicts described visibility,check light logic,fictional
+temperature_claim,event,temperature,SEN,temperature sensation conflicts with scene context,compare event-state,safe
+perceptual_overfiltering,scene,ignored_objects,SEN,ignores too many relevant items,map perceptual filtering,synthetic
+scene_static_error,scene,dynamic_factor,SEN,describes environment as static when moving parts exist,align dynamic notes,fictional
+object_focus_shift,item,attention,SEN,switches attention between objects unnaturally fast,compare attention timeline,safe
+inverted_sensory_priority,story,sensory_order,SEN,describes senses in unusual order for situation,check sensory priority,abstract
+environment_rewrite,scene,conditions,SEN,changes environmental conditions mid-story,compare scene states,synthetic
+weather_mismatch,event,weather,SEN,describes weather inconsistent with setting,map environmental plausibility,fictional
+shadow_conflict,observation,shadow_angle,SEN,shadow direction contradicts claimed time,align temporal geometry,safe
+reflected_visibility,scene,reflection,SEN,claims to see reflection impossible from angle,map geometry,fictional
+scene_noise_gap,sound,silence_note,SEN,claims silence where noise expected,compare noise baseline,synthetic
+impossible_awareness,scene,hidden_object,SEN,notices hidden object without line of sight,check LOS logic,fictional reasoning
+depth_perception_error,observation,distance,SEN,misjudges depth drastically without explanation,verify spatial cues,synthetic
+overbright_scene,scene,lighting,SEN,scene described brighter than stated light source allows,check luminance consistency,fictional
+sound_precision_in_storm,hearing,weather_noise,SEN,claims precise hearing during heavy storm,compare noise masking,fictional
+thermal_inconsistency,story,temperature,SEN,reports warmth in freezing environment or vice versa,cross-check environmental context,synthetic
+ghost_silhouette_error,observation,shadow,SEN,perceives silhouette where no casting object exists,check shadow source,fictional
+detail_through_fog,observation,clarity,SEN,claims sharp detail through dense fog,validate atmospheric interference,synthetic
+reflection_mirroring_error,scene,mirror,SEN,reflection mismatches subject's orientation,compare reflective geometry,fictional
+distant_whisper_detection,hearing,distance,SEN,hears whisper from impossible distance,check acoustic decay,fictional
+instant_focus_shift,attention,objects,SEN,focus leaps across scene without transition,map attention flow,synthetic
+false_silhouette,scene,shadow,SEN,describes shadow formation with no light behind,check light angle,fictional
+over-color_precision,observation,color_detail,SEN,gives excessive color detail in dim lighting,compare light spectrum,synthetic
+delayed_sound_reaction,sound,timing,SEN,reacts after unrealistic delay to loud noise,check reaction latency,safe
+misaligned_echo,hearing,reflection,SEN,echo timing contradicts room size,map acoustic geometry,fictional
+impossible_refraction_claim,scene,water,SEN,describes optical refraction impossible for angle,check water physics,synthetic
+blurred_scene_clarity,observation,focus,SEN,claims clarity after describing blurred vision,track visual coherence,fictional
+silent_crash_event,sound,impact,SEN,impact described without any sound,check sound expectation,synthetic
+unheard_footsteps,hearing,proximity,SEN,misses footsteps in quiet environment,compare baseline noise,safe
+overheard_through_walls,hearing,obstruction,SEN,hears full conversation through thick wall,check material attenuation,fictional
+night_sky_detail_error,observation,astronomy,SEN,describes stars visible during cloudy night,verify sky conditions,fictional
+heat_haze_ignoring,scene,distortion,SEN,describes straight lines through heat distortion,check optical distortion,synthetic
+wrong_light_color,scene,light_source,SEN,light color mismatches stated bulb type,check spectral match,fictional
+invisible_shadow_claim,observation,shadow,SEN,describes shadow for object in full uniform light,check diffuse lighting,synthetic
+wind_noise_gap,hearing,ambient,SEN,claims silence despite strong wind,compare wind noise norms,fictional
+echo_in_open_field,hearing,reflection,SEN,claims echo in open area without surfaces,check echo feasibility,synthetic
+overprecise_raindrop_detection,observation,weather,SEN,counts individual drops during heavy rain,compare perceptual load,fictional
+moonlight_mislighting,scene,light,SEN,describes bright colors under weak moonlight,compare illumination,synthetic
+color_shift_error,scene,light_condition,SEN,colors shift mid-scene without new light source,track illumination changes,fictional
+fog_noise_gap,hearing,weather,SEN,claims silence although fog dampens distant noise inconsistently,evaluate dampening logic,synthetic
+invisible_motion_detection,observation,motion,SEN,perceives movement with no visual cues,check movement anchors,fictional
+overwide_visual_field,observation,FOV,SEN,claims to see behind without turning,validate FOV limits,fictional
+microtexture_detection,observation,detail,SEN,detects microtextures too small for distance,spatial scaling check,synthetic
+unsourced_smell,smell,origin,SEN,smells something with no plausible source,trace scent vectors,fictional
+smell_through_glass,smell,barrier,SEN,detects scent through sealed container,check barrier logic,synthetic
+impossible_airflow_claim,scene,airflow,SEN,feels breeze in sealed room,map airflow points,fictional
+overprecise_temperature_read,event,temperature,SEN,states extremely precise temperature by feel,check sensory plausibility,synthetic
+quiet_market_claim,scene,ambient_noise,SEN,describes busy market as silent,compare ambient expectation,fictional
+sound_drift_error,hearing,direction,SEN,sound source direction drifts unrealistically,map directional stability,synthetic
+vibration_mismatch,sensation,ground,SEN,feels vibration with no mechanical source,check vibration logic,fictional
+rapid_sensory_cycle,story,sensory_sequence,SEN,switches sensory modes too fast,track sensory transitions,synthetic
+impossible_line_of_sight,observation,LOS,SEN,claims to see behind obstacles,check LOS constraints,fictional
+overbright_flash_recovery,observation,light,SEN,instantly recovers vision after blinding flash,check recovery latency,synthetic
+silent_shattering,sound,impact,SEN,glass shatters silently,map sound expectation,fictional
+echo_in_soft_room,hearing,acoustic,SEN,claims echo in room full of soft materials,acoustic reflectivity check,synthetic
+shadowless_person,scene,lighting,SEN,person described with no shadow despite strong light,check light-source geometry,fictional
+nocturnal_color_precision,observation,night,SEN,identifies colors perfectly in near-darkness,validate luminance sufficiency,synthetic
+unfelt_temperature_shift,story,thermal,SEN,ignores sudden temperature change,check thermal continuity,fictional
+smell_delay_error,smell,timing,SEN,detects odor long before arrival possible,map scent diffusion timing,synthetic
+hears_subtlety_over_engine,sound,ambient_noise,SEN,notices quiet sounds over engine roar,noise masking check,fictional
+visual_anchor_shift,observation,reference,SEN,changes visual anchor mid-description,track continuity,synthetic
+unnoticed_large_object,scene,obvious_feature,SEN,fails to notice large nearby object,check awareness field,fictional
+overamplified_footsteps,hearing,detail,SEN,hears footsteps exaggeratedly loud,compare surface acoustics,synthetic
+miscolored_reflection,scene,reflection,SEN,reflection displays wrong color palette,check reflective accuracy,fictional
+impossible_glare_angle,observation,light_geometry,SEN,describes glare angle impossible for sun position,validate solar geometry,synthetic
+unheard_alarm,sound,alarm,SEN,misses loud alarm entirely,verify hearing continuity,fictional
+unfelt_ground_shift,sensation,ground,SEN,doesn't feel tremor described by others,check perceptual consistency,synthetic
+overfast_scent_identification,smell,detail,SEN,identifies scent instantly from far,scent travel check,fictional
+wrong_rain_sound,sound,weather,SEN,rain intensity mismatches described sound,compare rainfall audio norms,synthetic
+unmoving_shadows,scene,dynamic,SEN,claims static shadows in windy area,dynamic shadow expectation,fictional
+rapid_color_shift,scene,visual_change,SEN,colors change rapidly without reason,check illumination sources,synthetic
+sound_overlap_error,hearing,sequence,SEN,two contradictory sounds described simultaneously,timeline check,fictional
+micro-crack_detection,hearing,detail,SEN,hears tiny crack through thick material,attenuation logic,synthetic
+overdamped_footsteps,hearing,acoustic,SEN,footsteps overly muted for surface type,compare material acoustics,fictional
+impossible_taste_detection,taste,origin,SEN,tastes something without contact,validate sensory input,synthetic
+temperature_inertia_error,event,thermal,SEN,temperature described changing too quickly,thermal realism check,fictional
+invisible_light_source,scene,lighting,SEN,scene brightly lit with no light source,trace illumination logic,synthetic
+overprecise_shadow_length,observation,geometry,SEN,states exact shadow length unrealistically,check geometric plausibility,fictional
+soundless_waterfall,scene,sound,SEN,waterfall described as silent,ambient sound logic,synthetic
+instant_atmospheric_shift,scene,weather,SEN,weather changes instantly mid-scene,track environmental timeline,fictional

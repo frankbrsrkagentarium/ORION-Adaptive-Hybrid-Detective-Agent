@@ -1,0 +1,91 @@
+situation_type,question_level,interrogation_question,psychological_purpose,expected_signal,fallback_question,ethical_note,info_gain_rating
+nervous_witness,soft,"Could you walk me through what you remember, at your own pace?",build rapport,steady recall or calm tone,Is there a part you'd like to start with?,respect emotional comfort,4
+timeline_confusion,neutral,What is the earliest moment you are certain about?,clarify anchor,consistent anchor or hesitation,What happened immediately after that?,avoid pressure,5
+contradiction_sighting,neutral,"Earlier you mentioned X, but the log shows Y — how do you think they fit together?",resolve contradiction,willingness to reconcile,Is it possible times felt different than they were?,non-accusatory,5
+memory_gap,soft,It’s okay if some parts are unclear — what details feel most solid to you?,reduce stress,stable detail emergence,Would you like to revisit a moment slowly?,no coercion,3
+possible_misidentification,firm,What specific detail helped you recognize the person?,test reliability,specific details or vagueness,Could the lighting or angle have affected what you saw?,gentle correction,4
+nervous_witness,soft,Take a moment — what stood out the most to you?,grounding,spontaneous key detail,Would describing the setting help?,respect boundaries,3
+nervous_witness,soft,Did anything feel unusual before the event happened?,gentle probing,emotional tone shift,We can go step by step if you prefer.,avoid leading,3
+nervous_witness,soft,"When you think back to that moment, what comes first to mind?",encourage free recall,unfiltered memory,Would it help to pause?,supportive approach,4
+nervous_witness,soft,What helped you stay calm during the situation?,self-reflection,emotion clarity,Did someone nearby reassure you?,non-intrusive,2
+nervous_witness,soft,Did you notice any sounds that drew your attention?,anchor sensory cues,clarity on auditory signals,We can explore visuals instead if easier.,respect comfort,3
+timeline_confusion,neutral,Can you recall the last thing you did before entering the room?,reconstruct order,anchor event,What were you doing right after entering?,avoid assumptions,4
+timeline_confusion,neutral,What moment feels the clearest in your memory?,identify fixed point,confidence level,What was happening around you then?,neutral tone,4
+timeline_confusion,neutral,"Did time feel fast, slow, or normal to you?",perception probe,distortion cues,Let's revisit the sequence together.,non-judgmental,3
+timeline_confusion,neutral,When did you first realize something was off?,spot inflection point,awareness signal,Was anyone with you then?,no pressure,4
+timeline_confusion,neutral,Who did you interact with first after noticing the issue?,map dependencies,interaction recall,Did they say anything memorable?,avoid coercion,4
+contradiction_sighting,neutral,What made you confident about the timing you mentioned?,probe certainty,confidence calibration,Could it be an estimate rather than exact?,gentle correction,4
+contradiction_sighting,neutral,Is it possible that two things happened closer together than you remember?,soft reconciliation,willingness to adjust,Let’s compare both accounts calmly.,non-aggressive,4
+contradiction_sighting,neutral,Could there be another explanation for the mismatch?,open reasoning,flexibility,Is there a detail we overlooked?,no blame,5
+contradiction_sighting,neutral,Do you recall checking the time or just estimating it?,precision check,anchor reliability,Was someone else referencing the time?,ethical firmness,3
+contradiction_sighting,neutral,What would help you clarify the order of events?,collaborative correction,active effort,Should we list the moments together?,respect autonomy,4
+memory_gap,soft,What part feels the easiest to describe?,reduce overwhelm,ease-of-access recall,We can return to difficult parts later.,gentle pace,2
+memory_gap,soft,Did any moment feel especially vivid?,locate strong memory,emotional or sensory anchor,Would describing the environment help?,patient tone,3
+memory_gap,soft,Are there details you wish you remembered more clearly?,normalize gaps,emotional openness,It's okay — take your time.,avoid distress,2
+memory_gap,soft,Would it help if we approached this one detail at a time?,segmentation,progressive recall,We can pause any time.,no pressure,3
+memory_gap,soft,Do you feel your memory is clearer at the beginning or the end of the event?,pattern detection,recall distribution,Would you prefer starting from the end?,respectful framing,3
+possible_misidentification,firm,How sure are you about the height you saw?,test precision,certainty indicator,Could perspective have distorted it?,neutral correction,4
+possible_misidentification,firm,Did you see the person’s face directly or from an angle?,clarify viewing angle,accuracy check,Could shadows have played a role?,gentle tone,4
+possible_misidentification,firm,Were there any distinctive features you noticed?,specific markers,detail strength,Did clothing stand out more than facial features?,balanced questioning,5
+possible_misidentification,firm,How long did you have visual contact?,exposure duration,reliability metric,Could it have been shorter than it felt?,non-leading,4
+possible_misidentification,firm,What was the lighting like at that moment?,environment factor,lighting clarity,Would you describe the surroundings?,neutral tone,3
+alibi_check,firm,Who can confirm where you were at that time?,corroboration,independent verification,Was anyone else nearby?,avoid pressure,5
+alibi_check,firm,What were you doing immediately before the reported moment?,timeline cross-check,action consistency,Can you recall any interactions?,avoid assumptions,4
+alibi_check,firm,Is there anything that might make your recollection uncertain?,self-assessment,awareness of gaps,Would retracing your steps help?,respectful pressure,4
+alibi_check,firm,How confident are you about the exact location?,precision probe,certainty level,Could it have been adjacent instead?,non-accusatory,3
+alibi_check,firm,What made you go to that spot specifically?,motivation clarity,context insight,Did anyone guide you there?,neutral tone,3
+conflicting_witnesses,neutral,What influenced your interpretation of the situation?,bias detection,source of perception,Could someone else's reaction have shaped it?,non-blaming,4
+conflicting_witnesses,neutral,Did you hear anyone else comment at the time?,social cue mapping,shared perception,Did their comments affect your view?,ethical neutrality,3
+conflicting_witnesses,neutral,What were you focusing on before you noticed the event?,attention spotlight,focus mapping,Could distractions have affected recall?,soft approach,4
+conflicting_witnesses,neutral,Did your viewpoint differ from others nearby?,perspective check,spatial differences,Would drawing your position help?,respect comfort,4
+conflicting_witnesses,neutral,Is there a detail you recall that others might have missed?,unique insight,rare signal,Why do you think that stood out to you?,non-leading,3
+stress_response,soft,How did the moment make you feel?,emotional mapping,emotional signal,Did anything help ground you?,supportive ethics,2
+stress_response,soft,Was there anything that made the moment more stressful?,trigger identification,stressors,Would you like to pause before continuing?,no coercion,2
+stress_response,soft,Did anyone or anything help you feel safer?,stability cue,support recognition,Would describing them help?,gentle tone,2
+stress_response,soft,Did you feel overwhelmed at any point?,stress threshold,gauge overwhelm,You can share only what feels safe.,trauma-informed,3
+stress_response,soft,What part felt the hardest to process?,emotional hotspot,discomfort mapping,We don’t need to go into detail unless you want to.,respect agency,2
+unclear_motive,neutral,What do you think the person intended at that moment?,motive hypothesis,interpretive cues,Could there be another possibility?,non-leading,4
+unclear_motive,neutral,Did anything they did seem deliberate or accidental?,intent distinction,behavior interpretation,What detail gave that impression?,ethical neutrality,3
+unclear_motive,neutral,"Was the individual's tone calm, rushed, or tense?",behavioral inference,mood signal,Did their body language match that tone?,non-accusatory,3
+unclear_motive,neutral,Do you think their actions were planned?,planning perception,uncertainty cue,What makes you think so?,avoid assumptions,4
+unclear_motive,neutral,Did they interact with anyone before acting?,context linkage,relationship signals,Do you recall how that interaction went?,careful framing,4
+object_discrepancy,neutral,When did you last see the object?,timeline anchor,certainty check,Where were you right before noticing it missing?,non-leading,4
+object_discrepancy,neutral,Was the object in its usual place?,consistency check,order disruption,How often do you use or check it?,respect autonomy,3
+object_discrepancy,neutral,Did you touch or move the object earlier?,ownership check,possible misplacement,Could someone else have moved it?,neutral framing,4
+object_discrepancy,neutral,Did anyone else have access to the area?,access mapping,exposure level,Was anything else out of place?,non-accusatory,4
+object_discrepancy,neutral,Did you notice anything odd about the object before it disappeared?,anomaly detection,rare cues,Was it already misplaced earlier?,avoid pressure,3
+inconsistent_tone,neutral,Your tone shifted earlier — what changed for you?,emotional discrepancy,emotional signal,Is there a detail that made recalling difficult?,compassionate tone,3
+inconsistent_tone,neutral,Did something feel different when you repeated the story?,repetition analysis,variation cue,Would it help to revisit the earlier version?,respectful questioning,4
+inconsistent_tone,neutral,What part made you hesitate just now?,hesitation mapping,uncertainty,Would talking slower help you clarify?,careful tone,3
+inconsistent_tone,neutral,Is there a detail you’re unsure whether to mention?,self-censorship probe,confidence cue,It's okay to share only what feels right.,ethical softness,2
+inconsistent_tone,neutral,What helped you feel more certain in the earlier version?,compare consistency,confidence anchor,Would you like to start over from the beginning?,supportive,3
+sensory_conflict,neutral,What did you hear first?,auditory anchor,hearing clarity,Could another noise have overlapped?,neutral tone,3
+sensory_conflict,neutral,Did you see or hear something that didn’t match?,cross-modal check,sensory mismatch,Can you describe them separately?,avoid confusion,4
+sensory_conflict,neutral,Did the lighting affect what you perceived?,environment check,visual clarity,Was it brighter or darker than usual?,neutral probe,3
+sensory_conflict,neutral,Which sense felt most reliable at that moment?,meta-perception,response stability,Would you describe that sense in more detail?,no pressure,4
+sensory_conflict,neutral,Could distance have altered what you heard or saw?,distortion probe,spatial cue,Were you closer or farther than you expected?,gentle questioning,3
+panic_reaction,soft,What helped you calm down afterward?,post-event stabilization,emotion pacing,Would breathing help before continuing?,trauma-aware,2
+panic_reaction,soft,Did you feel safe during the event?,safety evaluation,threat perception,What made you feel unsafe?,soft tone,2
+panic_reaction,soft,Was there a point where everything felt overwhelming?,stress threshold,emotional cue,We can pause any time you wish.,patient ethics,2
+panic_reaction,soft,What physical sensations do you remember?,body-based recall,somatic memory,"If it's uncomfortable, we don’t need to go into detail.",respect comfort,2
+panic_reaction,soft,What helped you regain focus?,stabilization mapping,clarity recovery,Do you need a short break?,supportive environment,2
+partial_certainty,neutral,Which parts of your account feel strongest to you?,confidence mapping,certainty ranking,Which parts feel weaker?,neutral tone,4
+partial_certainty,neutral,Are you estimating any part of the sequence?,clarify estimation,confidence separation,Which part is most uncertain?,non-judgmental,3
+partial_certainty,neutral,Do you feel more certain about what you saw or what you heard?,modal comparison,reliability cue,Why do you think that is?,ethical neutrality,3
+partial_certainty,neutral,"If you had to choose one detail you trust most, what would it be?",priority anchor,key insight,What detail feels second most reliable?,avoid pressure,4
+partial_certainty,neutral,Are you mixing memories from different moments?,memory contamination probe,pattern check,Would it help to separate them by location?,respectful tone,4
+unclear_sequence,neutral,What happened right before the moment you noticed the issue?,sequence reconstruction,ordering cue,What happened immediately after?,avoid assumptions,4
+unclear_sequence,neutral,Were you moving or stationary when the event began?,motion anchor,spatial cue,Did movement affect what you saw?,gentle questioning,3
+unclear_sequence,neutral,What were others doing when you first noticed something?,context observation,environment mapping,Did anyone react strongly?,soft neutrality,4
+unclear_sequence,neutral,Did you feel rushed or calm during the sequence?,pace perception,tempo cues,Could that pace affect memory?,non-accusatory,3
+unclear_sequence,neutral,Did the scene unfold faster or slower than expected?,context distortion,time perception,What detail marked the transition?,patient inquiry,4
+hesitant_witness,soft,Would you prefer to describe the event in your own words?,empowerment,agency cue,What part feels safest to start with?,respect choice,3
+hesitant_witness,soft,Is there anything making it hard to talk about this?,barrier identification,motivational cue,You can share at your pace.,supportive ethics,2
+hesitant_witness,soft,Do you feel comfortable continuing?,consent check,readiness,We can pause anytime.,trauma-aware,1
+hesitant_witness,soft,Would questions or free description feel easier for you?,mode preference,communication flexibility,We can switch styles anytime.,respect autonomy,2
+hesitant_witness,soft,Is there someone who could help you feel more at ease?,support activation,comfort cue,Would you like a short break instead?,gentle tone,1
+environmental_confusion,neutral,What was the environment like when the event occurred?,scene reconstruction,context clarity,Was anything unusual in the surroundings?,neutral tone,4
+environmental_confusion,neutral,Were there any obstructions blocking your view?,visual mapping,visibility cue,Would drawing the layout help?,non-accusatory,3
+environmental_confusion,neutral,Did the noise level affect what you noticed?,sound interference,auditory reliability,Was it louder or quieter than normal?,ethical neutrality,3
+environmental_confusion,neutral,Did the crowd influence what you focused on?,crowd effect,attention shift,Were you reacting to others or the event?,soft framing,4
+environmental_confusion,neutral,Did lighting conditions change at any point?,dynamic environment,signal variance,What changed first?,avoid assumptions,3

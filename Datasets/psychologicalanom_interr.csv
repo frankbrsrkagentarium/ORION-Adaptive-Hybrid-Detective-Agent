@@ -1,0 +1,94 @@
+event_type,required_data,optional_data,anomaly_type,anomaly_description,cross_check,notes
+mental_shift,statement,emotional_tone,PSY,tone shifts from nervous to overly calm within same claim,compare tone markers across statements,fictional emotional reasoning only
+hesitation_gap,answer,timestamp,PSY,significant pause before recalling simple detail,align pause with stress indicators,keep abstract
+overjustification,claim,extra_context,PSY,gives overly detailed justification for trivial action,check length vs relevance,safe pattern
+memory_dropout,sequence,event_count,PSY,forgets middle part of sequence but recalls ending vividly,compare recalled anchors,synthetic amnesia pattern
+emotional_flatline,tragic_event,voice_notes,PSY,no emotional change when describing disturbing event,map affect vs claim,fictional psychological trait
+panic_spike,description,verbal_markers,PSY,sudden stutter spike when mentioning specific person,compare fluency windows,avoid real diagnostic cues
+narrative_overcontrol,story,word_choice,PSY,speech sounds rehearsed with identical phrasing repeated,check repeated lexical units,safe fictional scripting
+detail_evasion,question,redirect_note,PSY,keeps redirecting from requested detail,track deflection frequency,"logic only, no tactics"
+stress_inconsistency,fact,voice_pitch,PSY,voice stress markers mismatch with claimed calmness,compare intensity patterns,stay fictional
+confusion_loop,story_fragment,iteration_count,PSY,repeats same micro-story with minor inconsistencies,align repeated fragments,safe anomaly
+emotion_flip,event,affect_shift,PSY,switches from angry to cheerful in seconds when describing timeline,cross-check temporal anchors,synthetic behavior
+pressure_rambling,question,irrelevant_info,PSY,introduces irrelevant long monologue when pressured,map digression density,fictional only
+confidence_spike,claim,verbal_certainty,PSY,sudden overconfidence after uncertain answers,compare certainty markers,safe abstraction
+frozen_response,critical_detail,response_time,PSY,extreme delay before giving innocuous detail,check timing consistency,narrative tension only
+micro_inconsistency,short_answer,lexical_variation,PSY,changes tiny but meaningful verbs across repetitions,track micro-verb drift,linguistic anomaly
+avoidant_minimalism,question,response_length,PSY,gives ultra-short replies only when asked about location,check category-specific brevity,fictional avoidance
+irrelevant_emphasis,story,highlight_term,PSY,overemphasizes minor objects repeatedly,compare relevance weighting,logic-only
+self_doubt_marker,claim,self_correction,PSY,contradicts own certainty immediately,analyze internal reversals,safe inconsistency
+stress_misfire,event,emotional_context,PSY,applies emotion to wrong part of story,check misaligned emotional tagging,synthetic
+emotional_overprecision,detail,affect_marker,PSY,describes emotional state with unnatural precision,compare affect granularity,fictional psychology
+temporal_blur,sequence,time_anchor,PSY,gives vague or drifting time anchors when pressed,compare stated vs implied time,fictional fogging
+excessive_politeness,answer,phrasing,PSY,sudden shift to overly formal politeness under stress,track respect-form variation,synthetic pressure cue
+contradiction_pivot,claim,revision_note,PSY,abruptly changes stance mid-sentence,compare before/after pivot,safe pattern
+context_slippage,story,setting_detail,PSY,slips between settings without realizing,check setting continuity,fictional inconsistency
+overstated_clarity,description,precision_note,PSY,claims perfect clarity about complex moment,map clarity vs complexity,synthetic exaggeration
+pause_cluster,answer,timing_map,PSY,multiple tiny pauses appear only for certain topics,compare pause density,narrative tension
+affect_scramble,event,emotion_label,PSY,mixes incompatible emotions in one line,cross-match emotion sets,fictional mixture
+redirect_latch,question,topic_switch,PSY,always answers adjacent topic instead of main one,map switch regularity,safe avoidance
+certainty_wave,claim,intensity_marker,PSY,certainty rises and falls rapidly within same explanation,track intensity drift,abstract fictional cue
+narrative_tightening,story,phrase_rigidity,PSY,sentences become too rigid and rehearsed suddenly,compare phrasing elasticity,fictional scripting
+spatial_confusion,location,orientation_note,PSY,confuses left/right or direction repeatedly,check directional markers,synthetic mapping error
+verbal_static,statement,noise_marker,PSY,adds filler sounds only during specific mentions,track filler clustering,fictional noise
+reverse_priority,sequence,importance_rating,PSY,labels trivial moments as crucial repeatedly,compare importance weighting,safe anomaly
+neutral_mask,claim,affect_suppression,PSY,emotion suppressed only during sensitive sections,compare suppression zones,fictional restraint
+amplified_emphasis,statement,stress_word,PSY,overly stresses a random word each time,track stress targets,synthetic emphasis
+looped_apology,answer,apology_count,PSY,repeats apologies even when not challenged,compare apology frequency,fictional guilt cue
+fragment_drift,story_fragment,fragment_shift,PSY,details shift slightly each retelling,measure drift magnitude,safe narrative drift
+semantic_delay,answer,word_retrieval,PSY,delays picking simple words only in tense moments,compare retrieval times,fictional hesitation
+emotion_mask_slip,claim,masking_note,PSY,momentarily reveals mismatched emotion,compare revealed vs stated affect,safe synthetic
+micro_tension,statement,stress_micro,PSY,very small stress markers appear inconsistently,map micro-stress variances,fictional microbehavior
+patterned_evasion,question,response_pattern,PSY,evasion follows repeated structure,check structural loops,synthetic avoidance
+cold_switch,event,temperature_metaphor,PSY,uses cold metaphors abruptly when describing person,map metaphor timing,fictional stylistic pattern
+memory_fog,sequence,clarity_note,PSY,recalls only blurred outlines of central event,track clarity drift,narrative fog
+impulse_cutoff,answer,cutoff_note,PSY,abruptly stops sentence when nearing sensitive detail,compare cutoff points,fictional self-interruption
+emotional_scaling_shift,event,scale_note,PSY,inflates emotion suddenly without buildup,check scale consistency,synthetic shift
+forced_neutrality,statement,neutral_term,PSY,repeats neutral terms excessively,track term recurrence,fictional mask
+topic_resistance,question,resistance_marker,PSY,visibly struggles only when topic A is mentioned,compare resistance triggers,synthetic stress cue
+confidence_overlayer,claim,certainty_frame,PSY,adds forced certainty phrases over weak facts,compare overlay density,fictional confidence mask
+logic_fracture,explanation,coherence_note,PSY,reasoning becomes fragmented around one claim,check coherence consistency,narrative fracture
+detail_overfocus,story,specific_element,PSY,fixates on one detail ignoring whole scene,map element weighting,safe anomaly
+tone_mismatch,statement,affect_pair,PSY,tone contradicts word meaning,compare tone-word alignment,fictional dissonance
+micro_loopback,answer,loop_note,PSY,answers restart mid-thought unintentionally,track restart points,synthetic recurrence
+semantic_slip,claim,word_substitution,PSY,uses wrong but similar word repeatedly,check substitution pattern,fictional language drift
+pace_spike,statement,pace_marker,PSY,speech pace accelerates sharply for one detail,compare pacing,synthetic tension
+affect_drop,answer,emotion_level,PSY,emotion drops to flat suddenly mid-sentence,track drop points,fictional affect collapse
+precision_gap,claim,detail_depth,PSY,avoids numerical detail despite earlier precision,compare detail fidelity,synthetic avoidance
+redirect_spiral,question,spiral_note,PSY,redirects repeatedly in nested fashion,map depth of spiral,fictional detour
+verbal_pressure,statement,pressure_term,PSY,uses pressure metaphors only when cornered,compare metaphor frequency,synthetic cue
+timeline_tangle,sequence,timeline_note,PSY,mixes event order unintentionally,check ordering anomalies,fictional mis-sequencing
+fragment_overlap,story_fragment,overlap_note,PSY,two versions of fragment fuse accidentally,track overlap features,synthetic blending
+emotion_surface,claim,shallow_affect,PSY,emotional display stays at surface level,compare affect depth,fictional presentation
+certainty_mask,statement,certainty_term,PSY,adds certainty qualifiers repetitively,measure qualifier density,synthetic pattern
+hesitant_reboot,answer,reboot_note,PSY,restarts answer repeatedly with same opener,track reboot cycles,fictional hesitation
+context_fold,story,context_note,PSY,context folds back on itself unexpectedly,compare fold points,synthetic narrative warp
+unexpected_chill,event,chill_marker,PSY,coldness appears in tone describing neutral thing,map emotional drift,fictional chill cue
+detail_stretch,description,stretch_note,PSY,extends minor details unnecessarily,compare stretch length,synthetic expansion
+alignment_break,claim,alignment_note,PSY,emotional tone breaks alignment mid-claim,track misalignment,fictional rupture
+focus_lag,statement,focus_note,PSY,respondent lags in focusing on simple question,compare lag intervals,synthetic delay
+emotion_fragmentation,event,affect_piece,PSY,emotion appears in separated fragments,map fragment distribution,fictional affect split
+redirect_fade,question,fade_note,PSY,redirect attempts weaken progressively,track fade pattern,synthetic taper
+story_strobe,story,strobe_note,PSY,narrative intensity flickers abruptly,compare intensity steps,fictional strobe
+precision_surge,statement,detail_marker,PSY,surge of precision for one irrelevant detail,map surge zones,synthetic emphasis
+emotional_echo,event,echo_note,PSY,emotion repeats like an echo,track affect repetition,fictional echo
+tempo_drop,answer,tempo_note,PSY,tempo collapses when addressing specific person,compare tempo drops,synthetic tension
+word_fossil,claim,repeated_term,PSY,same rare word appears across unrelated statements,compare rare-term recurrence,fictional lexicon artifact
+affect_rush,description,rush_marker,PSY,emotion rushes forward suddenly after flatness,track surge points,synthetic affect burst
+context_drift,story,drift_note,PSY,contextual frame drifts subtly across retellings,measure drift over versions,fictional narrative drift
+pause_freeze,answer,freeze_note,PSY,pause duration spikes unexpectedly,compare freeze distribution,synthetic freeze
+topic_haze,question,haze_note,PSY,topic becomes vague only when probed deeply,measure haze intensity,fictional haze
+emotional_offset,event,offset_note,PSY,emotion lags behind described action,track offset timing,synthetic lag
+certainty_collapse,claim,collapse_marker,PSY,certainty collapses unexpectedly in mid-explanation,compare collapse triggers,fictional collapse
+micro_redirect,question,redirect_unit,PSY,tiny redirects inserted mid-answer,track micro-redirects,synthetic pattern
+pressure_flip,statement,flip_note,PSY,sudden calmness appears when cornered,compare flip timing,fictional inversion
+semantic_crackle,claim,crackle_marker,PSY,speech shows micro-crackle patterns,map crackle density,synthetic artifact
+narrative_glide,story,glide_note,PSY,narrative glides over sensitive section,compare glide regions,safe avoidance
+affect_mirror,event,mirror_note,PSY,mirrors other's emotion unnaturally fast,check mirroring latency,fictional mimicry
+logic_echo,explanation,echo_unit,PSY,repeats same logic fragment with minimal variation,track logic echo,synthetic echo
+tone_flattening,statement,flatten_note,PSY,tone gradually flattens for one topic only,compare flattening curve,fictional flattening
+focus_break,answer,break_note,PSY,focus breaks briefly when approaching key moment,track break windows,synthetic slip
+timeline_foldback,sequence,fold_unit,PSY,timeline folds back one step subtly,measure foldback,fictional warp
+semantic_bend,claim,bend_note,PSY,word meanings bend slightly across retellings,compare semantic drift,synthetic anomaly
+affect_outlier,event,outlier_marker,PSY,emotion spikes only once at odd location,check outlier position,fictional outlier
+precision_hesitation,detail,hesitation_note,PSY,hesitation appears only before precise detail,compare hesitation zones,synthetic hesitation

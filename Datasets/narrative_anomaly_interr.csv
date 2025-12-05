@@ -1,0 +1,96 @@
+event_type,required_data,optional_data,anomaly_type,anomaly_description,cross_check,notes
+timeline_jump,story,timestamp,NAR,jumps back and forth with no temporal links,align time anchors,story-logic only
+fragmented_sequence,events,missing_links,NAR,story presented in fragments lacking transitions,map narrative gaps,fictional
+cause_reversal,claim,sequence_order,NAR,reverses cause/effect mid-story,compare causal anchors,abstract causal reasoning
+missing_scene,story,context_note,NAR,skips an entire scene while claiming continuity,check missing scene windows,synthetic narrative hole
+sequence_compression,events,summary_phrase,NAR,compresses long actions into vague summary,expand vs expected detail,safe compression
+overlinear_story,story,rigidity_markers,NAR,"story is too perfectly linear, unnatural simplicity",check oversynchronization,fictional fabrication cue
+story_rewrite,claim,version_count,NAR,rephrases same event multiple times with different ordering,align versions,logic pattern
+temporal_vagueness,story,time_terms,NAR,avoids exact times for key events,map temporal avoidance,synthetic
+anchor_shift,event,anchor_term,NAR,changes anchor event used to orient timeline,check anchor drift,narrative anomaly
+consistency_overfit,story,repetition,NAR,every detail repeats identically despite retelling,detect over-controlled narrative,safe
+scene_blending,events,context_blur,NAR,merges two distinct scenes into one,compare environmental notes,fictional
+missing_consequence,action,outcome,NAR,action presented with no consequence despite logic,align effect expectations,synthetic logic gap
+parallel_conflict,story,subplots,NAR,introduces parallel events that conflict with main line,check subplot contradictions,narrative tension only
+looped_ending,story,end_state,NAR,final state contradicts earlier outcome,map final vs initial,abstract detective reasoning
+overcontextualization,story,excess_notes,NAR,adds excessive context to mask missing sequence,compare context density,fictional
+subtle_disjoint,story,micro_pauses,NAR,tiny breaks in narrative coherence,check micro-fragmentation,synthetic cue
+incomplete_action,action,implied_step,NAR,describes an action but omits key pivot step,map missing pivot,narrative anomaly
+reverse_motivation_order,event,motive,NAR,motive is explained after the event happens,align motive placement,fictional storytelling
+spatial_fragmentation,story,space_terms,NAR,describes space inconsistently across narrative,compare spatial anchors,safe
+unstable_point_of_view,story,perspective,NAR,POV shifts without explanation,cross-check angle consistency,fictional narrative rule
+time_displacement,story,temporal_marker,NAR,places event in impossible time slot,align stated timeline,fictional discontinuity
+event_overlap,story,overlap_note,NAR,two events claimed simultaneous but mutually exclusive,check concurrency,synthetic paradox
+identity_swap,characters,role_tags,NAR,character roles shift mid-scene,map role consistency,fictional misalignment
+emotional_mismatch,story,affect_cue,NAR,emotional reaction inconsistent with event weight,compare affect vs action,safe narrative cue
+scene_echo,story,parallel_event,NAR,new scene repeats structure of earlier one suspiciously,check repetition density,fictional symmetry
+location_loop,story,location_tag,NAR,returns to location without transition,map spatial jumps,synthetic
+action_duplicate,events,action_tag,NAR,same action described twice in conflicting ways,align duplicates,fictional constraint
+timeline_freeze,story,timeframe,NAR,timeline halts while events continue,compare active vs frozen segments,story artifact
+character_stutter,story,identity_note,NAR,character identity flickers briefly,check naming consistency,synthetic quirk
+object_misplacement,items,location_note,NAR,object appears in new location without movement explanation,align spatial trail,fictional
+speed_inconsistency,events,duration,NAR,duration of events fluctuates unpredictably,check duration anchors,synthetic
+overprecise_timing,story,time_stamps,NAR,gives overly exact timestamps for mundane events,contrast against key gaps,fictional pattern
+missing_trigger,action,cause_note,NAR,event occurs without stated trigger,map catalyst absence,narrative hole
+repeated_transition,story,transition_phrase,NAR,same transition phrase reused repeatedly,track stylistic loops,safe
+counter_movement,characters,path_note,NAR,describes impossible movement directions,align spatial logic,fictional
+instant_shift,story,scene_jump,NAR,scene shifts instantly without narrative device,compare shift intervals,synthetic
+perspective_echo,story,voice_markers,NAR,POV repeats previous structure too neatly,detect narrative over-control,fictional
+detail_shift,story,minor_detail,NAR,small descriptive details change between retellings,align micro details,safe anomaly
+anticipation_error,story,foreshadow_note,NAR,foreshadows event incorrectly or prematurely,map foreshadow anchors,synthetic
+moment_overlap,story,moment_note,NAR,two narrative beats occupy same time slot,check beat collision,fictional
+event_mirroring,story,mirror_note,NAR,later event mirrors earlier one symbolically but inconsistently,compare symbolic beats,fictional abstraction
+action_gap,events,missing_step,NAR,implies an action without describing required step,map missing connector,synthetic
+future_echo,event,foreshadow_tag,NAR,future event referenced before known to characters,check knowledge windows,fictional
+context_slip,story,context_marker,NAR,context changes subtly but meaningfully,track context drift,synthetic
+transition_void,story,transition_note,NAR,no transition provided between major scenes,map missing transitions,fictional
+dialogue_shift,characters,tone,NAR,dialogue tone shifts abruptly mid-scene,compare tone anchors,fictional cue
+chronology_mute,events,time_marker,NAR,timeline references disappear mid-story,check missing temporal anchors,synthetic
+focus_drop,story,focus_note,NAR,story drops main thread suddenly,map focus loss,fictional
+cross_scene_drift,events,scene_link,NAR,elements drift between scenes without justification,compare scene boundaries,synthetic cue
+context_stress,story,pressure_note,NAR,adds tension without causal buildup,align tension vs cause,fictional construct
+logic_plateau,story,logic_note,NAR,story logic flatlines without progression,map logic development,synthetic
+pattern_echo,story,motif,NAR,motif repeats excessively,track motif density,fictional overuse
+reaction_mismatch,story,response_cue,NAR,character responses out of sync with events,align response logic,synthetic
+anchor_void,event,anchor_tag,NAR,removal of previous anchor reference,check anchor omission,fictional
+event_tessellation,story,event_tile,NAR,multiple small events arranged too symmetrically,check pattern rigidity,synthetic
+conflict_evaporation,story,conflict_tag,NAR,conflict dissolves abruptly,compare conflict arc,fictional anomaly
+missing_entry,story,entry_note,NAR,scene begins without establishing entry,map entry gap,synthetic
+exit_unclear,story,exit_marker,NAR,characters leave without described exit,align exit paths,fictional
+proximity_shift,story,space_gap,NAR,distance between characters changes without movement,map proximity drift,synthetic
+tempo_spike,events,tempo_note,NAR,story suddenly accelerates pace,compare pacing windows,fictional effect
+tempo_flat,events,pacing_note,NAR,story becomes unnaturally slow,align pacing shifts,synthetic cue
+role_blur,characters,job_marker,NAR,character roles blur without explanation,check role anchors,fictional
+cause_duplication,event,cause_tag,NAR,same cause assigned to multiple unrelated events,trace cause fairness,synthetic
+effect_mismatch,event,effect_tag,NAR,effects inconsistent with described cause,map cause-effect link,fictional
+story_shell,story,surface_detail,NAR,story gives surface description lacking depth,check depth distribution,synthetic minimalism
+false_parallel,story,parallel_note,NAR,parallel storyline mirrors main in forced manner,align parallel vs core,fictional cue
+snap_cut,story,cut_note,NAR,abrupt narrative cut without cue,compare cut severity,synthetic
+shadow_event,event,shadow_note,NAR,refers to event never shown,map unseen event,fictional
+context_loop,story,context_cycle,NAR,context returns to earlier setting abruptly,align context cycle,synthetic
+soft_reset,story,reset_note,NAR,story resets stakes without mention,check stake continuity,fictional
+motivation_gap,event,motive_tag,NAR,motive implied but never stated,map motive gap,synthetic
+crossfade_confusion,story,fade_note,NAR,crossfades two scenes illogically,compare fade links,fictional
+angle_shift,story,angle_tag,NAR,camera-like angle shifts mid-paragraph,track angle variance,synthetic
+beat_missing,story,beat_tag,NAR,missing emotional beat between events,align beat chain,fictional
+topic_oscillation,story,topic_tag,NAR,topic shifts rapidly without connective tissue,map topic shifts,synthetic
+anticipation_void,story,expectation_note,NAR,build-up promises something never delivered,track expectation gap,fictional
+detail_flood,story,detail_cluster,NAR,overloads detail to distract,compare density spikes,synthetic
+causal_silence,event,causal_note,NAR,omits cause despite significance,align causal trace,fictional
+story_jumpcut,story,cut_marker,NAR,jumpcut disrupts flow,check jumpcut anchors,synthetic
+partial_recall,story,memory_tag,NAR,narrator recalls partial scene selectively,align recall anchors,fictional
+context_echo,story,context_repeat,NAR,context reappears too neatly,track reappearance patterns,synthetic
+narrative_drift,story,drift_note,NAR,story gradually veers off-topic,map drift severity,fictional
+loopback_intro,story,intro_tag,NAR,returns to intro style abruptly,compare intro vs current,synthetic
+character_fade,characters,fading_note,NAR,character fades out of story with no closure,check presence trail,fictional
+cause_misplace,event,catalyst_tag,NAR,catalyst placed after effect,align ordering,synthetic
+echo_conflict,story,conflict_echo,NAR,conflict repeats with minor tweaks,compare echo variants,fictional
+time_pulse,story,pulse_note,NAR,time feels 'pulsed' unnaturally,map pulse pattern,synthetic
+story_void,story,void_marker,NAR,large unaddressed gap between events,check void span,fictional
+perspective_drop,story,pov_note,NAR,POV dropped abruptly,compare POV continuity,synthetic
+motif_cascade,story,cascade_note,NAR,motif appears in rapid succession,trace motif cadence,fictional
+symbol_collision,story,symbol_note,NAR,symbols conflict thematically,align symbolic load,synthetic
+scene_inversion,story,inversion_note,NAR,scene logic flips without explanation,map inversion points,fictional
+arc_flatline,story,arc_note,NAR,story arc plateaus prematurely,compare arc progression,synthetic
+resolution_void,story,resolution_note,NAR,resolution offered without addressing conflict,map conflict-resolve gap,fictional
+ending_displacement,story,final_tag,NAR,ending occurs at odd narrative moment,align end placement,synthetic
