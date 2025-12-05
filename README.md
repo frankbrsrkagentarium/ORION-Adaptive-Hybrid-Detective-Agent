@@ -1,16 +1,3 @@
-tags:
-  - agent
-  - detective
-  - prompt
-  - reasoning
-  - memory
-  - agentarium
-  - synthetic-data
-  - knowledge-graph
-  - fiction
-  - framework-compatible
-  - modular
-
 <p align="center">
   <img src="agentariumorion.png" alt="Agentarium Banner" width="300%">
 </p>
