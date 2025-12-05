@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="agentariumorion.png" alt="Agentarium Banner" width="300%">
+</p>
+
 # ORION-Adaptive-Hybrid-Detective-Agent
 A reasoning-driven detective agent designed for case analysis, contradiction mapping, and adaptive hypothesis generation.
 
