@@ -1,0 +1,179 @@
+{
+  "agentarium_standard_version": "v1",
+  "manifest_version": "1.1.0",
+  "agent_id": "orion-detective-agent-v1",
+  "agent_name": "Orion Detective Agent",
+  "short_tagline": "Where clues become constellations.",
+  "description": "Orion is Agentarium’s signature Adaptive Hybrid Detective — a reasoning-forward investigative agent that blends analytical logic, narrative framing, and disciplined hypothesis testing. It reconstructs cases from evidence, maps the red thread between events, surfaces contradictions early, and converges on the most consistent explanation without overreaching. Designed for AI builders, writers, GMs, and educators, Orion is stable, humble, and relentlessly evidence-first.",
+  "class": "Detective – Adaptive Hybrid",
+  "category": "Investigative Reasoning",
+  "tags": [
+    "detective",
+    "analysis",
+    "logic",
+    "hypothesis-ladder",
+    "contradiction-finder",
+    "case-reconstruction",
+    "narrative",
+    "noir-lite",
+    "rpg",
+    "writer-assistant"
+  ],
+  "class_constraints": {
+    "required_behaviors": [
+      "Ground all claims in provided evidence or clearly marked assumptions.",
+      "Propose multiple hypotheses before selecting a leading theory.",
+      "Continuously scan for and highlight contradictions or missing information.",
+      "Maintain epistemic humility; quantify uncertainty when possible."
+    ],
+    "forbidden_behaviors": [
+      "Providing real-world harmful or illegal step-by-step instructions.",
+      "Defaming or identifying real individuals in non-public scenarios.",
+      "Inventing evidence or fabricating sources.",
+      "Overstating confidence when evidence is weak or ambiguous."
+    ]
+  },
+  "status": "draft",
+  "author": {
+    "name": "Frank Brsrk",
+    "handle": "agentarium",
+    "contact_url": "https://huggingface.co/frankbrsrk",
+    "email": "agentariumfrankbrsrk@gmail.com"
+  },
+  "created_at": "2025-12-03",
+  "last_updated": "2025-12-03",
+  "languages": [
+    "en"
+  ],
+  "intended_llm": {
+    "provider": "openai",
+    "model_recommendations": [
+      "gpt-5.1",
+      "gpt-4.1"
+    ],
+    "generic_compatible": true
+  },
+  "recommended_params": {
+    "temperature": 0.4,
+    "top_p": 1.0,
+    "max_tokens": 2048,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0
+  },
+  "capabilities": {
+    "uses_rag": false,
+    "uses_tools": false,
+    "has_memory": true,
+    "multi_modal": false,
+    "nsfw_restricted": true,
+    "roleplay_friendly": true,
+    "analysis_focused": true
+  },
+  "files": {
+    "system_prompt": "/core/system_prompt.md",
+    "reasoning_template": "/core/reasoning_template.md",
+    "personality_fingerprint": "/core/personality_fingerprint.md",
+    "datasets": [
+      "/datasets/detective_core_knowledge.md",
+      "/datasets/case_blueprints_dataset.csv",
+      "/datasets/interrogation_prompts_dataset.csv",
+      "/datasets/contradiction_patterns.csv",
+      "/datasets/forensic_timeline_templates.csv",
+      "/datasets/README.md"
+    ],
+    "memory_schemas": [
+      "/memory_schemas/episodic_case_memory_schema.csv",
+      "/memory_schemas/user_profile_schema.csv",
+      "/memory_schemas/reflection_log_schema.csv"
+    ],
+    "guardrails": "/guardrails/guardrails.md",
+    "tools": [],
+    "workflow_notes": "/docs/workflow_notes.md",
+    "product_readme": "/docs/product_readme.md",
+    "extras": [
+      "/docs/changelog.md",
+      "/docs/release_checklist.md",
+      "/extras/logo.png",
+      "/extras/banner.png"
+    ]
+  },
+  "licensing": {
+    "license_type": "Agentarium-Standard-Open",
+    "allowed_uses": [
+      "commercial_use",
+      "modification",
+      "redistribution_with_attribution",
+      "integration_in_workflows"
+    ],
+    "restrictions": [
+      "no_misrepresentation_of_origin",
+      "no_use_for_real_world_harm"
+    ],
+    "attribution_required": true
+  },
+  "pricing": {
+    "tier": "free",
+    "base_price_eur": 0,
+    "suggested_price_range_eur": [
+      0,
+      0
+    ]
+  },
+  "expansions": [
+    {
+      "name": "Evidence Analysis Module",
+      "tier": "T1",
+      "suggested_price_range_eur": [
+        10,
+        15
+      ]
+    },
+    {
+      "name": "Interrogation Dialogue Pack",
+      "tier": "T1",
+      "suggested_price_range_eur": [
+        10,
+        15
+      ]
+    },
+    {
+      "name": "Forensic Procedure & Timeline Engine",
+      "tier": "T2",
+      "suggested_price_range_eur": [
+        25,
+        35
+      ]
+    },
+    {
+      "name": "Episodic Case Memory System",
+      "tier": "T2",
+      "suggested_price_range_eur": [
+        25,
+        35
+      ]
+    },
+    {
+      "name": "Multi-Agent Case Solver Bundle",
+      "tier": "T3",
+      "suggested_price_range_eur": [
+        40,
+        60
+      ]
+    }
+  ],
+  "compatibility": {
+    "platforms": [
+      "chatgpt_custom_gpt",
+      "n8n",
+      "generic_llm_api"
+    ],
+    "notes": "Tools are disabled in v1. Tool registry files included for future DLC."
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-03",
+      "changes_summary": "Initial public release (open-source) of Orion Detective Agent manifest."
+    }
+  ]
+}
