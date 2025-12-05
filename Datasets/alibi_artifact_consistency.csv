@@ -1,0 +1,211 @@
+alibi_claim_type,forensic_artifact,consistency_score,inconsistency_warning,likely_explanation,validation_question
+left_before_event,dust_smear_fresh,0.32,Fresh disturbance contradicts timeline.,Passed by unknowingly.,Could someone have brushed past you?
+did_not_touch_bookshelf,bookend_shifted,0.38,Recent movement detected.,Accidental bump.,Were you reaching for anything nearby?
+never_wore_gloves,glove_fiber_trace,0.42,Fiber presence unexpected.,Shared storage area.,Did anyone lend you gloves recently?
+was_on_phone_call,chair_swivel_mark,0.28,Movement suggests presence.,Restless sitting.,Did you adjust the chair during the call?
+did_not_enter_office,pen_cap_on_floor,0.35,Dropped item suggests entry.,Borrowed pen earlier.,Have you used this pen today?
+never_used_computer,keyboard_oil_residue,0.2,Fresh finger oils present.,Checked time or notifications.,Did you tap any key absentmindedly?
+stayed_in_cafeteria,coffee_drip_trail,0.55,Trail leads away from cafeteria.,Carried empty cup.,Did you walk elsewhere holding a cup?
+did_not_handle_box,cardboard_fiber_transfer,0.4,Fiber match suggests contact.,Stack collision.,Did you move past a pile of boxes?
+never_walked_into_storage,airborne_dust_plume,0.6,Disturbed dust suggests entry.,Door draft caused shift.,Was the door opened while you were nearby?
+did_not_open_closet,hinge_rub_fresh,0.33,Mark indicates recent opening.,Someone else accessed.,Who else uses this closet?
+was_downstairs,ceiling_particle_on_shirt,0.52,Fallout suggests being upstairs.,Walked under renovation spot.,Were workers active nearby?
+never_touched_frame,smudge_on_edge,0.29,Smudge indicates handling.,Accidental steadying.,Did you lose balance at any point?
+never_held_flashlight,battery_residue_trace,0.25,Residue pattern matches device.,Shared tool.,Did anyone hand you tools?
+did_not_open_package,torn_seal_fragment,0.31,Seal damage recent.,Shift during delivery.,Were you present during unpacking?
+never_used_marker,ink_speck_on_hand,0.49,Speck suggests usage.,Marker leaked in pocket.,Were you carrying anything else?
+did_not_move_rug,drag_mark_arc,0.45,Arc suggests reposition.,Foot caught edge.,Did you stumble over the rug?
+was_in_meeting_room,wood_chip_on_clothes,0.56,Chip origin mismatched.,Chair scrape transfer.,Were chairs being moved nearby?
+did_not_touch_curtain,hand_oil_trace_low,0.35,Oil trace contradicts claim.,Brushed while passing.,Did you walk close to the window?
+never_sat_on_bed,blanket_shift_fresh,0.4,Indentation suggests sitting.,Pet movement.,Any pets around the room?
+did_not_enter_attic,loose_insulation_fluff,0.51,Material exclusive to attic.,Transfer from stored box.,Did you handle old items recently?
+never_leaned_on_wall,shoulder_hair_contact,0.37,Contact hair contradicts claim.,Crowded hallway nudge.,Was it crowded around that time?
+did_not_use_remote,skin_oil_pattern,0.33,Pattern suggests recent handling.,Shared remote.,Did someone pass you the remote?
+never_opened_fridge,condensation_drop_pattern,0.27,Drop pattern too recent.,Closed by someone else.,Were you nearby when someone opened it?
+did_not_light_candle,soot_trace_minimal,0.44,Heat residue unexpected.,Passed by recently extinguished candle.,Were candles lit in your presence?
+never_approached_desk,staple_fragment_on_clothes,0.41,Fragment suggests proximity.,Shared workspace.,Did you pick something up from the floor?
+never_held_coin,metallic_smell_transfer,0.36,Odor indicates recent contact.,Coins in pocket.,Did you go through your pockets?
+was_out_all_day,indoor_only_pollen,0.54,Pollen type inconsistent.,Clothing reused.,What jacket were you wearing earlier?
+did_not_touch_doorknob,grip_pattern_oil,0.23,Grip suggests handling.,Tried knob unconsciously.,Did you test the door earlier?
+never_used_towel,towel_fiber_on_wrist,0.48,Fiber match suggests contact.,Brushed past laundry.,Did you pass near drying towels?
+never_entered_bathroom,water_drop_on_sleeve,0.6,Drop suggests sink proximity.,Nearby splash.,Were others washing hands beside you?
+did_not_move_planter,soil_particle_cluster,0.39,Cluster indicates contact.,Shoe nudged base.,Did you walk too close to the planter?
+was_on_break_outside,paperclip_near_shoe,0.42,Office supply indoors only.,Transfer from coworker.,Did anyone bump into you?
+did_not_touch_suitcase,zipper_fiber_trace,0.28,Fresh fiber caught.,Carried by friend.,Were you helping someone carry luggage?
+never_adjusted_blinds,blind_dust_smear,0.21,Smear suggests movement.,Airflow shift.,Was the window open earlier?
+never_used_printer,toner_speck_on_cuff,0.26,Speck indicates usage.,Nearby printing.,Was the printer active near you?
+did_not_hold_envelope,glue_smear_low,0.38,Smear suggests sealing.,Handled sealed letters.,Did you sort mail earlier?
+never_touched_stair_gate,hinge_oil_trace,0.44,Trace suggests opening.,Pet pushed gate.,Any pets using that area?
+did_not_use_water_bottle,condensation_ring_on_desk,0.58,Ring suggests placement.,Someone borrowed your desk.,Was anyone sitting at your desk?
+never_removed_poster,corner_fold_fresh,0.47,Fold suggests tampering.,Air current shift.,Did someone open a window recently?
+did_not_enter_basement,concrete_dust_on_shoe,0.51,Dust suggests basement.,Walked near construction bags.,Were materials stored upstairs?
+never_opened_letterbox,paper_edge_cut,0.42,Cut indicates mail handling.,Sorting pile.,Did you sort any papers today?
+was_watching_tv,couch_fiber_transfer,0.63,Fiber match supports claim.,Leaned differently.,Did you change sitting position?
+never_touched_fan,airflow_smudge,0.3,Smudge suggests adjustment.,Fan oscillation shift.,Did someone request airflow change?
+did_not_hold_chalk,chalk_dust_speck,0.27,Speck indicates handling.,Brushed by board.,Were you near a chalkboard?
+never_adjusted_mirror,corner_smudge_pattern,0.33,Smudge suggests adjustment.,Mirror vibrated.,Was anything loud or shaking?
+never_carried_bag,strap_imprint_on_shirt,0.36,Imprint contradicts claim.,Rested against hanging bag.,Did you lean onto a hook?
+did_not_touch_shelving_unit,metal_dust_trace,0.41,Dust suggests grasp.,Nearby tool movement.,Were others organizing shelves?
+stayed_on_couch,spring_compression_pattern,0.62,Compression consistent.,Short stand-up interval.,Did you get up briefly?
+never_used_stapler,pressed_metal_oil_mark,0.39,Fresh press trace.,Someone handed stapled documents.,Did anyone give you papers?
+did_not_enter_closet_area,coat_fiber_transfer,0.58,Fiber suggests brushing.,Passing hallway contact.,Were people clustered there?
+never_touched_broom,bristle_fiber_on_pants,0.4,Bristle transfer suggests handling.,Stepped on broom head.,Did the broom fall over?
+did_not_use_pen,pen_tip_ink_smear,0.35,Smear suggests usage.,Leaky pen nearby.,Did you borrow any pens?
+never_held_book,edge_dust_on_fingertips,0.43,Dust pattern consistent with holding.,Shelf dust drift.,Did you adjust items nearby?
+never_opened_backpack,zipper_mark_fresh,0.29,Mark indicates opening.,Bag jostled by someone.,Was the bag moved around you?
+did_not_touch_thermostat,dial_oil_residue,0.22,Fresh oil pattern contradicts.,Checked temperature instinctively.,Were you feeling cold or hot?
+was_outside_building,interior_only_glitter,0.57,Glitter unique to inside.,Transfer from person bumped you.,Did anyone hug or tap you?
+did_not_enter_breakroom,crumbs_on_sleeve,0.49,Crumbs suggest presence.,Sat in shared area.,Where else did you sit today?
+never_touched_laptop_cable,cable_smudge_pattern,0.34,Smudge suggests handling.,Tripped lightly.,Did you step over the cable?
+never_opened_drawer_two,wooden_splinter,0.33,Splinter suggests contact.,Loose splinter brushed.,Did you touch the desk's edge?
+did_not_hold_hat,hat_fiber_on_shirt,0.41,Fiber suggests interaction.,Shared coat rack.,Was your jacket near others?
+never_moved_file_stack,tilt_mark_fresh,0.39,Tilt indicates adjustment.,Vibration from walking.,Was there noise or shaking?
+was_on_balcony,interior_dust_fingerprint,0.52,Fingerprint pattern mismatched.,Touched railing then door.,Did you open the door momentarily?
+did_not_touch_pillow,crease_pattern_fresh,0.48,Crease suggests pressure.,Object dropped on pillow.,Did anything fall on the bed?
+never_handled_coat,button_fiber_trace,0.35,Button fiber contradicts.,Coat brushed by arm.,Were items crowded on rack?
+stayed_near_elevator,stair_dust_on_shoe,0.5,Dust suggests stair usage.,Dust blown from vent.,Were fans active nearby?
+never_used_locker,locker_paint_chip,0.46,Chip suggests recent contact.,Bag grazed surface.,Did your bag hit anything?
+did_not_touch_monitor,screen_swipe_oil,0.22,Swipe suggests touch.,Cleaned reflexively.,Were you wiping dust?
+never_handled_clipboard,clip_mark_pattern,0.33,Fresh mark suggests contact.,Clipboard passed briefly.,Did someone hand it over?
+did_not_enter_lab,latex_fiber_low,0.61,Fiber unique to gloves.,Transfer from coworker.,Were gloves disposed nearby?
+never_wore_scarf,scarf_fiber_on_neckline,0.57,Fiber match suggests contact.,Tried scarf briefly.,Did you test someone else's clothing?
+did_not_touch_drawer_handle,handle_smudge_arc,0.29,Arc suggests pulling.,Adjusted for balance.,Did you steady yourself?
+never_held_camera,lens_smudge_trace,0.26,Trace suggests usage.,Checked reflection.,Did you inspect the lens?
+did_not_move_stool,leg_scrape_fresh,0.4,Scrape suggests relocation.,Nearby foot pressure.,Did you step backwards?
+never_touched_basket,weave_fiber_transfer,0.38,Fiber suggests lifting.,Basket brushed leg.,Did someone pass items near you?
+never_used_remote_two,button_dust_cleared,0.24,Cleared dust suggests press.,Accidental press while sitting.,Did you sit on the remote?
+did_not_hold_blanket,cotton_lint_on_hand,0.43,Lint suggests grasp.,Leaning contact.,Did you rest your hands anywhere soft?
+was_on_video_call,chair_indent_shift,0.58,Sitting pattern consistent.,Shift from fidgeting.,Do you shift often in your seat?
+did_not_touch_light_switch,switch_oil_trace,0.28,Trace suggests toggling.,Bumped switch plate.,Did you brush past the wall?
+never_moved_picture_frame,tilt_angle_fresh,0.37,Tilt suggests adjustment.,Door slam vibration.,Was a door closed hard?
+did_not_touch_toolbox,metallic_dust_low,0.4,Dust suggests contact.,Tool vibration nearby.,Were tools being used around you?
+never_sat_on_stool,seat_fiber_transfer,0.44,Fiber suggests contact.,Clothing brushed stool.,Were stools crowded together?
+never_opened_window_two,frame_dust_displacement,0.34,Displacement suggests movement.,Draft from corridor.,Was the hallway drafty?
+did_not_touch_sink,water_splash_pattern,0.3,Splash suggests proximity.,Someone shook hands dry.,Were others washing hands?
+was_in_corridor,room_specific_fiber,0.55,Fiber mismatch.,Clothing transfer.,Who walked by you recently?
+never_used_headphones,foam_particle_on_shirt,0.49,Foam suggests contact.,Shared desk surface.,Did you place items on a shared desk?
+did_not_touch_trash_bin,bin_smudge_pattern,0.32,Smudge suggests opening.,Foot pedal kickback.,Did you use pedal unknowingly?
+never_held_jacket,jacket_fiber_on_pants,0.41,Fiber match suggests contact.,Sat on jacket.,Did you sit near clothing piles?
+did_not_touch_whiteboard,marker_dust_trace,0.27,Trace suggests wiping.,Passed close by.,Were you near the board?
+never_entered_conference_room,chair_roll_mark,0.56,Mark suggests presence.,Chairs moved unpredictably.,Did someone push chairs?
+did_not_move_bike,seatlatch_oil_trace,0.38,Trace suggests use.,Checked seat height.,Did you adjust anything?
+never_held_brush,brush_fiber_low,0.3,Transfer suggests handling.,Brush fell over.,Did you pick it up?
+did_not_touch_cabinet,handle_grease_pattern,0.29,Grease suggests pull.,Shared surface area.,Who else touched the cabinet?
+never_moved_couch,leg_dust_disruption,0.45,Disruption suggests shift.,Vibration from footsteps.,Was heavy walking nearby?
+was_in_main_lobby,lounge_fiber_on_clothes,0.63,Consistent transfer.,Sat on similar material.,Did you sit while waiting?
+did_not_touch_cupboard,door_edge_smudge,0.31,Smudge suggests opening.,Leaned for balance.,Did you rest against it?
+never_used_flashdrive,port_fingerprint,0.24,Fingerprint suggests insert.,Checked USB label.,Did you inspect any devices?
+did_not_hold_book_two,page_oil_trace,0.36,Oil consistent with page turning.,Picked up wrong item.,Did you grab anything in a hurry?
+never_touched_clip,clip_fiber_transfer,0.35,Fiber suggests handling.,Folder brushed clothes.,Did someone hand you files?
+did_not_enter_storage_two,tape_fragment_on_sleeve,0.46,Fragment suggests box contact.,Handled packaging.,Did you open parcels elsewhere?
+never_moved_ladder,paint_chip_on_glove,0.5,Chip suggests grip.,Nearby renovation.,Were painters active?
+did_not_touch_case,case_scuff_fresh,0.31,Scuff suggests handling.,Kicked slightly.,Did your foot hit it?
+never_held_mug,ceramic_dust_low,0.4,Dust suggests grip.,Stack collision.,Did someone hand you a mug?
+never_opened_mail_bin,mail_fiber_trace,0.45,Fiber suggests contact.,Sorting pile proximity.,Did you help organize papers?
+was_near_window,vent_dust_on_shoe,0.6,Dust pattern consistent.,Walked past vent.,Was the vent active?
+did_not_touch_jar,jar_lid_smudge,0.33,Smudge suggests twist.,Checked label.,Did you inspect ingredients?
+never_swept_floor,dust_line_break,0.38,Break suggests broom pass.,Someone else sweeping.,Did you walk through ongoing cleaning?
+did_not_hold_toy,toy_fiber_transfer,0.41,Fiber suggests contact.,Toy brushed clothing.,Were children around?
+never_used_remote_three,button_indentation,0.23,Indentation suggests press.,Pressed accidentally while cleaning.,Were you wiping surfaces?
+did_not_enter_laundry_room,laundry_lint,0.54,Lint suggests presence.,Shared basket contact.,Did you move baskets?
+never_held_drink,liquid_ring_on_hand,0.32,Ring suggests holding.,Bottle condensation nearby.,Were drinks placed near you?
+did_not_touch_helmet,visor_smudge_low,0.3,Smudge suggests handling.,Helmet passed over.,Did someone hand gear near you?
+never_touched_keys,key_oil_trace,0.29,Trace suggests handling.,Tested wrong key.,Did you check any keys?
+stayed_in_waiting_area,clipboard_fiber_low,0.6,Fiber consistent.,Shared documents.,Did staff hand you forms?
+never_handled_pillow,fluff_particle_on_sleeve,0.48,Particle suggests contact.,Brushed upholstery.,Did you sit on a soft chair?
+did_not_move_tv_stand,drag_mark_fresh,0.36,Mark suggests shift.,Vacuum movement.,Was cleaning happening?
+never_touched_photo,photo_corner_smudge,0.28,Smudge suggests handling.,Photo slipped.,Did you pick anything up nearby?
+never_used_umbrella,umbrella_fiber_trace,0.39,Fiber suggests contact.,Rack proximity.,Did you brush the rack?
+was_in_office,corkboard_pin_fiber,0.63,Consistent transfer.,Leaned against board.,Were you checking schedules?
+never_touched_cart,cart_handle_smear,0.32,Smear suggests push.,Cart brushed by others.,Was the hallway crowded?
+did_not_enter_dining_area,crumb_trail_on_shoe,0.45,Crumbs suggest presence.,Tracked from hallway.,Was food being moved nearby?
+never_opened_safe,safe_dust_displacement,0.34,Displacement suggests touch.,Object fell against it.,Did anything drop recently?
+never_touched_lamp,lampshade_fiber_on_shirt,0.41,Fiber suggests brushing.,Leaning near nightstand.,Did you rest items there?
+was_downstairs_two,upstairs_only_glitter,0.57,Glitter mismatch.,Transfer from person passing.,Did anyone hug you?
+did_not_touch_art_piece,edge_smudge_light,0.29,Smudge suggests adjustment.,Frame shifted by airflow.,Was window open?
+never_held_bucket,bucket_residue_mark,0.33,Mark suggests grip.,Bucket tipped near you.,Did you stabilize it?
+never_touched_furnace,soot_smear_on_hand,0.27,Smear suggests proximity.,Soot drift.,Were vents active?
+did_not_touch_window_lock,lock_oil_trace,0.31,Trace suggests adjustment.,Checked security reflexively.,Did you inspect the lock?
+never_picked_up_pen,clip_mark_light,0.36,Mark suggests handling.,Pen clip caught pocket.,Did pen catch on clothing?
+never_moved_curtain_rod,rod_dust_scatter,0.44,Scatter suggests movement.,Rod bumped.,Was anything tall moved?
+never_touched_coat_hook,hook_fiber_transfer,0.37,Fiber suggests proximity.,Coat brushed during passing.,Was hallway crowded?
+did_not_enter_playroom,toy_dust_on_pants,0.52,Dust suggests presence.,Toy stack collapse.,Did toys fall nearby?
+never_used_headset,headset_padding_fiber,0.48,Fiber suggests contact.,Shared desk.,Did you borrow equipment?
+never_touched_drawer_three,drawer_edge_chip,0.33,Chip suggests pull.,Accidental bump.,Did you hit the drawer with something?
+did_not_hold_towel_two,towel_fringe_fiber,0.42,Fiber suggests handling.,Passed by towel rack.,Did you pass close?
+was_reading_two,ink_trace_light,0.68,Consistent pattern.,Leaky bookmark.,Were you using notes?
+never_touched_mop,mop_fiber_light,0.4,Fiber suggests handling.,Mop fell over.,Did you pick it up?
+did_not_touch_vase,base_dust_circle_shift,0.39,Shift suggests movement.,Table vibration.,Was table bumped?
+never_moved_tablecloth,fold_disruption,0.43,Disruption suggests pull.,Object dragged on cloth.,Did you slide items?
+never_touched_painting,paint_flake_on_sleeve,0.35,Flake suggests contact.,Painting shed flakes.,Was it old or fragile?
+never_opened_glovebox,paper_fragment_inside,0.41,Fragment suggests search.,Loose paper drift.,Was window open?
+never_held_stickynote,note_adhesive_trace,0.29,Trace suggests handling.,Passed through stack.,Did someone hand you notes?
+did_not_touch_wastebasket,edge_smudge,0.3,Smudge suggests lift.,Cleaning occurred.,Were cleaners present?
+never_touched_blanket_two,blanket_fiber_low,0.42,Fiber suggests contact.,Seat shared material.,Did you sit elsewhere?
+never_picked_up_remote,remote_dust_gap,0.24,Gap suggests button press.,Remote nudged by objects.,Did anything fall on it?
+did_not_hold_bottle,cap_residue_trace,0.31,Trace suggests twist.,Checked tightness.,Did you test the cap?
+never_touched_shelf_three,shelf_dust_drag,0.33,Drag suggests adjustment.,Nearby vibration.,Was cleaning ongoing?
+did_not_enter_attic_two,insulation_speck_on_shirt,0.53,Speck suggests proximity.,Stored box handled.,Did you organize storage?
+never_used_brush_two,brush_bristspeck_low,0.34,Speck suggests contact.,Brush rolled.,Did it fall near you?
+did_not_touch_kitchen_island,oil_speck_on_sleeve,0.37,Speck suggests proximity.,Carried food tray.,Were you helping move dishes?
+never_moved_chair_two,leg_scrape_arc,0.4,Arc suggests shift.,Chair pulled by airflow.,Was air strong?
+was_in_corridor_two,office_paper_fiber,0.63,Fiber consistent.,Colleague brushed past.,Were hallways busy?
+never_touched_whiteboard_two,marker_dust_smear_low,0.28,Smear suggests contact.,Passed too close.,Did you lean nearby?
+did_not_hold_briefcase,briefcase_fiber_trace,0.36,Fiber suggests handling.,Bag contact in transit.,Where were you seated?
+never_opened_package_two,tape_residue_on_finger,0.29,Residue suggests handling.,Handled other taped items.,Did you open parcels earlier?
+did_not_use_keycard,card_edge_smudge,0.26,Smudge suggests swipe.,Card checked for ID.,Did you inspect it?
+never_held_torch,torch_oil_trace,0.31,Trace suggests handling.,Flashlight rolled.,Did you pick it up?
+did_not_touch_shoe_rack,rack_fiber_transfer,0.39,Fiber suggests contact.,Shoes brushed.,Did you change footwear?
+never_held_helmet_two,foam_particle_low,0.34,Particle suggests contact.,Shared shelf.,Did you move items nearby?
+did_not_touch_laptop_two,trackpad_oil_pattern,0.22,Pattern suggests use.,Checked notifications.,Did you tap the pad?
+never_moved_bedside_table,leg_mark_shift,0.43,Shift suggests movement.,Vacuum activity.,Was cleaning happening?
+never_touched_laundry_bag,mesh_fiber_on_pants,0.38,Fiber suggests contact.,Bag brushed leg.,Did someone pass with it?
+did_not_open_cupboard_two,door_swing_mark,0.34,Mark suggests push.,Door bounced.,Was door ajar?
+never_held_shopping_bag,plastic_fiber_trace,0.41,Fiber suggests carrying.,Bag pressed against leg.,Were people crowded?
+did_not_touch_picture,frame_edge_oil_trace,0.27,Trace suggests adjustment.,Accidental touch.,Were you dusting?
+never_used_phone_cord,cord_stretch_mark,0.36,Mark suggests pull.,Cord snagged.,Did something catch on it?
+never_entered_kitchen_two,crumb_scatter_pattern,0.44,Pattern suggests presence.,Crumbs tracked.,Did you pass food area?
+did_not_hold_gloves,glove_fiber_on_cuff,0.42,Fiber suggests contact.,Shared hooks.,Were gloves near your coat?
+never_moved_stool_two,seat_indent_fresh,0.47,Indent suggests sitting.,Object placed.,Did anything rest on stool?
+did_not_touch_window_handle,handle_oil_arc,0.29,Arc suggests pull.,Checked draft.,Were you cold?
+never_held_brush_three,brush_particle_low,0.32,Particle suggests contact.,Brush touched floor.,Did you pick anything up?
+never_touched_computer_tower,tower_dust_drag,0.35,Drag suggests movement.,Cable tug shift.,Did you move wires?
+did_not_touch_wardrobe,door_edge_oil_mark,0.31,Mark suggests opening.,Someone else opened.,Were others accessing?
+never_moved_sofa,sofa_leg_dust_shift,0.44,Shift suggests movement.,Vacuum pulled fabric.,Was cleaning ongoing?
+never_touched_bin_lid,lid_fingerprint_low,0.3,Print suggests lift.,Cleaning handled.,Did cleaners work recently?
+did_not_hold_pillow_two,pillow_fiber_trace,0.39,Fiber suggests grasp.,Pillow fell.,Did you pick it up?
+never_opened_drawer_four,hinge_smear_pattern,0.33,Smear suggests opening.,Dust drift.,Was window open?
+did_not_touch_measuring_tape,tape_dust_smear,0.36,Smear suggests handling.,Tape recoiled.,Did you retract anything?
+never_touched_handrail,rail_oil_trace_light,0.31,Trace suggests grip.,Steadying reflex.,Did you lose balance?
+never_moved_fan,base_dust_arc,0.41,Arc suggests push.,Fan vibrated.,Was it turned on?
+did_not_hold_container,container_lid_smudge,0.38,Smudge suggests twist.,Checked contents.,Did you inspect labels?
+never_touched_mirror_two,edge_smudge_faint,0.28,Smudge suggests adjustment.,Mirror shifted.,Was door slammed?
+did_not_touch_bag_two,strap_lint_trace,0.41,Lint suggests carrying.,Strap brushed.,Were items crowded?
+never_touched_coffee_machine,coffee_grind_speck,0.37,Speck suggests handling.,Nearby brewing.,Was machine active?
+never_opened_cabinet_two,hinge_shift_mark,0.33,Mark suggests opening.,Cabinet bumped.,Was anything moved near it?
+did_not_hold_frame,frame_oil_trace,0.29,Trace suggests lift.,Adjusted unconsciously.,Did you straighten anything?
+never_touched_chair_back,backrest_fiber_transfer,0.43,Fiber suggests contact.,Chair grazed.,Did someone push chairs?
+did_not_move_box_stack,stack_tilt_pattern,0.45,Tilt suggests shift.,Vibration from movement.,Was anyone moving heavy items?
+never_entered_room_two,room_specific_scent_trace,0.58,Trace suggests presence.,Person brushed by.,Who approached you recently?
+did_not_touch_screen,screen_blur_pattern,0.25,Blur suggests swipe.,Wiped dust.,Did you clean the screen?
+never_used_chalk_two,chalk_dust_pattern,0.26,Pattern suggests handling.,Dust drift.,Were windows open?
+never_adjusted_clock,clock_fingerprint,0.31,Print suggests handling.,Clock bumped.,Did you move anything nearby?
+never_moved_carpet,edge_shift_fresh,0.38,Shift suggests pull.,Foot caught.,Did you trip?
+did_not_touch_tray,tray_dust_drag,0.37,Drag suggests movement.,Tray slid.,Was the table bumped?
+never_touched_paperweight,paperweight_oil_smudge,0.35,Smudge suggests lifting.,Repositioned paper stack.,Did you adjust documents?
+was_nowhere_near_door,doorframe_fiber_transfer,0.6,Fiber mismatch.,Passing contact.,Did anyone brush past you?
+did_not_touch_monitor_two,monitor_dust_gap,0.24,Gap suggests touch.,Cleaned reflexively.,Did you wipe dust?
+never_held_shoe,shoe_polish_trace,0.33,Trace suggests handling.,Shoes placed close.,Did you move footwear?
+did_not_open_wardrobe_two,wood_chip_on_floor,0.38,Chip suggests opening.,Chip fell previously.,Were floors cleaned?
+never_touched_window_three,window_dust_drag,0.31,Drag suggests pull.,Airflow shift.,Was window open?
+never_moved_curtain_two,curtain_fiber_swirled,0.4,Swirl suggests movement.,Draft pushed fabric.,Was there a draft?
+did_not_hold_scarf_two,scarf_fiber_low,0.39,Fiber suggests contact.,Sat on scarf.,Did anything rest on your seat?
+never_touched_glasscase,glasscase_edge_smudge,0.31,Smudge suggests adjustment.,Case vibrated.,Was loud noise present?
+did_not_move_lantern,lantern_soot_mark,0.35,Mark suggests use.,Nearby flame.,Were lamps lit?
+never_touched_closet_three,closet_dust_drag,0.34,Drag suggests opening.,Vent airflow.,Was HVAC active?
+did_not_hold_pen_two,pen_dent_mark,0.32,Dent suggests press.,Pen in pocket pressed.,Were you carrying pens?
+never_touched_notebook,notebook_fingerprint,0.3,Print suggests handling.,Moved during cleaning.,Were desks cleaned?
+did_not_move_trolley,trolley_wheel_mark,0.37,Mark suggests movement.,Accidental kick.,Did you bump it?
+never_touched_rug,fringe_shift_fresh,0.4,Shift suggests contact.,Vacuum pulled fibers.,Was cleaning occurring?
+did_not_hold_clipboard_two,board_edge_smudge,0.39,Smudge suggests holding.,Board placed on lap.,Did you rest it briefly?
+never_entered_storage_three,storage_dust_cloud,0.56,Cloud suggests movement.,Nearby door slam,
