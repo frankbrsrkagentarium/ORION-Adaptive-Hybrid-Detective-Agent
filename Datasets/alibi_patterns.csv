@@ -1,0 +1,117 @@
+alibi_scenario_type,claimed_location,evidence_location,conflict_type,possible_explanations,key_validation_question,resolution_paths,notes
+timestamp_mismatch,cafeteria,main corridor,TMP,memory drift; device clock mismatch,What did you use to check the time?,reconcile timestamps; adjust reliability,Non-operational temporal reasoning only.
+overlapping_presence,office,storage room,LOC,unnoticed movement; wrong door log,Can you describe your movements just before and after?,map plausible movement window,Fictional door log logic.
+access_mismatch,lobby,restricted area,ALI,badge borrowed; mistaken identity,Has anyone used your badge recently?,cross-verify badge timeline,Avoids real-world access procedures.
+route_confusion,stairs,elevator area,LOC,took different route than remembered,Which path do you recall taking?,align paths with timeline,Focus on logical possibilities.
+memory_gap,home,no confirmed presence,TMP,forgot intermediate stop; inaccurate recall,What’s the earliest moment you're certain about?,rebuild timeline anchor,Fictional memory handling.
+partial_alibi,parking lot,adjacent shop,ALI,brief detour; misremembered stop,Did you go anywhere before heading home?,expand timeline range,Safe narrative logic.
+identity_mixup,outside gate,inner hall,ID,similar clothing; mistaken sighting,What specific detail helped you recognize yourself in that moment?,verify recognition reliability,Fictional identity logic.
+location_swap,bench area,side entrance,LOC,misunderstood reference point,Which landmark were you closest to?,clarify spatial frame,Spatial reasoning only.
+time_block_shift,living room,street corner,TMP,shifted memory block; event blending,What event happened just before the moment you recall?,separate blended memories,Safe psychological framing.
+misread_event,balcony,kitchen window,CAU,event heard from different origin,Where did the sound seem to come from?,align sensory cues,No operational acoustics.
+double_booking,meeting room,bus stop,ALI,timeline overlap confusion,Can you place the meeting in relation to another event?,resolve time stacking,Safe sequence logic.
+access_delay,car_parking,building lobby,TMP,delay unaccounted for; queue forgotten,Was there anything that slowed you down?,identify delay gap,Fictional travel-time reasoning.
+ambiguous_space,near exit,mid-hallway,LOC,memory reconstruction; uncertain boundaries,How do you remember the space around you?,anchor position description,Safe spatial logic.
+similar_zone,reading area,study room,LOC,rooms look similar,What objects do you recall seeing?,match environmental cues,Avoids surveillance detail.
+crowd_confusion,corridor,gathering hall,ID,crowd movement leading to misplacement,Did you stop anywhere during the crowd movement?,map transitions,Fictional crowd logic.
+momentary_return,outdoors,indoor foyer,TMP,brief indoor return not recalled,Did you re-enter the building at any point?,check for micro-transitions,Safe micro-movement reasoning.
+light_condition_error,street corner,alley,LOC,misjudged surroundings under dim light,How well-lit was the area?,adjust reliability score,No real forensic photometry.
+noise_distortion,room A,room B,CAU,sound bounced differently; walls altered perception,What direction did the sound seem strongest?,re-map cause-effect,Fictional acoustic interpretation.
+object-driven_confusion,storage area,supply closet,LOC,confusion due to similar objects,What objects did you interact with?,resolve location similarity,Contextual differentiation.
+event_reordering,break area,restroom,TMP,events mentally reordered under stress,What happened immediately before the moment you recall?,restore event sequence,Non-operational psychological logic.
+wrong-floor_assumption,second floor,third floor,LOC,similar layout caused floor confusion,How did you identify which floor you were on?,verify vertical orientation,Fictional building logic.
+transit_overlap,tram stop,bike path,TMP,forgot mode switch; timeline blur,How did you travel between locations?,clarify travel sequence,Fictional transit logic.
+landmark_misread,garden,south courtyard,LOC,mistaken landmark; mirrored layout,Which landmark did you rely on?,anchor real reference,Safe spatial reconstruction.
+visual_echo,atrium,upper balcony,ID,reflection mistaken as presence,Did you see direct or reflected movement?,disentangle reflection,Fiction-only visual reasoning.
+brief_encounter_gap,street kiosk,nearby alley,ALI,micro-stop forgotten,Did you pause anywhere briefly?,expand micro-events,Narrative-safe.
+shortcut_memory,side street,central road,LOC,shortcut not consciously registered,Which streets do you remember crossing?,trace possible detour,Non-operational urban logic.
+clock_reflection_error,office lounge,reception desk,TMP,read mirrored time display,Where was the clock you checked?,correct temporal reading,Fictional time logic.
+audio_overlap,storage wing,loading bay,CAU,two sounds blended,Did noises overlap in your memory?,separate sources,No real acoustic reconstruction.
+shadow_confusion,entry hall,garage ramp,ID,silhouettes similar,What silhouette details stood out?,differentiate visual cues,Fictional body recognition.
+micro-detour,mailbox corner,neighbor hallway,ALI,unregistered pause to check something,Did you stop for any small task?,expand plausible gap,Safe timeline widening.
+spacing_error,front gate,side passage,LOC,confused spatial orientation,Which direction were you facing?,orient spatial axis,Synthetic building layout.
+momentary_daze,train station,station café,TMP,lost track of moment after fatigue,Did you sit down anywhere?,anchor physical rest,Safe cognitive drift logic.
+hallway_mirror_confusion,mirror hall,parallel corridor,ID,mirror sighting mistaken for presence,Was there reflective glass nearby?,verify reflection context,Fictional optics.
+reverse_path_assumption,shopping aisle,cashier exit,LOC,recalled reverse movement order,Do you recall walking past specific items?,rebuild forward order,No real surveillance data.
+platform_mixup,platform 1,platform 2,LOC,adjacent platforms identical,What signage do you recall?,match environmental markers,Fictional transit area.
+queue_overlap,bakery entrance,bakery interior,ALI,queue shuffled positions,Did you move forward unexpectedly?,map queue shifts,Safe crowd reasoning.
+distraction_shift,elevator,lobby corner,TMP,distraction caused moment jump,What distracted you at that moment?,isolate trigger,Psychological only.
+familiarity_bounce,old classroom,new classroom,LOC,similar furniture led to confusion,What distinct detail do you remember?,match unique cues,Synthetic school layout.
+path_reflection,glass foyer,outer walkway,ID,glass reflection misinterpreted,Were you looking through or at the glass?,clarify gaze,Fictional optical reasoning.
+step_interruption,porch,driveway,ALI,forgot returning briefly,Did something cause you to turn back?,check interruption,No real-world procedures.
+ambient_noise_shift,side alley,main avenue,CAU,noise carried unusually,What sounds dominated?,align ambient profile,Safe acoustic fiction.
+level_shift,underground hall,ground floor,LOC,forgot ascent via stairs,Do you recall climbing stairs?,verify transition,Synthetic building transitions.
+time_marker_loss,desk area,water cooler,TMP,lost temporal anchor,What’s your next clear memory?,restore anchor,Temporal reconstruction only.
+dual_memory_thread,restaurant booth,side patio,TMP,running two memory threads,Do both memories feel equally vivid?,compare clarity,Safe psychological fiction.
+context_bleed,arcade,corridor,LOC,noisy environment blending,What game or sound stood out?,anchor context,Non-forensic sensory.
+identity_shadow,parking ramp,service door,ID,mistook another for self,What detail made you think it was you?,verify identity assumptions,Fictional self-recognition.
+doorway_overlap,kitchen door,pantry door,LOC,doors adjacent and similar,Which door handle do you recall?,match tactile cue,Safe sensory fiction.
+moment_jump,quiet room,lounge,TMP,jump cut sensation,What triggered the perceived jump?,restore continuity,Psychological reasoning only.
+lost_transition,bridge,underpass,LOC,transition forgotten,Do you recall slope or steps?,anchor transition,No structural detail.
+incorrect_anchor,roof terrace,upper staircase,LOC,used wrong anchor point,Which feature defined your position?,clarify chosen anchor,Safe spatial framing.
+echoed_steps,stone hall,service hall,CAU,footsteps echoed ambiguously,Did you hear one or multiple step sources?,disentangle echoes,Fictional acoustics.
+ambient_glare,parking exit,loading zone,LOC,lights caused misjudgment,How bright was it?,adjust interpretation,No photometric detail.
+brief_shelter,veranda,indoor nook,ALI,took shelter briefly,Did you wait anywhere due to weather?,expand micro-movement,Safe weather-fiction.
+two-level_blur,library ground floor,library mezzanine,LOC,floors perceived as one,Which floor features stood out?,separate levels,Synthetic architecture.
+object_anchor_error,photo booth,info panel,LOC,anchored to wrong object,Which sign caught your eye?,verify focal point,Spatial mis-association.
+glance_confusion,open square,side café,LOC,brief glance created false memory,What did you see during that glance?,examine fleeting perception,Fictional cognition.
+transient_flashback,garage entry,garage interior,TMP,flashback overlapped present memory,Did memory feel old or recent?,distinguish threads,Safe psych blend.
+noise_overlay,recreation room,side hallway,CAU,multiple noises merged,Which noise stood out?,separate layers,No acoustic modeling.
+layout_symmetry_confusion,atrium west side,atrium east side,LOC,symmetrical hall confused orientation,Which decoration do you recall?,define orientation,Fictional symmetry logic.
+hasty_departure_gap,front kiosk,nearby bench,ALI,left quickly forgetting brief pause,Did you sit or lean anywhere?,map brief rest,Narrative logic.
+unexpected_reroute,walking path,garden trail,LOC,took subconscious detour,Do you recall any deviation?,trace possible route,Non-operational.
+false_landmark_assumption,clock tower,statue plaza,LOC,landmarks mixed up,Which landmark was closest?,match positioning,Synthetic cityscape.
+unnoticed_reentry,parking lot,store interior,TMP,brief re-entry unregistered,Did you step inside for even a moment?,validate micro-return,Fictional micro-events.
+sound-shadow_confusion,open deck,vent shaft exit,CAU,sound shadow misinterpreted,Where did sound lose intensity?,re-map impression,Safe fictional effect.
+window_refraction_error,café window,street side,ID,refraction distorted appearance,Did you view through tinted glass?,adjust recognition,Fictional physics.
+hall_merge,conference foyer,side conference room,LOC,foyers merging in memory,What signage did you follow?,clarify direction,Synthetic event venue.
+time-overlay_gap,quiet hallway,busy atrium,TMP,busy memory overlay applied,Which moment felt crowded?,remove overlay,Psych-fiction only.
+mirror-floor_mix,mirror corridor,open lobby,ID,mirror floor caused altitude confusion,Did reflections distort distance?,verify perceptions,Fiction optics.
+split_attention,waiting area,adjacent kiosk,ALI,attention divided between tasks,What were you focusing on?,restore primary thread,Safe dual-task logic.
+thermal_glare_error,sauna hallway,changing room,LOC,heat haze altered perception,How clear was your vision?,adjust reliability,Fictional thermal effect.
+reverse-cue,entry canopy,drop-off lane,LOC,reverse order recall,Which position were you in first?,reconstruct sequence,No operational traffic logic.
+hallway_overlap,wing A,wing C,LOC,wings appear similar,Which artwork do you recall?,match features,Safe fictional mapping.
+ambient_shift,side courtyard,central courtyard,LOC,courtyards blended together,Which plants or benches stood out?,anchor distinguishing cues,Synthetic garden logic.
+conflicting_echo,upper stairwell,lower stairwell,CAU,echo mislocalized,Did you hear echoes change tone?,map direction,Fiction acoustics.
+memory_patch,sofa area,magazine rack zone,TMP,memory patched over gap,What object do you recall touching?,rebuild memory via tactile cue,Non-diagnostic.
+quick_peek_confusion,shop window,corner booth,LOC,peek created false placement,How long did you look?,evaluate brief perception,Safe memory fiction.
+misheard_call,waiting lane,elevator bank,CAU,call came from another floor,Where did voice sound strongest?,map vertical origin,Fictional sound logic.
+hallway_arc_confusion,curved hall,straight hall,LOC,curved geometry misremembered,What was the hall shape?,align spatial model,Synthetic geometry.
+registration_gap,outdoor stalls,covered arcade,ALI,not noticing transition inside,Do you recall a roof overhead?,anchor environment transition,Narrative-safe.
+over-focus_shift,copy room,printer lobby,TMP,focused too much on object causing temporal miss,What task were you performing?,correct timeline,Fictional cognitive load.
+column_shadow_mix,plaza column,archway,LOC,shadows altered spatial perception,Where were shadows cast?,adjust location certainty,Safe fictional lighting.
+floorplan_overlay,condo lobby,fitness entrance,LOC,floorplans mentally merged,Which sign or smell stood out?,separate layouts,Synthetic interior logic.
+crowded_memory,festival tent,food truck area,ALI,crowd density created false memory,Did you stop at any stall?,clarify sequence,Safe crowd logic.
+distant_glance,subway seat,train doorway,ID,saw someone resembling self,What detail made you think it was you?,verify recognition,Fiction only.
+micro-pause,stair landing,top landing,ALI,pause forgotten,Did you hesitate on stairs?,trace break,Narrative micro-event.
+object_centering,tool shed,side workshop,LOC,centered memory on object not space,What object was central?,relocate based on focal object,Synthetic workshop.
+ambient_color_shift,gallery hall,lightwell area,LOC,light color misled space recall,What color dominated?,check environmental tone,Safe fictional lighting.
+echo-tunnel,garage tunnel,side ramp,CAU,echo made tunnel seem different,How did sound behave?,distinguish tunnels,Fiction acoustics.
+brief_revisit,park gate,inner path,TMP,returned momentarily,Did you step back inside the park?,verify micro-return,Fiction timeline.
+mis-grouping,bench circle,picnic area,LOC,grouped two spaces into one,What furniture do you recall?,separate grouping,Synthetic spatial reasoning.
+shifted_focus,mailroom,parcel desk,ALI,focused on parcel forgetting movement,Did you interact with staff?,anchor interaction,Safe narrative.
+tempo_confusion,walking corridor,running track,TMP,changed pace altered time recall,Were you walking or rushing?,adjust timeline,No real metrics.
+elevation_confusion,upper deck,mid deck,LOC,forgot descent,Do you recall steps or slope?,verify descent,Synthetic structure.
+sound_memory_blend,garage exit,loading dock,CAU,sounds merged,Which sound dominated?,isolate memory,Fiction acoustics.
+visual_clutter,tool hall,storage foyer,LOC,clutter altered perception,What item clusters stood out?,separate clutter cues,Safe cognitive load.
+false-anchor_clock,info kiosk,ticket booth,TMP,used wrong digital display,Which clock did you reference?,revalidate anchor,Fiction temporal.
+loop_path_error,garden maze,outer hedges,LOC,paths looked identical,Do you recall turns?,rebuild maze path,Synthetic design.
+ambient_dimming,side steps,main stairwell,LOC,dimming altered perception,How bright was it?,adjust clarity,Fiction lighting.
+micro-shift,phone booth,wall alcove,ALI,shifted slightly without noticing,Were you stationary the whole time?,confirm micro-shift,Narrative safe.
+multiple_entry,market stalls,market entrance,TMP,entered twice unknowingly,Do both entries feel distinct?,separate events,Fiction cognitive.
+crossover_memory,footbridge,riverwalk,LOC,merged two scenic spots,Which railing do you recall?,verify spatial cues,Fictional architecture.
+offset_presence,train car B,train car A,LOC,cars looked identical,What seat arrangement do you recall?,differentiate interior,Synthetic transit.
+visual_gap,parking ridge,down ramp,LOC,missed slope detail,Do you recall incline?,correct placement,Safe spatial.
+identity_flash,corner mirror,lane corner,ID,glimpse mistaken for presence,Was mirror angled?,correct identity,Fiction optics.
+displaced_noise,trash area,rear gate,CAU,noise bounced oddly,Did you hear metal or wood?,identify source,Fiction acoustics.
+temporal_overlay,reading chair,balcony,TMP,quiet moment overlaid later event,Which felt calmer?,separate emotional cues,Safe psych.
+brief-exit-return,small shop,street stand,ALI,stepped out then back,Did you re-enter the shop?,validate brief return,Narrative logic.
+landscape_confusion,hill path,lower trail,LOC,paths similar vegetation,What plants do you recall?,identify unique markers,Fiction nature.
+turnaround_gap,porch,front path,ALI,turned around forgetting it,What made you turn?,trace cause,Safe reasoning.
+overheard_mixup,food court,seating bay,CAU,overheard voices mislocalized,Where were most voices from?,map loudness,Fiction acoustics.
+spatial_fold,atrium,side corridor,LOC,folded spaces in memory,What shape was room?,unfold mentally,Synthetic interior.
+memory_frame_shift,sofa lounge,outer lounge,TMP,frames switched,Which décor detail stands out?,choose correct frame,Psych-fiction.
+shadow_lane_confusion,side ramp,garage edge,LOC,shadows disguised slope,Do you recall dimness?,adjust reliability,Fiction shadows.
+lost-context-switch,locker room,changing bench,ALI,switched context unnoticed,What were you doing?,restore thread,Safe context logic.
+visual_overlap,plaza west,plaza center,LOC,open spaces merged,Which sculpture do you recall?,anchor position,Fiction cityscape.
+stage-noise-blend,backstage,corridor,CAU,performance noise blurred,What sound peaked?,separate noises,Fiction.

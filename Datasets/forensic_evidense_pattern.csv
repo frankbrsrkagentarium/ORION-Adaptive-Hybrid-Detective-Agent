@@ -1,0 +1,181 @@
+evidence_type,substrate,environment_condition,degradation_pattern,typical_reliability,common_false_positives,interpretation_guideline,notes
+blood_spatter,painted_wall,dry_air,sharp radial lines,high,cleaning streak streaks mistaken for cast-off,Check directionality for source height.,High value for reconstructing motion.
+blood_pool,tile_floor,human_activity,smearing edges,medium,foot traffic,Assess flow direction and edges.,Movement after injury likely.
+fingerprint,glass,sunny_window,evaporation halo,medium,smudge from cleaning,Look for ridge clarity.,Low-pressure prints degrade fast.
+fingerprint,plastic,humid,expansion warp,low,oil smear,Check temperature influence.,Humidity affects ridge shape.
+hair,fabric,normal_indoor,static_cling,medium,synthetic fibers,Match color and texture.,Weak identity indicator.
+fiber,carpet,dusty,embedment over time,high,pet hair,Look for fiber cross-pattern.,Good for contact sequence.
+shoeprint,dirt,rain,edge collapse,low,overlapping prints,Check gait pattern.,Weather reduces detail rapidly.
+shoeprint,concrete,dry,clear outsole pattern,high,tire marks,Match tread zones.,High value when crisp.
+blood_swipe,metal_surface,cold,drag distortion,medium,grease stains,Check velocity of swipe.,Angle gives direction of movement.
+saliva,cup_rim,room_temp,drying flaky edge,medium,water stains,Confirm enzymatic presence.,Useful for confirming contact.
+skin_cell_trace,door_handle,high_touch_area,overlap_set,low,dust or pollen,Check multiple contributors.,Weak alone; strong with context.
+soil_trace,shoe_tread,moist,clump breakage,medium,food crumbs,Compare soil type.,Supports movement path.
+glass_fragments,clothing,dynamic_motion,random embedment,medium,decorative glitter,Look for consistent shard type.,Suggests proximity to break event.
+burn_pattern,wood_panel,open_air,V-shaped scorch,high,shadow marks,Assess fire origin.,Classic ignition indicator.
+burn_pattern,concrete,closed_space,heat_plume spread,medium,soot patches,Check ventilation.,Ambiguous without context.
+gunshot_residue,hand,windy,particle dispersal,low,metal dust,Look for consistent 3-element signature.,Wind distorts patterns.
+gunshot_residue,clothing,shielded_area,localized cluster,high,industrial residue,Check fabric folds.,High value when clustered.
+toolmark,wood,garage_env,faint striations,high,scratch from moving furniture,Compare tool angles.,Reliable for tool identification.
+footwear_noise,wet_floor,storefront,water smear,low,mop residue,Check stride consistency.,Use cautiously—high contamination.
+paint_trace,metal_panel,outdoor,flake detachment,medium,environmental flakes,Match color and chemical base.,Good for vehicle impact scenarios.
+blood_spatter,ceiling_panel,stale_air,fine mist diffusion,medium,dust scatter,Check height vs origin model.,Often seen during upward motion events.
+blood_spatter,laminate_floor,heated_room,elongated teardrops,high,coffee splashes,Check axis ratio.,Direction suggests rapid lateral movement.
+blood_spatter,rough_brick,cool_night,fragmented micro-dots,medium,rust flecks,Analyze density clustering.,Indicates abrupt stop or impact moment.
+blood_pool,wooden_planks,draft_flow,pooling run-off,medium,cleaning soap residue,Check plank seams.,Flow may indicate body repositioning.
+blood_pool,garage_floor,oil_presence,oil-mix marbling,medium,oil drips,Distinguish by color separation.,Suggests collapse near vehicle work area.
+blood_pool,asphalt,early_morning,absorption halo,low,rain puddle rings,Check thermal dissipation.,Outdoor conditions reduce clarity.
+blood_swipe,glass_door,evening_cold,fan-shaped smear,medium,condensation streak,Follow sweep contour.,May indicate hurried exit with arm drag.
+blood_swipe,taxi_seat,fresh,seat-fabric feathering,medium,drink spill,Identify swipe pressure.,Suggests shifting in confined space.
+blood_swipe,stairs_handrail,humid,downward ribbon smear,medium,sweat marks,Check tilt of smear.,Often the result of someone steadying themselves.
+blood_swipe,kitchen_counter,grease_layer,diagonal slip smear,high,food sauce,Check streak gaps.,Suggests hand slipping during struggle.
+hair,car_seat,static_charge,tangled snag,low,synthetic threads,Check root presence.,Likely pulled during quick exit.
+hair,hoodie_fabric,windy_alley,wind-splayed tuft,medium,fur debris,Check direction of splay.,Environmental wind suggests exposed struggle.
+hair,plush_toy,children_room,fuzz_interlock,low,pillow fibers,Check length variation.,Common in household activity.
+fiber,jacket_cuff,rainy,water-drag fray,medium,thread fluff,Check water absorption.,Fiber direction hints recent outdoor movement.
+fiber,sofa_armrest,pet_presence,compressed weave,medium,pet hair,Check color match.,"Often casual contact, low evidentiary weight."
+fiber,shop_doorframe,midday_heat,partial snag,medium,decor threads,Compare tension marks.,Useful for timing doorway contact.
+fingerprint,mirror_surface,steam,drip-stretched ridges,low,water trails,Check ridge continuity.,Steam alters print shape quickly.
+fingerprint,metal_lock,nighttime_cold,crisp condensed ridges,medium,grease prints,Assess frost influence.,Cold can preserve detail briefly.
+fingerprint,plastic_toy,sandy,granule-interrupted ridges,low,dust marks,Check interruptions.,Suggests drop or brief handling outdoors.
+fingerprint,tablet_screen,hot_room,oil diffusion patch,low,smudge glare,Check ridge islands.,High-touch interference expected.
+fingerprint,window_latch,early_dawn,partial ridge shadowing,medium,insect trails,Compare with adjacent prints.,Suggests latch manipulation.
+shoeprint,wet_sand,low_tide,collapsed outline,low,animal tracks,Check stride spacing.,May indicate hasty movement near waterline.
+shoeprint,office_carpet,AC_running,clean pattern islands,medium,chair wheel marks,Check pressure depth.,Foot rotation suggests hesitation.
+shoeprint,mud_patch,forest_edge,deep heel sink,high,branch marks,Check soil layers.,Indicates weight shift during rapid turn.
+shoeprint,parking_lot,night,dust overlay,medium,tire skid,Check outsole microcuts.,Suggests recent pacing near vehicles.
+shoeprint,clay_soil,humid_night,sticky tread retention,high,tool impressions,Check clay hardness.,Useful for time-of-contact estimates.
+saliva,bottle_mouth,concert_venue,dried bubble crust,medium,beverage foam,Check enzyme test.,Likely shared usage during crowded movement.
+saliva,plastic_spoon,outdoor_festival,wind-flaked residue,low,dust flakes,Check curvature zones.,Suggests quick discard after tasting.
+saliva,straw_tip,food_court,split-ring pattern,medium,drink condensation,Confirm biochemical trace.,Indicates continuous sipping.
+saliva,mask_inner_surface,commute_hour,spread blotchy pattern,high,breath moisture,Check overlap with makeup.,Suggests prolonged wear.
+saliva,scarf_corner,walking_night,brittle stiffness,low,rain residue,Check fiber crusting.,Accidental contact while adjusting scarf.
+soil_trace,car_mats,afternoon_heat,baked crust edge,medium,crumbs,Compare soil palette.,Suggests prior outdoor stop.
+soil_trace,backpack_base,schoolyard,granular layering,medium,chalk dust,Check soil mixing.,Indicates bag placed on ground.
+soil_trace,boot_heel,trailhead,deep clod retention,high,leaf debris,Compare regional soils.,Supports path reconstruction.
+soil_trace,bike_pedal,riverside,wet granular clusters,low,river silt,Check metal corrosion.,Brief foot contact likely.
+soil_trace,toolbox_bottom,worksite,micro-particle layering,medium,sawdust,Match mineral profile.,Suggests toolbox rested outdoors.
+glass_fragments,shoe_sides,city_street,angled shard embed,medium,road gravel,Check shard transparency.,Indicates movement near break surface.
+glass_fragments,hoodie_pocket,subway_station,fine dusted slivers,medium,glitter,Check shard uniformity.,Likely brushed against broken object.
+glass_fragments,glove_palm,warehouse,uneven shard imprint,high,metal shavings,Match fracture type.,Suggests handling debris.
+glass_fragments,long_coat,windy_street,swept scatter,medium,confetti,Check lining folds.,Indicates turning in shard-filled area.
+glass_fragments,hat_brim,balcony_edge,loose specks,low,paint chips,Check curvature position.,Suggests leaning over shattered area.
+burn_pattern,storage_shelf,vent_flow_direction,lateral scorch fans,medium,oil smears,Check lighter zones.,Movement of air altered spread.
+burn_pattern,linen_curtain,open_window,vertical feather scorch,low,sun bleaching,Check melt fibers.,Indicates upward heat trail.
+burn_pattern,garage_wall,engine_heat,wave scorch,high,exhaust soot,Check height alignment.,Could reflect engine flare event.
+burn_pattern,desk_surface,overloaded_socket,circular char ring,medium,coffee mug stain,Check plug proximity.,Suggests small electrical arc.
+burn_pattern,duct_panel,HVAC_active,drifted soot band,medium,dust shadows,Check airflow direction.,Ventilation affects plume.
+gunshot_residue,car_door,driveway_breeze,scatter-fanned particles,low,road dust,Check elemental ratios.,Airflow distorted deposition.
+gunshot_residue,glove_inner,closed_space,compact cluster ridge,high,rust powder,Check imprint symmetry.,Suggests hand inside glove during exposure.
+gunshot_residue,helmet_shell,outdoor_range,speckled microbursts,medium,paint flecks,Check orientation.,May indicate proximity to discharge.
+gunshot_residue,jacket_collar,wind_shear,streaked particulate drift,low,soot,Check fold seams.,Wind exaggerated spread.
+gunshot_residue,seatbelt_fabric,car_interior,confined deposit pool,medium,foam debris,Check fiber anchors.,Suggests occupant presence during event.
+toolmark,metal_latch,stormy_night,skipped striation sets,medium,shipping scratches,Analyze repeat intervals.,Indicative of abrupt torque.
+toolmark,window_frame,remodel_site,chattered grooves,medium,wood chiseling,Check groove width.,Suggests forced manipulation attempt.
+toolmark,locker_door,gym_env,parallel drag lines,medium,bag zippers,Check tool angle.,Likely accidental brushing.
+toolmark,metal_pipe,industrial_area,spiral scrape track,high,cart impact,Check rotation pattern.,Implies rotational force.
+toolmark,wooden_drawer,old_house,irregular notch wear,medium,furniture aging,Check fresh vs old marks.,Distinguish long-term wear.
+footwear_noise,tiled_corridor,overcrowded,chaotic wet smears,low,cleaning mop,Check stride persistence.,Indicates rushed directional flow.
+footwear_noise,linoleum,kitchen_env,arc-like water push,low,spill streak,Check repeated arcs.,Suggests shifting weight mid-motion.
+footwear_noise,porch_steps,drizzle,slanted water ribbons,medium,rain runoff,Check direction of tilt.,Indicates hurried descent.
+footwear_noise,marble_floor,hotel_lobby,thin glide streak,low,palm leaf drag,Check entry timestamps.,May reflect sudden pivot.
+footwear_noise,warehouse_floor,forklift_motion,broad smear troughs,low,tire wipe,Check continuity.,Overwriting common in busy spaces.
+paint_trace,garage_door,night_mist,smudged drip flakes,medium,dirt flecks,Analyze chemical layer.,Suggest vehicle brushing by.
+paint_trace,tree_bark,forest_path,embedded pigment specks,low,natural sap,Check color purity.,Suggests contact with painted object.
+paint_trace,window_shutter,storm_winds,streaked color trails,medium,rust wash,Check flake edges.,Likely wind-driven contact.
+paint_trace,fence_post,backyard,rubbed streak panel,medium,pollen streak,Match paint binder.,Suggests scraping motion.
+paint_trace,metal_bucket,construction_site,chip scatter ring,high,cement dust,Check chip curvature.,Indicates impact angle.
+blood_spatter,shower_tile,steam,downward drip elongation,medium,soap bubbles,Check droplet spacing.,May indicate movement during washing attempt.
+blood_spatter,garage_doorframe,early_morning,choppy mist arcs,medium,spray paint,Check distribution fan.,Suggests abrupt directional swing.
+blood_spatter,curtain_fabric,open_window,wind-swept lifting,medium,coffee spray,Check fabric absorption.,Wind alters arc symmetry.
+blood_spatter,locker_room_bench,high_humidity,thick pooled dots,medium,sweat marks,Check surface porosity.,Indicates slow-moving source.
+blood_spatter,alley_wall,night_chill,broken radial burst,high,red graffiti drops,Check impact center.,Suggests rapid collision event.
+blood_pool,vinyl_floor,club_env,shoe-smeared arcs,low,drink spills,Check footwear overlay.,High activity affects edges.
+blood_pool,carpeted_stairs,dim_lighting,seep-down threads,medium,wine stains,Check saturation depth.,Indicates collapse on steps.
+blood_pool,garage_ramp,cool_draft,uneven downhill run,medium,oil streak,Check slope angle.,Flow indicates gravity influence.
+blood_pool,wood_deck,humid_evening,board-gap infiltration,medium,rainwater,Check gap saturation.,Suggests prolonged presence.
+blood_pool,gravel_driveway,overcast_day,granular seep clusters,low,mud puddles,Check color retention.,Outdoor absorption weakens clarity.
+blood_swipe,plastic_chair,beach_wind,side-curved streak,low,sunscreen smear,Check grain alignment.,Wind may distort smear arc.
+blood_swipe,corridor_wall,AC_flow,feathered sweep,medium,dust wipe,Check taper end.,Suggests hurried brushing movement.
+blood_swipe,car_windshield,wipers_off,arc dragging smear,medium,rain streaks,Check curve radius.,Indicates contact during exit.
+blood_swipe,desk_edge,office_env,flattened ridge smear,medium,ink smudge,Check ridge overlap.,Suggests contact while leaning.
+blood_swipe,mirror_frame,candle_room,heat-softened spread,medium,wax smudge,Check central density.,Heat alters smear texture.
+hair,carpet_runner,party_env,crushed curl,low,confetti strands,Check root integrity.,Likely stepped on mid-movement.
+hair,coat_collar,cold_night,wind-curled strand,medium,fur fibers,Check static pull.,Suggests brushing during turn.
+hair,seat_cushion,bus_stop,deep-set press,medium,fabric tufts,Check position symmetry.,Suggests sitting shift.
+hair,hat_inner_band,crowded_bar,sweat-clumped lock,medium,fabric lint,Check moisture level.,Often from extended wear.
+hair,armrest_cover,theatre,diffuse shed pattern,low,thread fuzz,Check distribution.,Common passive shedding.
+fiber,bed_sheet,heated_room,twisted thread run,low,lint fuzz,Check twist points.,Suggests forceful turn in bedding.
+fiber,window_curtain,windy_night,flared thread edges,medium,pollen spots,Check directional fray.,Wind indicates open-window scenario.
+fiber,coat_sleeve,metro_station,compressed fiber line,medium,dust prints,Check sleeve angle.,Suggests brushing against turnstile.
+fiber,car_trunk_mat,dry_afternoon,rubbed thread islands,high,pet fur,Check retention pattern.,Indicates load shifting.
+fiber,chair_back,office,pressure-flattened zones,medium,bag straps,Check tension marks.,Suggest prolonged leaning.
+fingerprint,fridge_handle,kitchen_busy,overprinted ridge sets,low,food grease,Check overlapping ridges.,High-touch contamination.
+fingerprint,cab_window,rainy_taxi,blurred ridge curls,low,rain arcs,Check interior vs exterior.,Likely from quick hand placement.
+fingerprint,notebook_cover,schoolyard,partial ridge swipe,low,ink dots,Check ridge islands.,Suggests student handling.
+fingerprint,remote_control,living_room,oil clustered patches,medium,lotions,Check warm spots.,Indicates prolonged handling.
+fingerprint,keycard_reader,office_lobby,flat compressed ridges,medium,plastic drag,Check ridge pressure.,Suggests nervous repeated tapping.
+fingerprint,tablet_case,train_commute,angled ridge arc,low,dust smear,Check curvature.,Suggests adjusting device during movement.
+fingerprint,door_knocker,cold_evening,frost-preserved ridges,medium,raindrop patterns,Check melt zones.,Cold helps freeze ridges briefly.
+fingerprint,steering_wheel,garage,smear-compressed arcs,low,leather wear,Check rotation zones.,Suggests quick steering adjustment.
+fingerprint,cashier_counter,supermarket,flat partials,low,product dust,Check ridge spacing.,High customer flow reduces clarity.
+fingerprint,glass_tabletop,party_night,streaked mixed prints,low,drink condensation,Check smudge intersections.,Multiple contributors expected.
+shoeprint,wet_wooden_pier,ocean_mist,expanded water bloom,low,fish slime,Check stride direction.,Suggests hurried movement on pier.
+shoeprint,library_floor,quiet_evening,clean heel pivot,medium,chair drag,Check pivot arc.,Indicates turning while searching.
+shoeprint,basement_concrete,cool_air,partial dust offset,medium,box marks,Check outsole voids.,Dust suggests slow movement.
+shoeprint,hospital_corridor,sterile_env,clear compressed ridges,high,cleaning streak,Check stride uniformity.,Indicates calm paced walk.
+shoeprint,shopping_mall_tile,holiday_rush,overlaid multi-print chaos,low,kid scooter wheels,Check pressure depth.,Difficult environment for clarity.
+shoeprint,roof_gravel,windy_midday,scattered pebble shifts,medium,falling debris,Check displacement.,Suggests pacing near roof edge.
+shoeprint,old_bridge_planks,river_mist,elongated damp prints,medium,water runoff,Check print drying.,Indicates direction across planks.
+shoeprint,metro_platform,train_breeze,linear dust drag,medium,paper trash,Check motion direction.,Train wind distorts dust.
+saliva,napkin_edge,restaurant,crinkled wet patch,low,water ring,Check enzyme test.,Likely mouth dabbing.
+saliva,pen_cap,office,thin dry crust,low,ink stain,Check crust hardness.,Indicates habit chewing.
+saliva,plastic_bag_handle,street_market,flaked blot trace,low,rain specks,Test carefully.,Brief contact suggested.
+saliva,sleeve_cuff,chilly_walk,elongated moisture band,medium,sweat,Check warmth zones.,Often from brushing mouth.
+saliva,microphone_head,concert_stage,wide diffusion,medium,beverage spray,Check mesh absorption.,Likely from performer use.
+saliva,face_mask,train_station,layered patch clusters,high,breath vapor,Check wear-time indicators.,Useful for personal proximity.
+saliva,apple_core,park_bench,ragged bite moisture,medium,rain spots,Check tooth pattern.,Discarded recently.
+soil_trace,house_entrance_mat,rainy_evening,water-mixed mud,medium,shoe tread,"“Compare texture.""",Indicates entry after rain.
+soil_trace,roof_access_ladder,breezy,granular sifts,low,paint dust,Check rung spacing.,Suggest brief climbing.
+soil_trace,school_hallway,humid_day,dust-particle chain,low,pencil shavings,Check path continuity.,Likely casual indoor walk.
+soil_trace,backseat_floor,carpool_env,mixed soil palette,medium,food crumbs,Compare particle types.,Suggests multiple locations visited.
+soil_trace,work_gloves,construction,grit-packed creases,high,sawdust,Check mineral type.,Indicates material handling.
+soil_trace,coat_hem,street_rain,water-flattened grains,low,road dust,Check hem length.,Suggests stepping over puddle.
+glass_fragments,stairwell_corner,low_light,static micro-shards,low,salt grains,Check shard angles.,Likely brushed near drop zone.
+glass_fragments,hoodie_sleeve,skatepark,linear scraped embed,medium,metal shavings,Check shard curvature.,Indicates fall scrape.
+glass_fragments,briefcase_lining,office_tower,fine crystalline scatter,medium,staple bits,Check lining folds.,Suggests passing near broken panel.
+glass_fragments,bicycle_bag,city_square,deep-insert slivers,medium,plastic chips,Check shard hue.,Suggests proximity to shattered bottle.
+glass_fragments,cargo_pants_knee,warehouse,force-pressed shard,high,cement flecks,Check pressure points.,Likely kneeling near debris.
+burn_pattern,rug_surface,heater_close,semi-circular singe,medium,coffee spill,Check charring depth.,Suggests object fell on heater.
+burn_pattern,bathroom_door,steam,softened scallop burn,low,soap marks,Check drip trails.,Moisture changes scorch edges.
+burn_pattern,office_partition,overload_unit,top-down stripe burns,medium,printer toner,Check heat source height.,Suggests electrical overheating.
+burn_pattern,ceiling_tile,ventilation_heat,wave soot pattern,medium,dust lines,Check vent flow.,Plume distortion possible.
+burn_pattern,trash_bin,incense_ash,spot char clusters,medium,charcoal dust,Check ignition points.,Likely accidental ignition.
+burn_pattern,fabric_sofa,candle_nearby,angled char lick,high,drink stain,Check melt fiber shape.,Suggests quick ignition flash.
+gunshot_residue,metal_table,wind_tunnel,uneven drift band,low,industrial dust,Check elemental mix.,Wind alters residual shape.
+gunshot_residue,plastic_shield,arena_env,clustered specks,high,rubber dust,Check protected zones.,Indicates front-facing exposure.
+gunshot_residue,coat_cuff,snowfall,washed particle arcs,low,road salt,Check residual trio.,Snow disrupts consistency.
+gunshot_residue,helmet_padding,warehouse,embedded particulate,medium,foam debris,Check depth.,Suggests secondary transfer.
+gunshot_residue,window_sill,night_breeze,thin scatter layer,low,soot,Check wind-side distribution.,May indicate indirect deposition.
+toolmark,metal_door,parking_garage,double skip lines,high,cart bump,Check symmetry.,Suggests repetitive forced push.
+toolmark,cabinet_hinge,kitchen,elliptic scrape,medium,utensil drag,Check hinge wear.,Freshness distinguishes accidental vs not.
+toolmark,fence_lock,backyard,irregular bite marks,medium,animal scratches,Check depth.,May indicate attempted forced rotation.
+toolmark,wooden_step,old_building,parallel gouges,medium,furniture move,Check age of chips.,Recent chips appear lighter.
+toolmark,steel_support,bridge,straight narrow scrape,high,loose bolt movement,Check corrosion.,Mechanical vibration likely.
+toolmark,storage_crate,loading_dock,slanted deep marks,medium,pallet drag,Check striation depth.,Suggests hurried handling.
+footwear_noise,laundry_room,humid_dryers,moist zig-zag smudge,low,cleaning appliance marks,Check stride endpoints.,Suggests fast back-and-forth motion.
+footwear_noise,elevator_floor,office,thin dust crescents,low,bag drag,Check arc direction.,Suggests pivoting in tight space.
+footwear_noise,restaurant_kitchen,oil_film,wide smear bloom,low,spill marks,Check slip trail.,Indicates slipping incident.
+footwear_noise,wooden_dock,night_mist,soft parallel lines,medium,rope drag,Check wood grain.,Suggests cautious stepping.
+footwear_noise,train_car,floor_grit,angled displacement dust,medium,seat shuffling,Check motion vectors.,Indicates abrupt balance correction.
+footwear_noise,shopping_center_tile,AC_flow,diffused heel prints,low,kid toy streaks,Check overlay.,Hard to isolate true stride.
+paint_trace,underground_passage,damp_stone,washed pigment film,low,mold patches,Check color strength.,Indicates brief contact with painted object.
+paint_trace,shattered_metal_panel,wind_drift,cross-lift flake lines,medium,rust,"“Check flake thickness.""",Suggests piece swung open before breaking.
+paint_trace,broken_signpost,rainy_day,vertical streak runoff,medium,plant resin,Check layer bonding.,Runoff suggests fresh break.
+paint_trace,old_train_door,friction_heat,burnished paint rub,high,metal dust,Check rub direction.,Indicates repeated sliding.
+paint_trace,mailbox_edge,afternoon_sun,peeled corner flecks,medium,leaf debris,Check paint dryness.,Suggests scraping by object.
+paint_trace,container_wall,harbor_env,salt-worn chips,medium,shell grit,Check chemical profile.,Marine exposure influences flake.
+paint_trace,bus_handle,commute_hour,thin rubbed streak,low,grease,"“Check stroke height.""",Likely incidental brushing.
+paint_trace,metal_shelf,storage_unit,layered rub marks,medium,cardboard rub,Check color bands.,Multi-layer indicates repeated moves.
+paint_trace,ladder_step,attic_env,compressed pigment spot,medium,wood dust,Check offset zones.,Suggests stepping with painted object.
+paint_trace,scaffold_bar,construction_site,fine rub scrape,high,cement dust,Check consistent hue.,Likely contact with painted pipe.

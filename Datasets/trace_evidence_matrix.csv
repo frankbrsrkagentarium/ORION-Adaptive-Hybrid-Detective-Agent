@@ -1,0 +1,179 @@
+environment_type,expected_trace,unexpected_trace,forensic_implication,reliability_score,caveats
+museum_hall,linen_fibers,engine_grease,Contact with machinery before entry.,0.63,Visitors vary greatly.
+art_studio,paint_specks,sand_grain,Outdoor visit shortly prior.,0.66,Sand widely transported.
+cinema,synthetic_seat_fiber,wood_dust,Exposure to carpentry space.,0.71,Renovations could explain.
+bookstore,paper_dust,glitter,Social event or craft materials transfer.,0.57,Glitter persists long.
+laundromat,detergent_residue,soil_speck,Recent outdoor activity.,0.62,Clothes mix contaminants.
+subway_station,dust_compound,spice_powder,Contact with food vendor area.,0.59,Canteens nearby.
+hardware_store,metal_dust,flower_pollen,Outdoor gardening stop.,0.72,Mixed patrons.
+clinic_waiting_room,tissue_fiber,paint_flake,Recent wall or furniture contact.,0.78,Renovations possible.
+pharmacy,plastic_packaging_fiber,candle_wax,Handling scented goods before visit.,0.69,Wax common in homes.
+university_lab,chemical_trace,crumbs_food,Eating in restricted area.,0.81,Check lab policies.
+parking_garage,concrete_dust,textile_glitter,Passenger activity unrelated to car.,0.6,Glitter adheres easily.
+hotel_lobby,fabric_sheen,wood_splinter,Contact with unfinished wood.,0.73,Lobby décor varies.
+construction_site,cement_dust,cosmetic_residue,Non-worker presence.,0.77,Wind spreads dust widely.
+spa_room,oil_residue,metal_chip,Unexpected metal handling.,0.82,Check staff equipment.
+beach_hut,sand_shell,printer_ink,Document transport to beach.,0.55,Ink easily transfers.
+nightclub,skin_cells,hardware_grease,Mechanical contact before arrival.,0.68,Crowded spaces reduce certainty.
+rooftop,gravel_particles,cloth_dye,Recent handling of dyed materials.,0.63,Wind contamination.
+sports_stadium,foam_residue,wood_shard,Bench or railing contact.,0.72,High movement environment.
+bus_stop,urban_dust,coffee_ground,Carried beverage spill traces.,0.59,Low inference quality.
+ferry_terminal,salt_crust,synthetic_glitter,Party activity before boarding.,0.56,Glitter is ubiquitous.
+recording_studio,felt_fiber,pollen,Outdoor exposure.,0.74,Air filters reduce but not eliminate.
+dance_studio,skin_cells,soil_smudge,Outdoor entry right before session.,0.62,Open windows vary conditions.
+veterinary_clinic,animal_fur,metal_shard,Unrelated mechanical work.,0.81,Check owner background.
+pet_store,fur_fragments,paint_speck,Handling crafts before visit.,0.58,Paint specks common.
+arcade,plastic_chip,soil_cluster,Tracked-in outdoor dirt.,0.61,Children frequently contribute.
+bowling_alley,shoe_powder,wood_fragment,Lane maintenance contact.,0.76,Check cleaning schedule.
+art_gallery,fabric_lint,oil_stain,Mechanical work prior.,0.68,Visitors unpredictable.
+music_venue,confetti_bits,cement_dust,Construction involvement earlier.,0.72,Check event schedule.
+restaurant_kitchen,flour_dust,paper_fiber,Document handling during prep.,0.79,Papers common in kitchens.
+bike_shop,grease_smear,leaf_bits,Outdoor route to shop.,0.65,Small leaves widespread.
+laundry_room,lint_collection,plastic_shard,Contact with hard packaging.,0.57,Weak implication.
+factory_floor,metal_flake,perfume_residue,Personal accessory transfer.,0.74,Scents travel wide.
+mall_foodcourt,crumbs_varied,soil_mark,Outdoor arrival shortly prior.,0.6,Many footpaths.
+public_park,grass_blade,printer_toner,Office work before park.,0.58,Toner adheres strongly.
+electronics_store,plastic_film,soil_pebble,Outdoor activity.,0.63,Low reliability.
+carpeted_office,carpet_fiber,powder_blue,Chalk or gym interaction.,0.67,Check recent visits.
+riverside_dock,water_silt,synthetic_fuzz,Urban environment clothing mix.,0.59,Water spray spreads widely.
+townhall,document_fiber,flour_speck,Food handling before meeting.,0.56,Cross-transfer common.
+suburban_home,pet_hair,wood_varnish,Furniture refinishing nearby.,0.77,Renovation indicators.
+farmhouse,hay_particle,metal_shard,Mechanical repair activity.,0.82,Check farm tools.
+mountain_cabin,wood_dust,plastic_ink,Packaging handling before arrival.,0.69,Delivery materials common.
+post_office,paper_fiber,soil,Outdoor pickup before mailing.,0.64,Widespread contaminant.
+tech_lab,circuit_residue,food_crumb,Eating around equipment.,0.78,Policy violations likely.
+clothing_store,textile_fiber,paint_dust,Exposure to workshop.,0.59,Paint dust widespread.
+brewery,grain_speck,metal_shard,Equipment maintenance.,0.83,Reliability moderate-high.
+florist_shop,plant_pollen,metal_chip,Non-floral activity.,0.76,Check transport routes.
+theater_stage,stage_dust,soil_grain,Outdoor visit before performance.,0.55,Backstage traffic varies.
+attorney_office,paper_dust,food_residue,Snack consumption before meeting.,0.58,No strong implication.
+train_compartment,fabric_pilling,metal_grease,Machinery interaction earlier.,0.71,Passengers varied.
+mountain_trail,soil_mix,plastic_fiber,Urban garment material.,0.57,Travelers diverse.
+rental_car,seat_fiber,paint_chip,Contact with painted barrier earlier.,0.74,Check prior driver logs.
+barbershop,hair_clippings,metal_flake,Mechanical workshop activity.,0.77,Could be from tools.
+tattoo_studio,ink_speck,pollen,Outdoor exposure.,0.61,Pollen seasonal.
+school_classroom,paper_fiber,wood_varnish,Furniture contact.,0.72,Common variability.
+university_dorm,textile_lint,metal_shard,DIY repairs.,0.7,Check roommate activity.
+fishing_dock,fish_scales,printer_fiber,Office visit before dock.,0.59,Weak inference.
+airport_gate,fabric_lint,soil_speck,Outdoor exposure while traveling.,0.56,Passengers from many places.
+marina,rope_fiber,glitter,Party traces before boarding.,0.58,Glitter persistent.
+factory_office,paper_fiber,oil_smear,Machine area visit.,0.79,Check access badges.
+rural_roadside,soil_chunk,cosmetic_powder,Recent human interaction.,0.54,Powder common.
+cliffside_path,rock_dust,plastic_fiber,Clothing material carried in.,0.56,Plastic fibers ubiquitous.
+beachfront_cafe,sand,metal_shaving,Mechanical device handling.,0.77,Check staff tools.
+university_library,paper_dust,soap_residue,Handwashing right before.,0.6,Low implication.
+computer_lab,keyboard_dust,soil_trace,Outdoor break recently.,0.57,Footwear contributes.
+retail_stockroom,cardboard_fiber,flower_pollen,Outdoor handling of bouquets.,0.68,Pollen frequent.
+toy_store,plastic_fiber,soil_mark,Outdoor arrival prior.,0.55,Low inference strength.
+mountain_resort,wood_chips,printer_toner,Office visit pre-check-in.,0.63,Toner durable.
+coastal_boardwalk,salt_crust,synthetic_fiber,Urban clothing mix.,0.57,Low reliability.
+amusement_park,foam_trace,metal_flake,Ride maintenance contact.,0.78,Strong if repeated.
+wine_cellar,oak_dust,plastic_residue,Packaging or transport activity.,0.7,Synthetic residues common.
+bakery,flour_dust,metal_chip,Equipment handling.,0.8,High value in context.
+fastfood_counter,crumb_varied,wood_dust,Renovation exposure.,0.67,Check schedule.
+shipping_depot,cardboard_shred,glitter,Party supply shipment.,0.59,High-volume noise.
+train_platform,gravel_dust,ink_smear,Document handling outdoors.,0.58,Weak but suggestive.
+public_square,urban_dust,synthetic_glitter,Festival participation.,0.55,Crowded area noise.
+skatepark,concrete_chip,textile_fiber,Recent mall visit.,0.52,Cross contamination high.
+underground_parking,oil_dust,leaf_bits,Outdoor exposure.,0.61,Stuck to shoes.
+music_school,rosin_dust,soil_grain,Stepped outside before class.,0.56,Low inference.
+highschool_gym,skin_cells,paint_chip,Wall contact.,0.68,Frequent repainting.
+science_museum,plastic_fiber,flour_speck,Kitchen or bakery stop earlier.,0.59,Children contamination.
+mountain_shelter,wood_debris,metal_chip,Tool repair.,0.73,Check recent maintenance.
+urban_alley,grit,digital_ink,Printer tasks earlier.,0.57,Weak but consistent.
+farm_barn,hay_dust,glitter,Celebration prior.,0.54,Glitter adherence high.
+ferry_deck,salt_spray,vegetation_bits,Dockside plant contact.,0.61,Wind may transfer.
+minimarket,plastic_bag_fiber,metal_dust,Hardware store visit.,0.62,Weak alone.
+electronics_repair_shop,solder_trace,soil_speck,Outdoor break.,0.74,Moderate reliability.
+city_bus_stop,urban_dust,paint_flake,Nearby railings or benches.,0.55,Paint flakes common.
+public_pool,chlorine_residue,soil_trace,Outdoor sandals.,0.58,Low certainty.
+art_classroom,paint_specks,glitter,Craft overlap.,0.67,Common contamination.
+beach_parking_lot,sand,metal_smudge,Mechanical work earlier.,0.76,Check timing.
+city_park_pavilion,leaf_bits,printer_ink,Office visit before walk.,0.6,Toner robust.
+conference_center,carpet_fiber,food_powder,Snack consumption.,0.59,Weak inference.
+gaming_lounge,plastic_chip,wood_dust,Construction or carpentry prior.,0.7,Context dependent.
+luxury_store,perfume_microdroplets,soil_speck,Outdoor arrival.,0.53,Perfumes widespread.
+suburban_garage,oil_smear,plant_pollen,Yard work before repairs.,0.73,Pollen seasonal.
+home_office,paper_fiber,metal_shard,DIY workstation used earlier.,0.77,High reliability.
+hilltop_viewpoint,gravel_dust,digital_glitter,Tech accessory contamination.,0.55,Artifact noise high.
+metro_tunnel,concrete_dust,textile_fiber,Crowd clothing mix.,0.5,Low reliability.
+urban_plaza,synthetic_fiber,fish_scale,Market visit earlier.,0.61,Check market proximity.
+university_garden,plant_pollen,ink_trace,Document handling outdoors.,0.62,Ink migrates easily.
+coastal_park,salt_aerosol,metal_dust,Mechanical contact before walk.,0.67,Check hobbies.
+city_bridge,concrete_chip,paper_fiber,Carried notes or tickets.,0.54,Low reliability.
+shopping_arcade,synthetic_lint,soil_particle,Outdoor shopping prior.,0.58,Low inference.
+warehouse_loading_dock,cardboard_fiber,cosmetic_glitter,Party supply shipment earlier.,0.66,Glitter persists.
+mountain_lodge,wood_splinter,oil_residue,Handling machinery prior.,0.77,High value in context.
+industrial_kitchen,food_particulate,plastic_chip,Packaging mishandling.,0.78,Check supplier boxes.
+gas_station,gravel_dust,synthetic_fiber,Clothing from shopping mall.,0.56,Crowd variability.
+tennis_court,clay_dust,textile_glitter,Party traces.,0.52,Glitter unreliable.
+cemetery,soil_fine,paper_fiber,Document handling.,0.57,Low inference strength.
+urban_market,spice_dust,metal_chip,Mechanical contact earlier.,0.72,Check environment route.
+harbor_office,paper_fiber,salt_residue,Outdoor dock activity.,0.71,Salt wind effect.
+church_hall,wood_dust,ink_trace,Signing documents before event.,0.58,Weak implication.
+city_rooftop,grit,synthetic_fuzz,Urban clothing fibers.,0.57,High noise level.
+print_shop,toner_dust,soil_trace,Outdoor break recently.,0.62,Common residue mix.
+boat_cabin,rope_fiber,paint_chip,Dockside railing contact.,0.73,Paint flakes common.
+beach_club,sand,wood_dust,Renovation nearby.,0.68,Cross-transfer high.
+mountain_pass,rock_dust,plastic_bit,Consumer item breakage.,0.55,Weak inference.
+airport_security,synthetic_fiber,metal_grease,Mechanical interaction before check.,0.74,Check luggage contents.
+movie_set,prop_dust,soil_mark,Outdoor shooting segment.,0.63,Prop dust variable.
+factory_storage,cardboard_fiber,oil_dot,Equipment maintenance.,0.79,Localized evidence.
+rural_school,soil_trace,metal_shard,Contact with farm equipment.,0.76,Common rural context.
+community_center,carpet_fiber,pollen,Outdoor arrival before session.,0.58,Season dependent.
+science_center,plastic_fiber,flour_dust,Kitchen or bakery stop.,0.59,Weak but plausible.
+botanical_greenhouse,plant_pollen,metal_chip,Maintenance tool contact.,0.75,Moderate reliability.
+mechanic_shop,grease_traces,food_powder,Eating on shift.,0.8,Check worker habits.
+toy_museum,plastic_fiber,soil_speck,Outdoor entry before visit.,0.55,Low certainty.
+ski_lodge,snow_residue,textile_fuzz,Clothing friction indoors.,0.6,Melts quickly.
+observatory,dust_fine,ink_speck,Document notes outdoors.,0.57,Ink persistent.
+university_gym,skin_cells,metal_dust,Weight machine maintenance.,0.78,Check equipment logs.
+computer_store,plastic_chip,soil_trace,Recent outdoor visit.,0.56,Urban noise.
+artisanal_market,cloth_fiber,metal_dust,Hardware stall visit.,0.66,Mixed stalls cause noise.
+railway_office,paper_fiber,oil_smear,Trackside exposure.,0.77,Check duties.
+parking_booth,carpet_fiber,pollen_cluster,Outdoor walk prior.,0.57,Seasonal variability.
+sports_shop,rubber_traces,soil_particle,Outdoor test of gear.,0.61,Weak but logical.
+craft_fair,glitter,metal_chip,Tool vendor visit.,0.63,Glitter dilutes reliability.
+mountain_range,gravel_dust,paper_fiber,Document handling on trail.,0.52,Weak inference.
+artisan_bakery,flour_fleck,ink_trace,Label writing.,0.74,Moderately strong.
+city_taxi,seat_fiber,wood_chip,Passenger contact with wooden object.,0.7,Check reported items.
+apartment_hallway,carpet_lint,soil_speck,Outdoor entry shortly before.,0.56,Low inference.
+riverside_park,soil_cluster,plastic_fiber,Urban clothing residue.,0.54,Common transfer.
+rooftop_garden,plant_matter,metal_dust,Mechanical work before visit.,0.67,Check tool use.
+urban_warehouse,cement_dust,glitter,Party supply goods present.,0.63,Glitter unreliable.
+science_lab,chemical_trace,wood_fiber,Handling wooden tools.,0.79,Check equipment list.
+food_court,crumbs,ink_speck,Document handling while eating.,0.61,Ink tends to smear.
+shopping_plaza,synthetic_fiber,soil_speck,Outdoor arrival.,0.53,Crowds dilute meaning.
+bus_terminal,urban_dust,metal_chip,Mechanical contact earlier.,0.72,Moderate value.
+old_library,paper_dust,wax_residue,Candle or craft handling.,0.75,Check event history.
+roof_attic,dust_heavy,plastic_chip,Packaging disturbance.,0.71,Check storage boxes.
+metro_station,grime,flower_pollen,Outdoor stop before transit.,0.57,Seasonal.
+harbor_warehouse,rope_fiber,food_traces,Snack consumption on shift.,0.63,Weak inference.
+vintage_store,textile_fiber,soil_bits,Outdoor sourcing trip.,0.55,Low certainty.
+mountain_outpost,wood_dust,ink_smear,Document writing outdoors.,0.58,Ink persists.
+observatory_deck,metal_scuff,soil_particle,Outdoor climb before entry.,0.56,Wind factor.
+industrial_plant,metal_flake,perfume_trace,Personal activity unrelated to plant.,0.78,Perfume persistent.
+botanical_trail,leaf_fragment,paper_fiber,Reading outdoors.,0.52,Low inference.
+university_cafeteria,crumbs,metal_shard,DIY project involvement.,0.69,Check local workshops.
+rural_chapel,wood_dust,synthetic_fiber,Urban clothing mix.,0.56,Weak but present.
+music_rehearsal_room,rosin_dust,soil_trace,Outdoor walk before practice.,0.57,Common trace.
+urban_highrise_lobby,fabric_lint,glitter,Party activity.,0.59,Glitter adherence high.
+old_attic,dust,metal_smear,Tool storage disturbance.,0.73,Moderate reliability.
+seaside_promenade,salt_spray,paper_fiber,Ticket or brochure handling.,0.55,Wind interference.
+shopping_basement,synthetic_lint,wood_chip,Crate handling.,0.63,Context dependent.
+arcade_center,plastic_chip,soil_speck,Outdoor break.,0.55,Crowd variability.
+city_government_office,paper_fiber,cosmetic_powder,Recent personal grooming.,0.6,Powder common.
+mountain_hut,wood_fragment,metal_chip,Tools used recently.,0.79,Strong contextual value.
+retail_showroom,textile_fiber,pollen,Outdoor arrival.,0.54,Seasonal.
+public_garden,soil,ink_trace,Document signing outdoors.,0.58,Ink common.
+climbing_gym,rock_dust,plastic_fuzz,Urban clothing contact.,0.6,Low-mid reliability.
+industrial_corridor,cement_dust,food_powder,Food handling en route.,0.61,Weak.
+spa_lobby,oil_residue,metal_dust,Mechanical activity before spa.,0.73,Check visitor routines.
+photography_studio,backdrop_fiber,sand,Outdoor shoot prior.,0.65,Sand easily transported.
+university_quadrangle,soil_trace,metal_chip,Workshop visit earlier.,0.68,Check campus facilities.
+repair_garage,oil_smear,paper_fiber,Document handling on break.,0.71,Moderate.
+city_tunnel,grit,synthetic_fiber,Urban clothing mix.,0.5,Low inference strength.
+coastal_marina,salt_crust,plant_matter,Dockside vegetation.,0.59,Wind transfers.
+law_firm_office,paper_dust,wood_chip,Furniture contact.,0.74,Check office renovations.
+airport_runway_edge,asphalt_dust,plastic_fiber,Clothing friction.,0.57,Environmental noise.
+crafts_store,glitter,metal_speck,Hardware aisle visit.,0.62,Glitter contamination common.
