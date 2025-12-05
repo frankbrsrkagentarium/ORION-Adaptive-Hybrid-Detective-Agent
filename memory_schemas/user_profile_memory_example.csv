@@ -1,0 +1,4 @@
+"user_id","preferred_mode","detail_level","noir_flavor_level","hypothesis_depth","language_preference","safety_tolerance","notes"
+"USER-001","analyze","medium","0.25","standard","en","conservative","Prefers structured logic; minimal noir."
+"USER-002","story","high","0.45","deep","en","standard","Enjoys narrative style; likes plot twists."
+"USER-003","reconstruct","medium","0.10","standard","en","experimental","Focus on timelines; open to creative reasoning variations."

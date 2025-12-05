@@ -1,0 +1,175 @@
+=== Orion — Memory Retrieval & Saving Guide (Plain Text) ===
+Agentarium / Orion Detective Agent
+Version: v1.0
+Purpose: Practical instructions and tool-call phrasing for saving and retrieving
+episodic case memory, user profile memory, and reflection logs. Always align with
+the defined schemas (header-only + examples in the "memory examples & guide" folder).
+
+────────────────────────────────────────────────────────
+GENERAL PRINCIPLES (apply to all memory operations)
+────────────────────────────────────────────────────────
+1) Validate before saving: ensure no raw transcripts, no direct PII, and only store
+   structured summaries that match schema fields.
+2) Use stable IDs: case_id, user_id, reflection_id should be unique and stable.
+   Example format: CASE-001, USER-001, REF-001
+3) Timestamp in UTC (ISO8601): YYYY-MM-DDTHH:MM:SSZ
+4) Keep entries short and structured—avoid long freeform text where possible.
+5) Versioning: if your system supports it, append a `version` or `snapshot_id`
+   to preserve change history. Otherwise append new rows per snapshot.
+6) Security: keep memory storage access-controlled; encrypt sensitive metadata
+   if stored in cloud DBs.
+7) Use the examples in the "memory examples & guide" folder as canonical templates.
+
+────────────────────────────────────────────────────────
+1) EPISODIC CASE MEMORY — usage guide
+Schema (header-only):
+case_id,timestamp_utc,case_brief,top_facts_summary,contradictions_summary,leading_hypothesis,alternative_hypotheses,next_tests_or_questions,confidence_score
+
+Purpose:
+Store compact snapshots of a case's current analytic state so Orion can continue
+reasoning between interactions without reprocessing entire transcripts.
+
+When to save:
+- Immediately after an analysis run that produced a report.
+- When the user requests "save progress" or "pause this case".
+- After a user supplies important new evidence or corrections.
+- After executing a recommended test and updating the analysis.
+
+When to retrieve:
+- "Continue previous case" or "resume CASE-xxx".
+- When a user references an earlier case (e.g., "What did we decide on CASE-001?").
+- When starting a next-step action that needs continuity.
+
+Natural-language tool call (short actionable phrase):
+- SAVE_EPISODIC_SNAPSHOT CASE-<id> {brief, facts_summary, contradictions, hypotheses, next_tests, confidence}
+- RETRIEVE_EPISODIC_SNAPSHOT CASE-<id>
+- GET_EPISODIC_HISTORY CASE-<id> (returns all snapshots ordered by timestamp)
+
+Prompt template to continue reasoning (LLM-facing):
+"Resume analysis for CASE-<id>. Retrieve the latest episodic snapshot, re-ingest
+the top_facts_summary and contradictions_summary, and continue with Step 5 of
+Hypothesis Laddering. Use leading_hypothesis as H1, alternatives as H2/H3."
+
+Example row (single-line for quick paste):
+CASE-004,2025-12-04T15:00:00Z,"Dropped item at event","F1: item on table; F2: many had access","C1[TMP]: one guest says 20:30 vs 20:05","H1: misplaced; H2: borrowed","H3: staged","Ask 3 people who sat closest to the table",0.62
+
+Best practices:
+- Save a snapshot whenever the agent makes a provisional conclusion or asks for critical user validation.
+- Keep `top_facts_summary` concise (bulleted phrases separated by semicolons).
+- Keep `alternative_hypotheses` as a compact comma-separated list.
+
+────────────────────────────────────────────────────────
+2) USER PROFILE MEMORY — usage guide
+Schema (header-only):
+user_id,preferred_mode,detail_level,noir_flavor_level,hypothesis_depth,language_preference,safety_tolerance,notes
+
+Purpose:
+Store a small preference profile for personalization (tone, verbosity, mode).
+This is NOT PII storage—use pseudonymous user IDs.
+
+When to save/update:
+- When a user sets preferences (explicit UI toggles).
+- When repeated usage patterns are detected (e.g., repeatedly asks for /story mode).
+- When user opts into persistent preferences.
+
+When to retrieve:
+- On session start for that user, or when a user requests "remember my settings".
+- When crafting replies that should match tone or detail level.
+
+Natural-language tool call (short actionable phrase):
+- SAVE_USER_PROFILE USER-<id> {preferred_mode, detail_level, noir_level, depth, language, safety, notes}
+- RETRIEVE_USER_PROFILE USER-<id>
+- UPDATE_USER_PROFILE USER-<id> {field: value}
+
+LLM prompt template to adopt preferences:
+"Load USER-<id> preferences. Use preferred_mode and noir_flavor_level to set tone,
+and detail_level to choose verbose vs concise outputs. If no profile, use default: analyze/medium/0.25."
+
+Best practices:
+- Offer a UI toggle or a simple natural-language command the user can say:
+  "Orion, remember my preference: brief reports, no noir."
+- Keep `user_id` stable and pseudonymous.
+- Respect `safety_tolerance`: if 'conservative', block risky or speculative suggestions.
+
+────────────────────────────────────────────────────────
+3) REFLECTION LOG — usage guide
+Schema (header-only):
+reflection_id,case_id,timestamp_utc,trigger_type,what_worked_well,what_was_uncertain,missed_or_late_insights,improvement_idea,confidence_alignment
+
+Purpose:
+Enable small, structured meta-learning notes after a case. Not a training set by itself,
+but valuable for manual review and automated future improvements.
+
+When to save:
+- After the case is closed (auto_close trigger).
+- When user provides feedback (user_feedback trigger).
+- After manual review by a human (manual_review trigger).
+
+When to retrieve:
+- For QA dashboards, manual audits, or when generating changelogs.
+- When the agent or builder asks "What did we learn from CASE-xxx?"
+
+Natural-language tool call (short actionable phrase):
+- SAVE_REFLECTION CASE-<id> {trigger_type, what_worked, what_uncertain, missed_insights, improvement_idea, conf_alignment}
+- GET_REFLECTIONS CASE-<id>
+
+LLM prompt template for summarizing learnings:
+"After CASE-<id>, produce a short reflection paragraph summarizing: what worked, what was uncertain, and one actionable improvement. Then call SAVE_REFLECTION with those fields."
+
+Best practices:
+- Keep `what_was_uncertain` honest and concise.
+- Use `improvement_idea` as a single next-step that the builder or Orion can implement next time.
+- Use reflections to power versioned improvements, but do not automatically retrain models—these are human review inputs.
+
+────────────────────────────────────────────────────────
+4) TOOL-LEVEL CALL-TO-ACTION (single-line phrases to wire into nodes)
+────────────────────────────────────────────────────────
+Use these small phrases when mapping UI button clicks or n8n/automation steps:
+
+- On finish-analysis → call: SAVE_EPISODIC_SNAPSHOT CASE-<id> {brief, facts_summary, contradictions_summary, leading_hypothesis, alt_hypotheses, next_tests, confidence}
+- On resume-case or user says "continue" → call: RETRIEVE_EPISODIC_SNAPSHOT CASE-<id>
+- On user preference change → call: UPDATE_USER_PROFILE USER-<id> {field:value}
+- On case close or user feedback → call: SAVE_REFLECTION CASE-<id> {trigger_type, what_worked, what_uncertain, missed, improvement, conf_alignment}
+
+────────────────────────────────────────────────────────
+5) OPERATIONAL CHECKLIST (quick)
+────────────────────────────────────────────────────────
+Before you save:
+- [ ] Did I remove raw transcripts and PII?
+- [ ] Are fields aligned to schema exactly?
+- [ ] Is timestamp in UTC and ISO format?
+- [ ] Is case_id and user_id stable and sanitized?
+
+When retrieving:
+- [ ] Always check for latest snapshot (order by timestamp).
+- [ ] Rehydrate only structured fields into the LLM prompt, not raw text blobs.
+- [ ] Mark any retrieved assumptions to the user: "I am using assumption A1 from the snapshot."
+
+Privacy & Safety reminder:
+- Do not store names, phone numbers, or other direct PII in memory unless the user explicitly consents.
+- If sensitive data must be stored, put it in an encrypted field and document access control.
+
+────────────────────────────────────────────────────────
+6) SHORT EXAMPLE FLOWS (copy-paste friendly)
+────────────────────────────────────────────────────────
+Flow A — Save snapshot after analysis:
+1) Run analysis → produce structured report
+2) CALL: SAVE_EPISODIC_SNAPSHOT CASE-010 {brief:"...", facts_summary:"F1; F2; F3", contradictions_summary:"C1[TMP]", leading_hypothesis:"H1", alternative_hypotheses:"H2,H3", next_tests:"Q1;Q2", confidence:0.63}
+
+Flow B — Resume a case:
+1) User: "Resume CASE-010"
+2) Automation: RETRIEVE_EPISODIC_SNAPSHOT CASE-010
+3) LLM prompt: "Use the latest snapshot: [paste top_facts_summary and contradictions_summary]. Continue Hypothesis Laddering."
+
+Flow C — Save user preference:
+1) User: "Remember: brief answers from now on."
+2) Tool: UPDATE_USER_PROFILE USER-42 {detail_level:low}
+3) On next reply, LLM: "Loaded USER-42 profile: detail_level=low → produce concise format."
+
+Flow D — Reflection auto-save on close:
+1) Case closes → Orion auto-generates a short reflection
+2) CALL: SAVE_REFLECTION CASE-010 {trigger_type:auto_close, what_worked:"...", what_was_uncertain:"...", missed_or_late_insights:"...", improvement_idea:"ask X earlier", confidence_alignment:"slightly high"}
+
+────────────────────────────────────────────────────────
+END OF GUIDE
+────────────────────────────────────────────────────────

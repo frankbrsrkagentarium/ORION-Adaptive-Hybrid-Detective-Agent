@@ -1,0 +1,4 @@
+"reflection_id","case_id","timestamp_utc","trigger_type","what_worked_well","what_was_uncertain","missed_or_late_insights","improvement_idea","confidence_alignment"
+"REF-001","CASE-001","2025-12-04T14:00:00Z","auto_close","Narrowed key facts early.","Unsure if item was ever moved.","Considered misplacement later than ideal.","Ask about benign item movement earlier.","Confidence slightly low."
+"REF-002","CASE-002","2025-12-04T14:05:00Z","manual_review","Separated noise event from door state.","Noise origin unclear.","Ignored mechanical reasons.","Probe about latch/draft earlier.","Confidence appropriate."
+"REF-003","CASE-003","2025-12-04T14:10:00Z","user_feedback","Identified ALI contradiction clearly.","Uncertain about badge sharing likelihood.","Underestimated forgettable micro-movements.","Include badge-use questions earlier.","Confidence slightly high."
